@@ -1042,11 +1042,11 @@ section.lazy-placeholder:after {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #f2f6ff;
+  background-color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   padding: 1rem 1rem !important;
-  box-shadow: 0 15px 50px 10px rgba(89, 140, 255, 0.6);
+  box-shadow: 0 15px 50px 10px rgba(179, 179, 179, 0.6);
 }
 .cid-rZqqwfIrpL .card-wrapper:hover {
   -webkit-transform: translateY(1rem);
