@@ -622,7 +622,7 @@
             }
           },
           "_name": "design-block",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/mobirise4/header06_1/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#716c80\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n\n\n\n    <div class=\"container align-center\">\n        <div class=\"row\">\n            <div class=\"col-md-12 col-lg-6 py-5 m-auto\">\n                <h1 class=\"mbr-section-title mbr-regular pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n<div><span style=\"font-size: 48px;\">AGORA É BARRA</span></div></h1>\n                <h3 class=\"mbr-section-subtitle align-left align-left mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Em breve o jornal Agora é Barra no APP</h3>\n                <p class=\"mbr-text mbr-light pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Tudo pensando em você o jonal vai fazer sua postagem virar&nbsp;<br>venda, entre os empresarios dentro do APP.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">READ MORE</a></div>\n            </div>\n\n            <div class=\"col-lg-6 col-md-12 relative align-right\">\n                <img class=\"img1\" src=\"@PROJECT_PATH@/assets/images/logo-alta-definio.png\" alt=\"Mobirise\" title>\n                <img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/97301162-124198962606239-4837546258191089664-n-519x386.jpg\" alt=\"Mobirise\" title>\n\n            </div>\n        </div>\n\n\n\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/mobirise4/header06_1/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#716c80\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n\n\n\n    <div class=\"container align-center\">\n        <div class=\"row\">\n            <div class=\"col-md-12 col-lg-6 py-5 m-auto\">\n                <h1 class=\"mbr-section-title mbr-regular pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n<div><span style=\"font-size: 48px;\">AGORA É BARRA</span></div></h1>\n                <h3 class=\"mbr-section-subtitle align-left align-left mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Em breve o jornal Agora é Barra no APP</h3>\n                <p class=\"mbr-text mbr-light pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Tudo pensando em você o jonal vai fazer sua postagem virar&nbsp;<br>venda, entre os empresarios dentro do APP.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">READ MORE</a></div>\n            </div>\n\n            <div class=\"col-lg-6 col-md-12 relative align-right\">\n                <img class=\"img1\" src=\"@PROJECT_PATH@/assets/images/logo-alta-definio.png\" alt=\"Mobirise\" title>\n                <img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/94d7bd9a-0456-4cc7-9a12-294b82e4bf7b-712x712.jpg\" alt=\"Mobirise\" title>\n\n            </div>\n        </div>\n\n\n\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "PSIKKMCAx6",
           "_anchor": "design-block-PSIKKMCAx6",
           "_protectedParams": [],
@@ -635,13 +635,13 @@
             "modalName": "Em-Breve-Teremos",
             "modalSize": "medium",
             "modalHeader": true,
-            "modalTitle": "ALUGUEIS",
-            "modalBody": "Em breve, vamos ter alugueis de casa, apart. e kitnetes",
+            "modalTitle": "ALUGUEIS ",
+            "modalBody": "Em breve, vamos ter alugueis de casa, apart. e kitnetes...",
             "modalBodyHTML": false,
             "modalFooter": true,
             "modalCloseBtn": true,
             "modalCloseText": "OK!!!",
-            "modalLink": false,
+            "modalLink": true,
             "modalLinkUrl": "https://mobirise.com/",
             "modalLinkText": "Visit Mobirise",
             "modalLinkNewWindow": true,
@@ -653,14 +653,14 @@
             "modalAutoOpenDelay": "0"
           },
           "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Em-Breve-Teremos\">Preview Em-Breve-Teremos</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Em-Breve-Teremos-howtouse\">How to use Em-Breve-Teremos</a>\n</div>\n<div class=\"modal fade\" id=\"Em-Breve-Teremos-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Em-Breve-Teremos-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Em-Breve-Teremos-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Em-Breve-Teremos')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "Em breve, vamos ter alugueis de casa, apart. e kitnetes",
+          "modalBody": "Em breve, vamos ter alugueis de casa, apart. e kitnetes...",
           "alias": "witsec-modal-window",
           "_tags": [
             "Extension"
           ],
           "_name": "witsec-modal-window-block",
           "_anchor": "witsec-modal-window-block-2p",
-          "modalWindow": "<div class=\"modal fade\" id=\"Em-Breve-Teremos\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Em-Breve-TeremosLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"Em-Breve-TeremosLabel\">ALUGUEIS</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Em-Breve-Teremos_body\">Em breve, vamos ter alugueis de casa, apart. e kitnetes</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">OK!!!</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Em-Breve-Teremos\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Em-Breve-Teremos_body\" ).html();    $( \"#Em-Breve-Teremos_body\" ).empty();    $( \"#Em-Breve-Teremos_body\" ).append(html);  })});</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"Em-Breve-Teremos\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Em-Breve-TeremosLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"Em-Breve-TeremosLabel\">ALUGUEIS </h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Em-Breve-Teremos_body\">Em breve, vamos ter alugueis de casa, apart. e kitnetes...</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">OK!!!</a></div><div class=\"mbr-section-btn\"><a href=\"https://mobirise.com/\" class=\"no-anim btn btn-primary display-4\" target=_new>Visit Mobirise</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Em-Breve-Teremos\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Em-Breve-Teremos_body\" ).html();    $( \"#Em-Breve-Teremos_body\" ).empty();    $( \"#Em-Breve-Teremos_body\" ).append(html);  })});</script>"
         }
       ]
     },
@@ -1356,6 +1356,38 @@
           "_params": {}
         },
         {
+          "_params": {
+            "modalName": "VOC-SABIA-",
+            "modalSize": "medium",
+            "modalHeader": true,
+            "modalTitle": "Delicias da Barra !",
+            "modalBody": "Você Sabia?\nComprando atraves do app você pode pagar pelo cartão de credito. ",
+            "modalBodyHTML": false,
+            "modalFooter": true,
+            "modalCloseBtn": true,
+            "modalCloseText": "OK!!!",
+            "modalLink": true,
+            "modalLinkUrl": "https://store17441987.ecwid.com/DELICIAS-DA-BARRA-c46340523",
+            "modalLinkText": "Pedir agora!",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": false,
+            "modalFade": true,
+            "modalAutoOpen": true,
+            "modalAutoOpenOnce": true,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": 0
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#VOC-SABIA-\">Preview VOC-SABIA-</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#VOC-SABIA--howtouse\">How to use VOC-SABIA-</a>\n</div>\n<div class=\"modal fade\" id=\"VOC-SABIA--howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"VOC-SABIA--howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"VOC-SABIA--howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('VOC-SABIA-')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "Você Sabia?\nComprando atraves do app você pode pagar pelo cartão de credito. ",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_anchor": "witsec-modal-window-block-2q",
+          "modalWindow": "<div class=\"modal fade\" id=\"VOC-SABIA-\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"VOC-SABIA-Label\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"VOC-SABIA-Label\">Delicias da Barra !</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"VOC-SABIA-_body\">Você Sabia?<br />Comprando atraves do app você pode pagar pelo cartão de credito. </div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">OK!!!</a></div><div class=\"mbr-section-btn\"><a href=\"https://store17441987.ecwid.com/DELICIAS-DA-BARRA-c46340523\" class=\"no-anim btn btn-primary display-4\" target=_new>Pedir agora!</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#VOC-SABIA-\").on(\"hidden.bs.modal\", function () {    var html = $( \"#VOC-SABIA-_body\" ).html();    $( \"#VOC-SABIA-_body\" ).empty();    $( \"#VOC-SABIA-_body\" ).append(html);  })});</script>"
+        },
+        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
@@ -1949,38 +1981,6 @@
           "_global": true,
           "_once": "menu",
           "_params": {}
-        },
-        {
-          "_params": {
-            "modalName": "VOC-SABIA-",
-            "modalSize": "medium",
-            "modalHeader": true,
-            "modalTitle": "VOCÊ SABIA ?",
-            "modalBody": "Comprando atraves do app você pode pagar pelo cartão de credito. ",
-            "modalBodyHTML": false,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "Vamos lá? Delivery",
-            "modalLink": false,
-            "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": true,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
-          },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#VOC-SABIA-\">Preview VOC-SABIA-</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#VOC-SABIA--howtouse\">How to use VOC-SABIA-</a>\n</div>\n<div class=\"modal fade\" id=\"VOC-SABIA--howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"VOC-SABIA--howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"VOC-SABIA--howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('VOC-SABIA-')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "Comprando atraves do app você pode pagar pelo cartão de credito. ",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_anchor": "witsec-modal-window-block-2q",
-          "modalWindow": "<div class=\"modal fade\" id=\"VOC-SABIA-\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"VOC-SABIA-Label\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"VOC-SABIA-Label\">VOCÊ SABIA ?</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"VOC-SABIA-_body\">Comprando atraves do app você pode pagar pelo cartão de credito. </div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Vamos lá? Delivery</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#VOC-SABIA-\").on(\"hidden.bs.modal\", function () {    var html = $( \"#VOC-SABIA-_body\" ).html();    $( \"#VOC-SABIA-_body\" ).empty();    $( \"#VOC-SABIA-_body\" ).append(html);  })});</script>"
         }
       ]
     },
