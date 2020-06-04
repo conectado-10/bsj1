@@ -641,7 +641,7 @@
             "modalFooter": true,
             "modalCloseBtn": true,
             "modalCloseText": "OK!!!",
-            "modalLink": true,
+            "modalLink": false,
             "modalLinkUrl": "https://mobirise.com/",
             "modalLinkText": "Visit Mobirise",
             "modalLinkNewWindow": true,
@@ -660,7 +660,7 @@
           ],
           "_name": "witsec-modal-window-block",
           "_anchor": "witsec-modal-window-block-2p",
-          "modalWindow": "<div class=\"modal fade\" id=\"Em-Breve-Teremos\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Em-Breve-TeremosLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"Em-Breve-TeremosLabel\">ALUGUEIS </h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Em-Breve-Teremos_body\">Em breve, vamos ter alugueis de casa, apart. e kitnetes...</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">OK!!!</a></div><div class=\"mbr-section-btn\"><a href=\"https://mobirise.com/\" class=\"no-anim btn btn-primary display-4\" target=_new>Visit Mobirise</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Em-Breve-Teremos\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Em-Breve-Teremos_body\" ).html();    $( \"#Em-Breve-Teremos_body\" ).empty();    $( \"#Em-Breve-Teremos_body\" ).append(html);  })});</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"Em-Breve-Teremos\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Em-Breve-TeremosLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"Em-Breve-TeremosLabel\">ALUGUEIS </h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Em-Breve-Teremos_body\">Em breve, vamos ter alugueis de casa, apart. e kitnetes...</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">OK!!!</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Em-Breve-Teremos\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Em-Breve-Teremos_body\" ).html();    $( \"#Em-Breve-Teremos_body\" ).empty();    $( \"#Em-Breve-Teremos_body\" ).append(html);  })});</script>"
         }
       ]
     },
@@ -1356,38 +1356,6 @@
           "_params": {}
         },
         {
-          "_params": {
-            "modalName": "VOC-SABIA-",
-            "modalSize": "medium",
-            "modalHeader": true,
-            "modalTitle": "Delicias da Barra !",
-            "modalBody": "Você Sabia?\nComprando atraves do app você pode pagar pelo cartão de credito. ",
-            "modalBodyHTML": false,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "OK!!!",
-            "modalLink": true,
-            "modalLinkUrl": "https://store17441987.ecwid.com/DELICIAS-DA-BARRA-c46340523",
-            "modalLinkText": "Pedir agora!",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": true,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
-          },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#VOC-SABIA-\">Preview VOC-SABIA-</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#VOC-SABIA--howtouse\">How to use VOC-SABIA-</a>\n</div>\n<div class=\"modal fade\" id=\"VOC-SABIA--howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"VOC-SABIA--howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"VOC-SABIA--howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('VOC-SABIA-')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "Você Sabia?\nComprando atraves do app você pode pagar pelo cartão de credito. ",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_anchor": "witsec-modal-window-block-2q",
-          "modalWindow": "<div class=\"modal fade\" id=\"VOC-SABIA-\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"VOC-SABIA-Label\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"VOC-SABIA-Label\">Delicias da Barra !</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"VOC-SABIA-_body\">Você Sabia?<br />Comprando atraves do app você pode pagar pelo cartão de credito. </div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">OK!!!</a></div><div class=\"mbr-section-btn\"><a href=\"https://store17441987.ecwid.com/DELICIAS-DA-BARRA-c46340523\" class=\"no-anim btn btn-primary display-4\" target=_new>Pedir agora!</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#VOC-SABIA-\").on(\"hidden.bs.modal\", function () {    var html = $( \"#VOC-SABIA-_body\" ).html();    $( \"#VOC-SABIA-_body\" ).empty();    $( \"#VOC-SABIA-_body\" ).append(html);  })});</script>"
-        },
-        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
@@ -1555,6 +1523,38 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_params": {
+            "modalName": "VOC-SABIA-",
+            "modalSize": "medium",
+            "modalHeader": true,
+            "modalTitle": "Delicias da Barra !",
+            "modalBody": "Você Sabia?\nComprando atraves do app você pode pagar pelo cartão de credito. ",
+            "modalBodyHTML": false,
+            "modalFooter": true,
+            "modalCloseBtn": true,
+            "modalCloseText": "OK!!!",
+            "modalLink": true,
+            "modalLinkUrl": "https://store17441987.ecwid.com/DELICIAS-DA-BARRA-c46340523",
+            "modalLinkText": "Pedir agora!",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": false,
+            "modalFade": true,
+            "modalAutoOpen": true,
+            "modalAutoOpenOnce": true,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": 0
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#VOC-SABIA-\">Preview VOC-SABIA-</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#VOC-SABIA--howtouse\">How to use VOC-SABIA-</a>\n</div>\n<div class=\"modal fade\" id=\"VOC-SABIA--howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"VOC-SABIA--howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"VOC-SABIA--howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('VOC-SABIA-')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "Você Sabia?\nComprando atraves do app você pode pagar pelo cartão de credito. ",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_anchor": "witsec-modal-window-block-2q",
+          "modalWindow": "<div class=\"modal fade\" id=\"VOC-SABIA-\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"VOC-SABIA-Label\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"VOC-SABIA-Label\">Delicias da Barra !</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"VOC-SABIA-_body\">Você Sabia?<br />Comprando atraves do app você pode pagar pelo cartão de credito. </div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">OK!!!</a></div><div class=\"mbr-section-btn\"><a href=\"https://store17441987.ecwid.com/DELICIAS-DA-BARRA-c46340523\" class=\"no-anim btn btn-primary display-4\" target=_new>Pedir agora!</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#VOC-SABIA-\").on(\"hidden.bs.modal\", function () {    var html = $( \"#VOC-SABIA-_body\" ).html();    $( \"#VOC-SABIA-_body\" ).empty();    $( \"#VOC-SABIA-_body\" ).append(html);  })});</script>"
         },
         {
           "_name": "menu1",
