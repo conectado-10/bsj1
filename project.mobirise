@@ -1535,7 +1535,7 @@
             "modalFooter": true,
             "modalCloseBtn": true,
             "modalCloseText": "OK!!!",
-            "modalLink": true,
+            "modalLink": false,
             "modalLinkUrl": "https://store17441987.ecwid.com/DELICIAS-DA-BARRA-c46340523",
             "modalLinkText": "Pedir agora!",
             "modalLinkNewWindow": true,
@@ -1554,7 +1554,7 @@
           ],
           "_name": "witsec-modal-window-block",
           "_anchor": "witsec-modal-window-block-2q",
-          "modalWindow": "<div class=\"modal fade\" id=\"VOC-SABIA-\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"VOC-SABIA-Label\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"VOC-SABIA-Label\">Delicias da Barra !</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"VOC-SABIA-_body\">Você Sabia?<br />Comprando atraves do app você pode pagar pelo cartão de credito. </div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">OK!!!</a></div><div class=\"mbr-section-btn\"><a href=\"https://store17441987.ecwid.com/DELICIAS-DA-BARRA-c46340523\" class=\"no-anim btn btn-primary display-4\" target=_new>Pedir agora!</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#VOC-SABIA-\").on(\"hidden.bs.modal\", function () {    var html = $( \"#VOC-SABIA-_body\" ).html();    $( \"#VOC-SABIA-_body\" ).empty();    $( \"#VOC-SABIA-_body\" ).append(html);  })});</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"VOC-SABIA-\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"VOC-SABIA-Label\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"VOC-SABIA-Label\">Delicias da Barra !</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"VOC-SABIA-_body\">Você Sabia?<br />Comprando atraves do app você pode pagar pelo cartão de credito. </div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">OK!!!</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#VOC-SABIA-\").on(\"hidden.bs.modal\", function () {    var html = $( \"#VOC-SABIA-_body\" ).html();    $( \"#VOC-SABIA-_body\" ).empty();    $( \"#VOC-SABIA-_body\" ).append(html);  })});</script>"
         },
         {
           "_name": "menu1",
