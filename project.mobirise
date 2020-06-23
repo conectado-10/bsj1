@@ -50,7 +50,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 104,
+    "uniqCompNum": 105,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "witsec-mailform-to": "sintoniabarra@gmail.com",
@@ -640,26 +640,36 @@
           "_params": {}
         },
         {
-          "alias": false,
-          "_styles": {
-            ".modal-dialog": {
-              "height": "auto"
-            },
-            ".hidden": {
-              "display": "none"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "text-align": "center"
-            }
+          "_params": {
+            "modalName": "promo-o",
+            "modalSize": "large",
+            "modalHeader": true,
+            "modalTitle": "LOJAS / DELIVERY",
+            "modalBody": "Tudo pensando em você\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<img border=\"0\" data-original-height=\"550\" data-original-width=\"550\" height=\"200\" src=\"https://4.bp.blogspot.com/-ZDUNRT1UmzQ/Xp8TrQXhrYI/AAAAAAAAS_I/8lO8NbcAs-gA60UN-vUvuL4U9zdA9m97ACPcBGAYYCw/s200/shopping.gif\" width=\"200\" /></div>\n",
+            "modalBodyHTML": true,
+            "modalFooter": true,
+            "modalCloseBtn": true,
+            "modalCloseText": "Obrigado",
+            "modalLink": false,
+            "modalLinkUrl": "https://mobirise.com/",
+            "modalLinkText": "Visit Mobirise",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": true,
+            "modalFade": true,
+            "modalAutoOpen": true,
+            "modalAutoOpenOnce": true,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": 0
           },
-          "_name": "design-block",
-          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"text\" title=\"Modal Name (single word)\" name=\"modalID\" value=\"PROMO\">\n        <select name=\"modalSize\" title=\"Size\" condition=\"modalID\">\n            <option value=\"small\">Small</option>\n            <option value=\"medium\" selected>Medium</option>\n            <option value=\"large\">Large</option>\n        </select>\n        <input type=\"checkbox\" title=\"Header\" name=\"modalHeader\" condition=\"modalID\" checked>\n        <input type=\"checkbox\" title=\"Footer\" name=\"modalFooter\" condition=\"modalID\" checked>\n        <input type=\"checkbox\" title=\"Close Button\" name=\"modalCloseBtn\" condition=\"modalID && modalFooter\" checked>\n        <input type=\"checkbox\" title=\"Additional Buttons\" name=\"modalMoreBtns\" condition=\"modalID && modalFooter\" checked>\n        <input type=\"checkbox\" title=\"Vertically Centered\" name=\"modalVertical\" condition=\"modalID\">\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"modalFade\" condition=\"modalID\" checked>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<style>\n/* Let's not animate the contents of modal windows */\n.no-anim {\n    -webkit-animation: none !important;\n    -moz-animation: none !important;\n    -o-animation: none !important;\n    -ms-animation: none !important;\n    animation: none !important;\n}\n</style>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem\" mbr-if=\"!modalID\">Click the \"gear\" icon to give your modal window an ID (use a single word only).</div>\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem\" mbr-if=\"modalID\">\n    <input type=\"button\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#{{modalID}}\" value=\"Preview {{modalID}}\">\n    <input type=\"button\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#{{modalID}}Help\" value=\"How to use\">\n    This preview button will be removed on preview/publish.\n</div>\n\n<div class=\"modal\" mbr-class=\"{'fade' : modalFade}\" id=\"{{modalID}}\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"{{modalID}}Label\" aria-hidden=\"true\">\n    <div class=\"modal-dialog\" mbr-class=\"{'modal-sm' : modalSize == 'small', 'modal-lg' : modalSize == 'large', 'modal-dialog-centered' : modalVertical}\" role=\"document\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\" mbr-if=\"modalHeader\">\n                <h5 class=\"no-anim modal-title\" id=\"{{modalID}}Label\">DELICIAS DA BARRA&nbsp;<br>Delivery</h5>\n                <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">×</span></a>\n            </div>\n            <p class=\"modal-body mbr-text align-left pb-3 mbr-fonts-style\" data-app-selector=\".mbr-text, .mbr-section-btn\">PROMOÇÕES: PAGUE PELO SEU CARTÃO DE CREDITO!</p>\n            <div class=\"modal-footer\" mbr-if=\"modalFooter\">\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"modalMoreBtns\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://store17441987.ecwid.com/ESPETINHO-DE-BARRA-c50395388\" class=\"no-anim btn btn-primary\" data-dismiss=\"modal\" data-app-placeholder=\"Type Text\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>CHURRASQUINHO</a>\n                    <a href=\"https://store17441987.ecwid.com/DELICIAS-DA-BARRA-c46340523\" class=\"no-anim btn btn-md btn-black-outline\" data-app-placeholder=\"Type Text\">MASSAS</a> <a href=\"https://store17441987.ecwid.com/EMPAD%C3%83O-c53549245\" class=\"no-anim btn btn-md btn-black-outline\" data-app-placeholder=\"Type Text\">EMPADÃO</a> <a href=\"https://wa.me/5522997831424\" class=\"no-anim btn btn-md btn-black-outline\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(0, 196, 140);\"></span>ANDREA WEBER</a></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div class=\"modal fade\" mbr-class=\"{'hidden': isPublish}\" id=\"{{modalID}}Help\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"{{modalID}}HelpLabel\" aria-hidden=\"true\" mbr-if=\"modalID\">\n    <div class=\"modal-dialog\" role=\"document\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <div class=\"h5 no-anim modal-title\" id=\"{{modalID}}HelpLabel\">Modal title</div>\n                <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">×</span></a>\n            </div>\n            <div class=\"modal-body\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br><br>\n                <code>javascript:OpenModal('YourModalName')</code><br><br>\n                Replace 'YourModalName' with the name you chose.\n            </div>\n            <div class=\"modal-footer\">\n                <div mbr-theme-style=\"display-4\">\n                    <a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<script>\nif (typeof OpenModal === 'undefined') {\n    OpenModal = function(modalName) {\n        if ($('#' + modalName).length)\n            $('#' + modalName).modal('show');\n    }\n}\n</script>    \n\n</section>",
-          "_cid": "3XQGsUwxvg",
-          "_anchor": "design-block-3XQGsUwxvg",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#promo-o\">Preview promo-o</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#promo-o-howtouse\">How to use promo-o</a>\n</div>\n<div class=\"modal fade\" id=\"promo-o-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"promo-o-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"promo-o-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('promo-o')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "Tudo pensando em você\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<img border=\"0\" data-original-height=\"550\" data-original-width=\"550\" height=\"200\" src=\"https://4.bp.blogspot.com/-ZDUNRT1UmzQ/Xp8TrQXhrYI/AAAAAAAAS_I/8lO8NbcAs-gA60UN-vUvuL4U9zdA9m97ACPcBGAYYCw/s200/shopping.gif\" width=\"200\" /></div>\n",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_anchor": "witsec-modal-window-block-2w",
+          "modalWindow": "<div class=\"modal fade\" id=\"promo-o\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"promo-oLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"promo-oLabel\">LOJAS / DELIVERY</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"promo-o_body\">Tudo pensando em você\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<img border=\"0\" data-original-height=\"550\" data-original-width=\"550\" height=\"200\" src=\"https://4.bp.blogspot.com/-ZDUNRT1UmzQ/Xp8TrQXhrYI/AAAAAAAAS_I/8lO8NbcAs-gA60UN-vUvuL4U9zdA9m97ACPcBGAYYCw/s200/shopping.gif\" width=\"200\" /></div>\n</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Obrigado</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#promo-o\").on(\"hidden.bs.modal\", function () {    var html = $( \"#promo-o_body\" ).html();    $( \"#promo-o_body\" ).empty();    $( \"#promo-o_body\" ).append(html);  })});</script>"
         }
       ]
     },
