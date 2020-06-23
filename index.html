@@ -12,15 +12,15 @@
   
   <title>Home</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/facebook-plugin/style.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
@@ -172,68 +172,75 @@
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-2p" data-rv-view="8">
+<section class="mbr-section cid-3XQGsUwxvg" id="design-block-3XQGsUwxvg">
 
-	<style>
-	/* Let's not animate the contents of modal windows */
-	.no-anim {
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
-	</style>
+    
 
-	
-	
-	<div><div class="modal fade" id="Em-Breve-Teremos" tabindex="-1" role="dialog" aria-labelledby="Em-Breve-TeremosLabel" aria-hidden="true">  <div class="modal-dialog modal-sm modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="Em-Breve-TeremosLabel">ALUGUEIS </h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Em-Breve-Teremos_body">Em breve, vamos ter alugueis de casa, apart. e kitnetes...</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">OK!!!</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#Em-Breve-Teremos").on("hidden.bs.modal", function () {    var html = $( "#Em-Breve-Teremos_body" ).html();    $( "#Em-Breve-Teremos_body" ).empty();    $( "#Em-Breve-Teremos_body" ).append(html);  })});</script></div>
+<style>
+/* Let's not animate the contents of modal windows */
+.no-anim {
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+}
+</style>
 
-	<script>
-	if (typeof OpenModal === 'undefined') {
-		OpenModal = function(modalName) {
-			if ($('#' + modalName).length)
-				$('#' + modalName).modal('show');
-			else
-				alert("Sorry, but there is no modal for " + modalName);
-		}
-	}
 
-	function modalSetCookie(cname, cvalue, exdays) {
-		var d = new Date();
-		d.setTime(d.getTime() + (exdays*24*60*60*1000));
-		var expires = "expires="+ d.toUTCString();
-		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-	}
+<div style="padding:1rem" class="hidden">
+    <input type="button" class="btn btn-primary display-4" data-toggle="modal" value="Preview PROMO" data-target="#PROMO">
+    <input type="button" class="btn btn-primary display-4" data-toggle="modal" value="How to use" data-target="#PROMOHelp">
+    This preview button will be removed on preview/publish.
+</div>
 
-	function modalGetCookie(cname) {
-		var name = cname + "=";
-		var decodedCookie = decodeURIComponent(document.cookie);
-		var ca = decodedCookie.split(';');
-		for(var i = 0; i <ca.length; i++) {
-			var c = ca[i];
-			while (c.charAt(0) == ' ') {
-				c = c.substring(1);
-			}
-			if (c.indexOf(name) == 0) {
-				return c.substring(name.length, c.length);
-			}
-		}
-		return "";
-	}
-	</script>
+<div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="PROMO" aria-labelledby="PROMOLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="no-anim modal-title">DELICIAS DA BARRA&nbsp;<br>Delivery</h5>
+                <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+            </div>
+            <p class="modal-body mbr-text align-left pb-3 mbr-fonts-style">PROMOÇÕES: PAGUE PELO SEU CARTÃO DE CREDITO!</p>
+            <div class="modal-footer">
+                <div class="mbr-section-btn"><a href="https://store17441987.ecwid.com/ESPETINHO-DE-BARRA-c50395388" class="no-anim btn btn-primary display-4" data-dismiss="modal"><span class="mbri-cart-add mbr-iconfont mbr-iconfont-btn"></span>CHURRASQUINHO</a>
+                    <a href="https://store17441987.ecwid.com/DELICIAS-DA-BARRA-c46340523" class="no-anim btn btn-md btn-black-outline display-4">MASSAS</a> <a href="https://store17441987.ecwid.com/EMPAD%C3%83O-c53549245" class="no-anim btn btn-md btn-black-outline display-4">EMPADÃO</a> <a href="https://wa.me/5522997831424" class="no-anim btn btn-md btn-black-outline display-4"><span class="socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn" style="color: rgb(0, 196, 140);"></span>ANDREA WEBER</a></div>
+            </div>
+        </div>
+    </div>
+</div>
 
-</section><script>
-document.addEventListener("DOMContentLoaded", function() {
-  if (modalGetCookie("Em-Breve-Teremos_viewed") == "") {
-    setTimeout( function() {
-      if (document.cookie)
-        modalSetCookie("Em-Breve-Teremos_viewed", true, 3600);
-      OpenModal("Em-Breve-Teremos");
-    } , 0);
-  }
-});
-</script>
+<div class="modal fade hidden" tabindex="-1" role="dialog" aria-hidden="true" id="PROMOHelp" aria-labelledby="PROMOHelpLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="h5 no-anim modal-title" id="PROMOHelpLabel">Modal title</div>
+                <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+            </div>
+            <div class="modal-body">
+                Using your new modal is very easy. Simply create a new link, then click the "..." tab and enter the following as custom URL:<br><br>
+                <code>javascript:OpenModal('YourModalName')</code><br><br>
+                Replace 'YourModalName' with the name you chose.
+            </div>
+            <div class="modal-footer">
+                <div class="display-4">
+                    <a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+if (typeof OpenModal === 'undefined') {
+    OpenModal = function(modalName) {
+        if ($('#' + modalName).length)
+            $('#' + modalName).modal('show');
+    }
+}
+</script>    
+
+</section>
 
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
@@ -247,6 +254,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/singa4real/singa4real-form.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/witsec-mailform/witsec-mailform.js"></script>
   
