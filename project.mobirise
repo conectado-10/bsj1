@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -50,7 +50,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 104,
+    "uniqCompNum": 105,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform-to": "sintoniabarra@gmail.com",
@@ -1731,38 +1731,6 @@
           "_params": {}
         },
         {
-          "_params": {
-            "modalName": "VOC-SABIA-",
-            "modalSize": "medium",
-            "modalHeader": true,
-            "modalTitle": "Delicias da Barra !",
-            "modalBody": "Você Sabia?\nComprando atraves do app você pode pagar pelo cartão de credito. ",
-            "modalBodyHTML": false,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "OK!!!",
-            "modalLink": false,
-            "modalLinkUrl": "https://store17441987.ecwid.com/DELICIAS-DA-BARRA-c46340523",
-            "modalLinkText": "Pedir agora!",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": true,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
-          },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#VOC-SABIA-\">Preview VOC-SABIA-</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#VOC-SABIA--howtouse\">How to use VOC-SABIA-</a>\n</div>\n<div class=\"modal fade\" id=\"VOC-SABIA--howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"VOC-SABIA--howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"VOC-SABIA--howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('VOC-SABIA-')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "Você Sabia?\nComprando atraves do app você pode pagar pelo cartão de credito. ",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_anchor": "witsec-modal-window-block-2q",
-          "modalWindow": "<div class=\"modal fade\" id=\"VOC-SABIA-\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"VOC-SABIA-Label\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"VOC-SABIA-Label\">Delicias da Barra !</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"VOC-SABIA-_body\">Você Sabia?<br />Comprando atraves do app você pode pagar pelo cartão de credito. </div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">OK!!!</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#VOC-SABIA-\").on(\"hidden.bs.modal\", function () {    var html = $( \"#VOC-SABIA-_body\" ).html();    $( \"#VOC-SABIA-_body\" ).empty();    $( \"#VOC-SABIA-_body\" ).append(html);  })});</script>"
-        },
-        {
           "_name": "menu1",
           "_styles": {
             ".navbar": {
@@ -2187,6 +2155,29 @@
           "_global": true,
           "_once": "menu",
           "_params": {}
+        },
+        {
+          "_params": {
+            "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
+            "hideOnPublish": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
+          "alias": "witsec-custom-html",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-custom-html-block",
+          "_anchor": "witsec-custom-html-block-2w"
         }
       ]
     },

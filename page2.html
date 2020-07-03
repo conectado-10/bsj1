@@ -285,68 +285,14 @@
     </div>
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-2q" data-rv-view="196">
+<section class="mbr-section mbr-section--no-padding" id="witsec-custom-html-block-2w" custom-code="true" data-rv-view="35">
+ 
+ <div class="witsec-custom-html-container elements-content" style="padding-top: 0rem; padding-bottom: 0rem;">
+    <div class="mbr-section__container block" style="width: 100%;"><script type="text/javascript" async="" src="//l.getsitecontrol.com/y791lm48.js">
+</script></div>
+ </div>
 
-	<style>
-	/* Let's not animate the contents of modal windows */
-	.no-anim {
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
-	</style>
-
-	
-	
-	<div><div class="modal fade" id="VOC-SABIA-" tabindex="-1" role="dialog" aria-labelledby="VOC-SABIA-Label" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="VOC-SABIA-Label">Delicias da Barra !</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="VOC-SABIA-_body">Você Sabia?<br>Comprando atraves do app você pode pagar pelo cartão de credito. </div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">OK!!!</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#VOC-SABIA-").on("hidden.bs.modal", function () {    var html = $( "#VOC-SABIA-_body" ).html();    $( "#VOC-SABIA-_body" ).empty();    $( "#VOC-SABIA-_body" ).append(html);  })});</script></div>
-
-	<script>
-	if (typeof OpenModal === 'undefined') {
-		OpenModal = function(modalName) {
-			if ($('#' + modalName).length)
-				$('#' + modalName).modal('show');
-			else
-				alert("Sorry, but there is no modal for " + modalName);
-		}
-	}
-
-	function modalSetCookie(cname, cvalue, exdays) {
-		var d = new Date();
-		d.setTime(d.getTime() + (exdays*24*60*60*1000));
-		var expires = "expires="+ d.toUTCString();
-		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-	}
-
-	function modalGetCookie(cname) {
-		var name = cname + "=";
-		var decodedCookie = decodeURIComponent(document.cookie);
-		var ca = decodedCookie.split(';');
-		for(var i = 0; i <ca.length; i++) {
-			var c = ca[i];
-			while (c.charAt(0) == ' ') {
-				c = c.substring(1);
-			}
-			if (c.indexOf(name) == 0) {
-				return c.substring(name.length, c.length);
-			}
-		}
-		return "";
-	}
-	</script>
-
-</section><script>
-document.addEventListener("DOMContentLoaded", function() {
-  if (modalGetCookie("VOC-SABIA-_viewed") == "") {
-    setTimeout( function() {
-      if (document.cookie)
-        modalSetCookie("VOC-SABIA-_viewed", true, 3600);
-      OpenModal("VOC-SABIA-");
-    } , 0);
-  }
-});
-</script>
+</section>
 
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
@@ -360,10 +306,10 @@ document.addEventListener("DOMContentLoaded", function() {
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
   <script src="assets/dropdown/js/nav-dropdown.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-  <script src="assets/singa4real/shopcart.js"></script>
-  <script src="assets/singa4real/singa4real-form.js"></script>
-  <script src="assets/theme/js/script.js"></script>
   <script src="assets/witsec-mailform/witsec-mailform.js"></script>
+  <script src="assets/singa4real/shopcart.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  <script src="assets/singa4real/singa4real-form.js"></script>
   
   
 </body>
