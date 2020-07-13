@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page15.html",
+    "currentPage": "page13.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -7823,7 +7823,7 @@
             }
           },
           "_name": "custom-html",
-          "_customHTML": "<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"page14.html\"><img src=\"@PROJECT_PATH@/assets/images/png-transparent-bricklayer-masonry-architectural-engineering-builder-engineer-construction-worker-objects-removebg-preview-80x80.png\" class=\"rounded-circle mr-3\" height=\"80px\" width=\"80px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\"><a href=\"page14.html\">Pedreiros</a></h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Profissional</p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>\n<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"page15.html\"><img src=\"@PROJECT_PATH@/assets/images/mascote-removebg-preview-80x80.png\" class=\"rounded-circle mr-3\" height=\"80px\" width=\"80px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\"><a href=\"page15.html\">Diaristas</a></h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Faxina e Limpeza</p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>",
+          "_customHTML": "<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"page14.html\"><img src=\"@PROJECT_PATH@/assets/images/pedreiro-icone-de-personagem-de-alvenaria-106788-365-80x80.jpg\" class=\"rounded-circle mr-3\" height=\"80px\" width=\"80px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\"><a href=\"page14.html\">Pedreiros</a></h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Profissional</p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>\n<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"page15.html\"><img src=\"@PROJECT_PATH@/assets/images/mascote-removebg-preview-80x80.png\" class=\"rounded-circle mr-3\" height=\"80px\" width=\"80px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\"><a href=\"page15.html\">Diaristas</a></h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Faxina e Limpeza</p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>",
           "_cid": "s40DfVh8fM",
           "_anchor": "custom-html-30",
           "_protectedParams": [],
