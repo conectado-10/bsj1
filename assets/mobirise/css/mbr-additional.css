@@ -744,12 +744,6 @@ section.lazy-placeholder:after {
   padding: 0;
   margin: 0;
 }
-.cid-3XQGsUwxvg .modal-dialog {
-  height: auto;
-}
-.cid-3XQGsUwxvg .hidden {
-  display: none;
-}
 .cid-s40E2XAGw1 .container {
   max-width: 1110px;
 }
@@ -8168,7 +8162,7 @@ a.nav-link {
 }
 .cid-rZZuOPDzkv {
   padding-top: 15px;
-  padding-bottom: 0px;
+  padding-bottom: 30px;
   background: #ffffff;
 }
 .cid-rZZuOPDzkv .card-wrap {
