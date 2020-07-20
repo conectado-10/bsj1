@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page4.html",
+    "currentPage": "page16.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -1871,7 +1871,7 @@
     "page5.html": {
       "settings": {
         "title": "clientes delicias de barra",
-        "order": 11
+        "order": 12
       },
       "components": [
         {
@@ -1947,7 +1947,7 @@
     "page6.html": {
       "settings": {
         "title": "lojas de frete e mudanças",
-        "order": 10
+        "order": 11
       },
       "components": [
         {
@@ -2105,7 +2105,7 @@
     "page7.html": {
       "settings": {
         "title": "Bombas Agua",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -2263,7 +2263,7 @@
     "page8.html": {
       "settings": {
         "title": "Lava Jatos",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -2421,7 +2421,7 @@
     "page9.html": {
       "settings": {
         "title": "MAMORARIAS",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -2579,7 +2579,7 @@
     "page10.html": {
       "settings": {
         "title": "AUTO PEÇAS",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -2737,7 +2737,7 @@
     "page11.html": {
       "settings": {
         "title": "ROUPAS",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -2895,7 +2895,7 @@
     "page12.html": {
       "settings": {
         "title": "SALÃO",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -3053,7 +3053,7 @@
     "page13.html": {
       "settings": {
         "title": "prestação de serviços",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -3108,7 +3108,7 @@
     "page14.html": {
       "settings": {
         "title": "pedreiros",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -3266,7 +3266,7 @@
     "page15.html": {
       "settings": {
         "title": "diaristas",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -3414,6 +3414,293 @@
           "_customHTML": "<section class=\"team1\" group=\"Teams\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Role\" name=\"showRole\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <header>Icons</header>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"6\" step=\"1\" value=\"4\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Icon Color\" name=\"iconsColor\" value=\"#133996\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Icon Hover\" name=\"iconsHover\" value=\"#fc643f\" condition=\"showIcons\">\n        <hr>\n        <input type=\"color\" title=\"Card BG\" name=\"cardBG\" value=\"#bfebf3\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Bottom card BG\" name=\"bottomCardBg\" value=\"#ffffff\" condition=\"showName || showRole || showIcons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#fc643f\" condition=\"bg.type=='color'&&gradientBg\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-title mbr-fonts-style align-center mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".underline,.mbr-title\">\n            DIARISTAS&nbsp;</h2>\n        <div class=\"row justify-content-center\" mbr-class=\"{'pt-5': showTitle}\">\n            <div class=\"col-sm-6 col-md-4 card-wrap\" mbr-class=\"{'col-lg-4': cardsAmount < 6, 'col-lg-3': cardsAmount < 5, 'col-lg-4': cardsAmount < 4}\">\n                <div class=\"card-block\">\n                    <div class=\"image-wrap\">\n                        <a href=\"https://store17441987.ecwid.com/DIARISTA-ELAINE-p180259005\"><img src=\"@PROJECT_PATH@/assets/images/1339864472-500x500.jpg\" alt title></a>\n                    </div>\n                </div>\n                <div class=\"card-bottom\">\n                    <h3 class=\"mbr-fonts-style mbr-section-title align-center pt-2\" mbr-class=\"{'pb-3': !showRole}\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showName\">Elaine Carvalho</h3>\n                    <h3 class=\"mbr-fonts-style mbr-role align-center\" mbr-class=\"{'pt-3': !showName,\n                                    'pt-2': showName}\" data-app-selector=\".mbr-role, .social-media\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                        <i>Diarista</i></h3>\n                    <div class=\"social-media align-center\" mbr-if=\"showIcons\">\n                        <ul>\n                            <li>\n                                <a class=\"icon-transition\" href=\"https://store17441987.ecwid.com/DIARISTA-ELAINE-p180259005\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black mbri-cart-add\" style=\"font-size: 30px; color: rgb(19, 57, 150); fill: rgb(19, 57, 150);\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 1\">\n                                <a class=\"icon-transition\" href=\"tel:22999355461\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-viber socicon\" style=\"font-size: 30px; color: rgb(19, 57, 150); fill: rgb(19, 57, 150);\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 2\">\n                                <a class=\"icon-transition\" href=\"https://www.instagram.com/supernanydiarista/?hl=pt-br\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-instagram socicon\" style=\"font-size: 30px; color: rgb(19, 57, 150); fill: rgb(19, 57, 150);\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 3\">\n                                <a class=\"icon-transition\" href=\"https://www.facebook.com/Elaine-Diarista-110209043669029/\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-facebook socicon\" style=\"font-size: 30px; color: rgb(19, 57, 150); fill: rgb(19, 57, 150);\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 4\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 5\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                        </ul>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-sm-6 col-md-4 card-wrap\" mbr-class=\"{'col-lg-4': cardsAmount < 6, 'col-lg-3': cardsAmount < 5, 'col-lg-4': cardsAmount < 4}\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-block\">\n                    <div class=\"image-wrap\">\n                        <img src=\"../_images/faces/face2.jpg\" alt>\n                    </div>\n                </div>\n                <div class=\"card-bottom\">\n                    <h3 class=\"mbr-fonts-style mbr-section-title align-center pt-2\" mbr-class=\"{'pb-3': !showRole}\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showName\">\n                        Brittany Glaser\n                    </h3>\n                    <h3 class=\"mbr-fonts-style mbr-role align-center\" mbr-class=\"{'pt-3': !showName,\n                                    'pt-2': showName}\" data-app-selector=\".mbr-role, .social-media\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                        <i>Financial Officer</i>\n                    </h3>\n                    <div class=\"social-media align-center\" mbr-if=\"showIcons\">\n                        <ul>\n                            <li>\n                                <a class=\"icon-transition\" href=\"https://www.facebook.com/Mobirise\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-facebook socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 1\">\n                                <a class=\"icon-transition\" href=\"https://twitter.com/mobirise\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-twitter socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 2\">\n                                <a class=\"icon-transition\" href=\"https://instagram.com/mobirise/\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-instagram socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 3\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 4\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 5\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                        </ul>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-sm-6 col-md-4 card-wrap\" mbr-class=\"{'col-lg-4': cardsAmount < 6, 'col-lg-3': cardsAmount < 5, 'col-lg-4': cardsAmount < 4}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-block\">\n                    <div class=\"image-wrap\">\n                        <img src=\"../_images/faces/face3.jpg\" alt>\n                    </div>\n                </div>\n                <div class=\"card-bottom\">\n                    <h3 class=\"mbr-fonts-style mbr-section-title align-center pt-2\" mbr-class=\"{'pb-3': !showRole}\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showName\">\n                        Bryan Clark\n                    </h3>\n                    <h3 class=\"mbr-fonts-style mbr-role align-center\" mbr-class=\"{'pt-3': !showName,\n                                    'pt-2': showName}\" data-app-selector=\".mbr-role, .social-media\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                        <i>Financial Controller</i>\n                    </h3>\n                    <div class=\"social-media align-center\" mbr-if=\"showIcons\">\n                        <ul>\n                            <li>\n                                <a class=\"icon-transition\" href=\"https://www.facebook.com/Mobirise\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-facebook socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 1\">\n                                <a class=\"icon-transition\" href=\"https://twitter.com/mobirise\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-twitter socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 2\">\n                                <a class=\"icon-transition\" href=\"https://instagram.com/mobirise/\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-instagram socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 3\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 4\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 5\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                        </ul>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-sm-6 col-md-4 card-wrap\" mbr-class=\"{'col-lg-4': cardsAmount < 6, 'col-lg-3': cardsAmount < 5, 'col-lg-4': cardsAmount < 4}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-block\">\n                    <div class=\"image-wrap\">\n                        <img src=\"../_images/faces/face4.jpg\" alt>\n                    </div>\n                </div>\n                <div class=\"card-bottom\">\n                    <h3 class=\"mbr-fonts-style mbr-section-title align-center pt-2\" mbr-class=\"{'pb-3': !showRole}\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showName\">\n                        Nick Barr\n                    </h3>\n                    <h3 class=\"mbr-fonts-style mbr-role align-center\" mbr-class=\"{'pt-3': !showName,\n                                    'pt-2': showName}\" data-app-selector=\".mbr-role, .social-media\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                        <i>Designer</i>\n                    </h3>\n                    <div class=\"social-media align-center\" mbr-if=\"showIcons\">\n                        <ul>\n                            <li>\n                                <a class=\"icon-transition\" href=\"https://www.facebook.com/Mobirise\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-facebook socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 1\">\n                                <a class=\"icon-transition\" href=\"https://twitter.com/mobirise\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-twitter socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 2\">\n                                <a class=\"icon-transition\" href=\"https://instagram.com/mobirise/\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-instagram socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 3\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 4\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 5\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                        </ul>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-sm-6 col-md-4 card-wrap\" mbr-class=\"{'col-lg-4': cardsAmount < 6, 'col-lg-3': cardsAmount < 5, 'col-lg-4': cardsAmount < 4}\" mbr-if=\"cardsAmount > 4\">\n                <div class=\"card-block\">\n                    <div class=\"image-wrap\">\n                        <img src=\"../_images/faces/face5.jpg\" alt>\n                    </div>\n                </div>\n                <div class=\"card-bottom\">\n                    <h3 class=\"mbr-fonts-style mbr-section-title align-center pt-2\" mbr-class=\"{'pb-3': !showRole}\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showName\">\n                        Jeremy Wiebe\n                    </h3>\n                    <h3 class=\"mbr-fonts-style mbr-role align-center\" mbr-class=\"{'pt-3': !showName,\n                                    'pt-2': showName}\" data-app-selector=\".mbr-role, .social-media\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                        <i>SSE</i>\n                    </h3>\n                    <div class=\"social-media align-center\" mbr-if=\"showIcons\">\n                        <ul>\n                            <li>\n                                <a class=\"icon-transition\" href=\"https://www.facebook.com/Mobirise\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-facebook socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 1\">\n                                <a class=\"icon-transition\" href=\"https://twitter.com/mobirise\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-twitter socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 2\">\n                                <a class=\"icon-transition\" href=\"https://instagram.com/mobirise/\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-instagram socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 3\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 4\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 5\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                        </ul>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-sm-6 col-md-4 card-wrap\" mbr-class=\"{'col-lg-4': cardsAmount < 6, 'col-lg-3': cardsAmount < 5, 'col-lg-4': cardsAmount < 4}\" mbr-if=\"cardsAmount > 5\">\n                <div class=\"card-block\">\n                    <div class=\"image-wrap\">\n                        <img src=\"../_images/faces/face6.jpg\" alt>\n                    </div>\n                </div>\n                <div class=\"card-bottom\">\n                    <h3 class=\"mbr-fonts-style mbr-section-title align-center pt-2\" mbr-class=\"{'pb-3': !showRole}\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showName\">\n                        Patrick Karolczak\n                    </h3>\n                    <h3 class=\"mbr-fonts-style mbr-role align-center\" mbr-class=\"{'pt-3': !showName,\n                                    'pt-2': showName}\" data-app-selector=\".mbr-role, .social-media\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                        <i>Dev Lead</i>\n                    </h3>\n                    <div class=\"social-media align-center\" mbr-if=\"showIcons\">\n                        <ul>\n                            <li>\n                                <a class=\"icon-transition\" href=\"https://www.facebook.com/Mobirise\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-facebook socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 1\">\n                                <a class=\"icon-transition\" href=\"https://twitter.com/mobirise\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-twitter socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 2\">\n                                <a class=\"icon-transition\" href=\"https://instagram.com/mobirise/\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-instagram socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 3\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 4\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 5\">\n                                <a class=\"icon-transition\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-black socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                        </ul>\n                    </div>\n                </div>\n              </div>\n          </div>\n            </div>\n        \n    \n</section>",
           "_cid": "rZZuOPDzkv",
           "_anchor": "team01-2e",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page16.html": {
+      "settings": {
+        "title": "bazar barra",
+        "order": 1
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            "body": {
+              "margin-top": "20px"
+            },
+            ".blog-listing": {
+              "padding-top": "30px",
+              "padding-bottom": "30px"
+            },
+            ".gray-bg": {
+              "background-color": "@bgColor"
+            },
+            ".blog-grid": {
+              "box-shadow": "0 0 30px rgba(31, 45, 61, 0.125)",
+              "border-radius": "5px",
+              "overflow": "hidden",
+              "background": "#ffffff",
+              "margin-top": "15px",
+              "margin-bottom": "15px"
+            },
+            ".blog-grid .blog-img": {
+              "position": "relative"
+            },
+            ".blog-grid .blog-img .date": {
+              "position": "absolute",
+              "background": "#fc5356",
+              "color": "#ffffff",
+              "padding": "8px 15px",
+              "left": "10px",
+              "top": "10px",
+              "border-radius": "4px"
+            },
+            ".blog-grid .blog-img .date span": {
+              "font-size": "22px",
+              "display": "block",
+              "line-height": "22px",
+              "font-weight": "700"
+            },
+            ".blog-grid .blog-img .date label": {
+              "font-size": "14px",
+              "margin": "0"
+            },
+            ".blog-grid .blog-info": {
+              "padding": "20px"
+            },
+            ".blog-grid .blog-info h5": {
+              "font-size": "22px",
+              "font-weight": "700",
+              "margin": "0 0 10px"
+            },
+            ".blog-grid .blog-info h5 a": {
+              "color": "#20247b"
+            },
+            ".blog-grid .blog-info p": {
+              "margin": "0"
+            },
+            ".blog-grid .blog-info .btn-bar": {
+              "margin-top": "20px"
+            },
+            ".blog-aside .widget": {
+              "box-shadow": "0 0 30px rgba(31, 45, 61, 0.125)",
+              "border-radius": "5px",
+              "overflow": "hidden",
+              "background": "#ffffff",
+              "margin-top": "15px",
+              "margin-bottom": "15px",
+              "width": "100%",
+              "display": "inline-block",
+              "vertical-align": "top"
+            },
+            ".blog-aside .widget-body": {
+              "padding": "15px"
+            },
+            ".blog-aside .widget-title": {
+              "padding": "15px",
+              "border-bottom": "1px solid #eee"
+            },
+            ".blog-aside .widget-title h3": {
+              "font-size": "20px",
+              "font-weight": "700",
+              "color": "#fc5356",
+              "margin": "0"
+            },
+            ".blog-aside .widget-author .media": {
+              "margin-bottom": "15px"
+            },
+            ".blog-aside .widget-author p": {
+              "font-size": "16px",
+              "margin": "0"
+            },
+            ".blog-aside .widget-author .avatar": {
+              "width": "70px",
+              "height": "70px",
+              "border-radius": "50%",
+              "overflow": "hidden"
+            },
+            ".blog-aside .widget-author h6": {
+              "font-weight": "600",
+              "color": "#20247b",
+              "font-size": "22px",
+              "margin": "0",
+              "padding-left": "20px"
+            },
+            ".blog-aside .post-aside": {
+              "margin-bottom": "15px"
+            },
+            ".blog-aside .post-aside .post-aside-title h5": {
+              "margin": "0"
+            },
+            ".blog-aside .post-aside .post-aside-title a": {
+              "font-size": "18px",
+              "color": "#20247b",
+              "font-weight": "600"
+            },
+            ".blog-aside .post-aside .post-aside-meta": {
+              "padding-bottom": "10px"
+            },
+            ".blog-aside .post-aside .post-aside-meta a": {
+              "color": "#6F8BA4",
+              "font-size": "12px",
+              "text-transform": "uppercase",
+              "display": "inline-block",
+              "margin-right": "10px"
+            },
+            ".blog-aside .latest-post-aside + .latest-post-aside": {
+              "border-top": "1px solid #eee",
+              "padding-top": "15px",
+              "margin-top": "15px"
+            },
+            ".blog-aside .latest-post-aside .lpa-right": {
+              "width": "90px"
+            },
+            ".blog-aside .latest-post-aside .lpa-right img": {
+              "border-radius": "3px"
+            },
+            ".blog-aside .latest-post-aside .lpa-left": {
+              "padding-right": "15px"
+            },
+            ".blog-aside .latest-post-aside .lpa-title h5": {
+              "margin": "0",
+              "font-size": "15px"
+            },
+            ".blog-aside .latest-post-aside .lpa-title a": {
+              "color": "#20247b",
+              "font-weight": "600"
+            },
+            ".blog-aside .latest-post-aside .lpa-meta a": {
+              "color": "#6F8BA4",
+              "font-size": "12px",
+              "text-transform": "uppercase",
+              "display": "inline-block",
+              "margin-right": "10px"
+            },
+            ".tag-cloud a": {
+              "padding": "4px 15px",
+              "font-size": "13px",
+              "color": "#ffffff",
+              "background": "#20247b",
+              "border-radius": "3px",
+              "margin-right": "4px",
+              "margin-bottom": "4px"
+            },
+            ".tag-cloud a:hover": {
+              "background": "#fc5356"
+            },
+            ".blog-single": {
+              "padding-top": "30px",
+              "padding-bottom": "30px"
+            },
+            ".article": {
+              "box-shadow": "0 0 30px rgba(31, 45, 61, 0.125)",
+              "border-radius": "5px",
+              "overflow": "hidden",
+              "background": "#ffffff",
+              "padding": "15px",
+              "margin": "15px 0 30px"
+            },
+            ".article .article-title": {
+              "padding": "15px 0 20px"
+            },
+            ".article .article-title h6": {
+              "font-size": "14px",
+              "font-weight": "700",
+              "margin-bottom": "20px"
+            },
+            ".article .article-title h6 a": {
+              "text-transform": "uppercase",
+              "color": "#fc5356",
+              "border-bottom": "1px solid #fc5356"
+            },
+            ".article .article-title h2": {
+              "color": "#20247b",
+              "font-weight": "600"
+            },
+            ".article .article-title .media": {
+              "padding-top": "15px",
+              "border-bottom": "1px dashed #ddd",
+              "padding-bottom": "20px"
+            },
+            ".article .article-title .media .avatar": {
+              "width": "45px",
+              "height": "45px",
+              "border-radius": "50%",
+              "overflow": "hidden"
+            },
+            ".article .article-title .media .media-body": {
+              "padding-left": "8px"
+            },
+            ".article .article-title .media .media-body label": {
+              "font-weight": "600",
+              "color": "#fc5356",
+              "margin": "0"
+            },
+            ".article .article-title .media .media-body span": {
+              "display": "block",
+              "font-size": "12px"
+            },
+            ".article .article-content h1, .article .article-content h2, .article .article-content h3, .article .article-content h4, .article .article-content h5, .article .article-content h6": {
+              "color": "#20247b",
+              "font-weight": "600",
+              "margin-bottom": "15px"
+            },
+            ".article .article-content blockquote": {
+              "max-width": "600px",
+              "padding": "15px 0 30px 0",
+              "margin": "0"
+            },
+            ".article .article-content blockquote p": {
+              "font-size": "20px",
+              "font-weight": "500",
+              "color": "#fc5356",
+              "margin": "0"
+            },
+            ".article .article-content blockquote .blockquote-footer": {
+              "color": "#20247b",
+              "font-size": "16px"
+            },
+            ".article .article-content blockquote .blockquote-footer cite": {
+              "font-weight": "600"
+            },
+            ".article .tag-cloud": {
+              "padding-top": "10px"
+            },
+            ".article-comment": {
+              "box-shadow": "0 0 30px rgba(31, 45, 61, 0.125)",
+              "border-radius": "5px",
+              "overflow": "hidden",
+              "background": "#ffffff",
+              "padding": "20px"
+            },
+            ".article-comment h4": {
+              "color": "#20247b",
+              "font-weight": "700",
+              "margin-bottom": "25px",
+              "font-size": "22px"
+            },
+            "img": {
+              "max-width": "100%",
+              "vertical-align": "middle",
+              "border-style": "none"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section mbr-id=\"_blog_post\" class=\"mbr-section article blog_post\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n      <input type=\"range\" inline title=\"Post Number\" name=\"postnumber\" min=\"3\" max=\"10\" step=\"1\" value=\"3\">\n      <input type=\"range\" inline title=\"Trending Number\" name=\"trendingnumber\" min=\"3\" max=\"7\" step=\"1\" value=\"3\">\n      <input type=\"range\" inline title=\"Latest Post\" name=\"latestpost\" min=\"3\" max=\"7\" step=\"1\" value=\"3\">\n      <input type=\"checkbox\" title=\"Show Pagination\" name=\"showpagination\">\n      <input type=\"checkbox\" title=\"Show Tag\" name=\"showtag\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <section class=\"blog-listing gray-bg\">\n        <div class=\"container\">\n            <div class=\"row align-items-start\">\n                <div class=\"col-lg-8 m-15px-tb\">\n                    <div class=\"row\">\n                      <div class=\"col-sm-12\">\n                            <div class=\"blog-grid\">\n                                <div class=\"blog-img\">\n                                    <div class=\"date\">Pensando em Você\n                                    </div>\n                                    <a href=\"#\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/promoo-aqui-2-820x312.png\" title alt>\n                                    </a>\n                                </div>\n                                <div class=\"blog-info\">\n                                    <h5>BAZAR BARRA</h5>\n                                    <p>Aqui você encontra produtos semi-novo e ate mesmo novas compre direto pela essa pagina&nbsp;</p>\n                                    <div class=\"btn-bar\">\n                                        <a href=\"#\" class=\"px-btn-arrow\"></a><a href=\"details.html\">\n                                            </a><span><a href=\"details.html\" mbr-text>Grupo Conectado</a></span><a href=\"details.html\">\n                                            </a><i class=\"arrow\"></i><a href=\"details.html\">\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-6\" mbr-if=\"postnumber > 1\">\n                            <div class=\"blog-grid\">\n                                <div class=\"blog-img\">\n                                    <div class=\"date\">\n                                        <span>Promoção</span>\n                                        <label>Julho</label>\n                                    </div>\n                                    <a href=\"https://store17441987.ecwid.com/Persiana-Horizontal-De-Pvc-120-X-160-Preta-Fascinio-p217980074\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/1527545161-632x789.jpg\" title alt>\n                                    </a>\n                                </div>\n                                <div class=\"blog-info\">\n                                    <h5><a href=\"#\">P</a>ersiana Horizontal 120x160</h5>\n                                    <p>Persiana horizontal, nunca foi usado, entregamos gratis Regiao dos Lagos</p>\n                                    <div class=\"btn-bar\">\n                                        <a href=\"#\" class=\"px-btn-arrow\" mbr-text>William Bachot</a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-6\" mbr-if=\"postnumber > 2\">\n                            <div class=\"blog-grid\">\n                                <div class=\"blog-img\">\n                                    <div class=\"date\">\n                                        <span>Promoção</span>\n                                        <label>Ate Agosto</label>\n                                    </div>\n                                    <a href=\"https://store17441987.ecwid.com/COLCH%C3%83O-PNEUM%C3%81TICO-127V-p161797195\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/1212405137-700x933.jpg\" title alt>\n                                    </a>\n                                </div>\n                                <div class=\"blog-info\">\n                                    <h5>COLCHÃO PNEUMÁTICO 127V</h5>\n                                    <p>Colchao peneumatico em perfeito estado para ser utilizado.</p>\n                                    <div class=\"btn-bar\">\n                                        <a href=\"#\" class=\"px-btn-arrow\" mbr-text>Andrea Weber</a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-6\" mbr-if=\"postnumber > 3\">\n                            <div class=\"blog-grid\">\n                                <div class=\"blog-img\">\n                                    <div class=\"date\">\n                                        <span>04</span>\n                                        <label>FEB</label>\n                                    </div>\n                                    <a href=\"#\">\n                                        <img src=\"https://cdn.pixabay.com/photo/2015/08/16/14/06/magazine-891005__340.jpg\" title alt>\n                                    </a>\n                                </div>\n                                <div class=\"blog-info\">\n                                    <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n                                    <div class=\"btn-bar\">\n                                        <a href=\"#\" class=\"px-btn-arrow\" mbr-text>\n                                            <span>Read More</span>\n                                            <i class=\"arrow\"></i>\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-6\" mbr-if=\"postnumber > 4\">\n                            <div class=\"blog-grid\">\n                                <div class=\"blog-img\">\n                                    <div class=\"date\">\n                                        <span>04</span>\n                                        <label>FEB</label>\n                                    </div>\n                                    <a href=\"#\">\n                                        <img src=\"https://cdn.pixabay.com/photo/2015/08/16/14/06/magazine-891005__340.jpg\" title alt>\n                                    </a>\n                                </div>\n                                <div class=\"blog-info\">\n                                    <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n                                    <div class=\"btn-bar\">\n                                        <a href=\"#\" class=\"px-btn-arrow\" mbr-text>\n                                            <span>Read More</span>\n                                            <i class=\"arrow\"></i>\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-6\" mbr-if=\"postnumber > 5\">\n                            <div class=\"blog-grid\">\n                                <div class=\"blog-img\">\n                                    <div class=\"date\">\n                                        <span>04</span>\n                                        <label>FEB</label>\n                                    </div>\n                                    <a href=\"#\">\n                                        <img src=\"https://cdn.pixabay.com/photo/2015/08/16/14/06/magazine-891005__340.jpg\" title alt>\n                                    </a>\n                                </div>\n                                <div class=\"blog-info\">\n                                    <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n                                    <div class=\"btn-bar\">\n                                        <a href=\"#\" class=\"px-btn-arrow\" mbr-text>\n                                            <span>Read More</span>\n                                            <i class=\"arrow\"></i>\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-6\" mbr-if=\"postnumber > 6\">\n                            <div class=\"blog-grid\">\n                                <div class=\"blog-img\">\n                                    <div class=\"date\">\n                                        <span>04</span>\n                                        <label>FEB</label>\n                                    </div>\n                                    <a href=\"#\">\n                                        <img src=\"https://cdn.pixabay.com/photo/2015/08/16/14/06/magazine-891005__340.jpg\" title alt>\n                                    </a>\n                                </div>\n                                <div class=\"blog-info\">\n                                    <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n                                    <div class=\"btn-bar\">\n                                        <a href=\"#\" class=\"px-btn-arrow\" mbr-text>\n                                            <span>Read More</span>\n                                            <i class=\"arrow\"></i>\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                      <div class=\"col-sm-6\" mbr-if=\"postnumber > 7\">\n                            <div class=\"blog-grid\">\n                                <div class=\"blog-img\">\n                                    <div class=\"date\">\n                                        <span>04</span>\n                                        <label>FEB</label>\n                                    </div>\n                                    <a href=\"#\">\n                                        <img src=\"https://cdn.pixabay.com/photo/2015/08/16/14/06/magazine-891005__340.jpg\" title alt>\n                                    </a>\n                                </div>\n                                <div class=\"blog-info\">\n                                    <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n                                    <div class=\"btn-bar\">\n                                        <a href=\"#\" class=\"px-btn-arrow\" mbr-text>\n                                            <span>Read More</span>\n                                            <i class=\"arrow\"></i>\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                      <div class=\"col-sm-6\" mbr-if=\"postnumber > 8\">\n                            <div class=\"blog-grid\">\n                                <div class=\"blog-img\">\n                                    <div class=\"date\">\n                                        <span>04</span>\n                                        <label>FEB</label>\n                                    </div>\n                                    <a href=\"#\">\n                                        <img src=\"https://cdn.pixabay.com/photo/2015/08/16/14/06/magazine-891005__340.jpg\" title alt>\n                                    </a>\n                                </div>\n                                <div class=\"blog-info\">\n                                    <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n                                    <div class=\"btn-bar\">\n                                        <a href=\"#\" class=\"px-btn-arrow\" mbr-text>\n                                            <span>Read More</span>\n                                            <i class=\"arrow\"></i>\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-12\" mbr-if=\"showpagination\">\n                            <ul class=\"pagination justify-content-center\">\n                                <li class=\"page-item disabled\">\n                                    <a class=\"page-link\" href=\"#\" tabindex=\"-1\"><i class=\"fas fa-chevron-left\"></i></a>\n                                </li>\n                                <li class=\"page-item\"><a class=\"page-link\" href=\"#\">1</a></li>\n                                <li class=\"page-item active\">\n                                    <a class=\"page-link\" href=\"#\">2 <span class=\"sr-only\">(current)</span></a>\n                                </li>\n                                <li class=\"page-item\"><a class=\"page-link\" href=\"#\">3</a></li>\n                                <li class=\"page-item\">\n                                    <a class=\"page-link\" href=\"#\"><i class=\"fas fa-chevron-right\"></i></a>\n                                </li>\n                            </ul>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"col-lg-4 m-15px-tb blog-aside\">\n                    <!-- Author -->\n                    <div class=\"widget widget-author\">\n                        <div class=\"widget-title\">\n                            <h3>Plantar e Regar</h3>\n                        </div>\n                        <div class=\"widget-body\">\n                            <div class=\"media align-items-center\">\n                                <div class=\"avatar\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/logo-plantar-e-regar-removebg-preview-1-140x106.png\" title alt>\n                                </div>\n                                <div class=\"media-body\">\n                                    <h6>Ação Social</h6>\n                                </div>\n                            </div>\n                            <p>C<b>onheça nossa ação social, o Plantar e Regar é tudo de bom, compartilhamos amor e compaixão ao proximo.&nbsp;</b></p>\n                        </div>\n                    </div>\n                    <!-- End Author -->\n\n                    <!-- Trending Post -->\n                    <div class=\"widget widget-post\">\n                        <div class=\"widget-title\">\n                            <h3>Bazar&nbsp;</h3>\n                        </div>\n                        <div class=\"widget-body\">\n<div class=\"latest-post-aside media\" mbr-if=\"trendingnumber > 0\">\n                                <div class=\"lpa-left media-body\">\n                                    <div class=\"lpa-title\">\n                                        <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    </div>\n                                    <div class=\"lpa-meta\">\n                                        <a class=\"name\" href=\"#\">\n                                            Rachel Roth\n                                        </a>\n                                        <a class=\"date\" href=\"#\">\n                                            26 FEB 2020\n                                        </a>\n                                    </div>\n                                </div>\n                                <div class=\"lpa-right\">\n                                    <a href=\"#\">\n                                        <img src=\"https://via.placeholder.com/400x200/E6E6FA/000000\" title alt>\n                                    </a>\n                                </div>\n                            </div>\n\n                            <div class=\"latest-post-aside media\" mbr-if=\"trendingnumber > 1\">\n                                <div class=\"lpa-left media-body\">\n                                    <div class=\"lpa-title\">\n                                        <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    </div>\n                                    <div class=\"lpa-meta\">\n                                        <a class=\"name\" href=\"#\">\n                                            Rachel Roth\n                                        </a>\n                                        <a class=\"date\" href=\"#\">\n                                            26 FEB 2020\n                                        </a>\n                                    </div>\n                                </div>\n                                <div class=\"lpa-right\">\n                                    <a href=\"#\">\n                                        <img src=\"https://via.placeholder.com/400x200/FFA07A/000000\" title alt>\n                                    </a>\n                                </div>\n                            </div>\n\n                            <div class=\"latest-post-aside media\" mbr-if=\"trendingnumber > 2\">\n                                <div class=\"lpa-left media-body\">\n                                    <div class=\"lpa-title\">\n                                        <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    </div>\n                                    <div class=\"lpa-meta\">\n                                        <a class=\"name\" href=\"#\">\n                                            Rachel Roth\n                                        </a>\n                                        <a class=\"date\" href=\"#\">\n                                            26 FEB 2020\n                                        </a>\n                                    </div>\n                                </div>\n                                <div class=\"lpa-right\">\n                                    <a href=\"#\">\n                                        <img src=\"https://via.placeholder.com/400x200/FFF0F5/000000\" title alt>\n                                    </a>\n                                </div>\n                            </div>\n                          <div class=\"latest-post-aside media\" mbr-if=\"trendingnumber > 3\">\n                                <div class=\"lpa-left media-body\">\n                                    <div class=\"lpa-title\">\n                                        <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    </div>\n                                    <div class=\"lpa-meta\">\n                                        <a class=\"name\" href=\"#\">\n                                            Rachel Roth\n                                        </a>\n                                        <a class=\"date\" href=\"#\">\n                                            26 FEB 2020\n                                        </a>\n                                    </div>\n                                </div>\n                                <div class=\"lpa-right\">\n                                    <a href=\"#\">\n                                        <img src=\"https://via.placeholder.com/400x200/FFF0F5/000000\" title alt>\n                                    </a>\n                                </div>\n                            </div>\n                          <div class=\"latest-post-aside media\" mbr-if=\"trendingnumber > 4\">\n                                <div class=\"lpa-left media-body\">\n                                    <div class=\"lpa-title\">\n                                        <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    </div>\n                                    <div class=\"lpa-meta\">\n                                        <a class=\"name\" href=\"#\">\n                                            Rachel Roth\n                                        </a>\n                                        <a class=\"date\" href=\"#\">\n                                            26 FEB 2020\n                                        </a>\n                                    </div>\n                                </div>\n                                <div class=\"lpa-right\">\n                                    <a href=\"#\">\n                                        <img src=\"https://via.placeholder.com/400x200/FFF0F5/000000\" title alt>\n                                    </a>\n                                </div>\n                            </div>\n                          <div class=\"latest-post-aside media\" mbr-if=\"trendingnumber > 5\">\n                                <div class=\"lpa-left media-body\">\n                                    <div class=\"lpa-title\">\n                                        <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    </div>\n                                    <div class=\"lpa-meta\">\n                                        <a class=\"name\" href=\"#\">\n                                            Rachel Roth\n                                        </a>\n                                        <a class=\"date\" href=\"#\">\n                                            26 FEB 2020\n                                        </a>\n                                    </div>\n                                </div>\n                                <div class=\"lpa-right\">\n                                    <a href=\"#\">\n                                        <img src=\"https://via.placeholder.com/400x200/FFF0F5/000000\" title alt>\n                                    </a>\n                                </div>\n                            </div>\n                          <div class=\"latest-post-aside media\" mbr-if=\"trendingnumber > 6\">\n                                <div class=\"lpa-left media-body\">\n                                    <div class=\"lpa-title\">\n                                        <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    </div>\n                                    <div class=\"lpa-meta\">\n                                        <a class=\"name\" href=\"#\">\n                                            Rachel Roth\n                                        </a>\n                                        <a class=\"date\" href=\"#\">\n                                            26 FEB 2020\n                                        </a>\n                                    </div>\n                                </div>\n                                <div class=\"lpa-right\">\n                                    <a href=\"#\">\n                                        <img src=\"https://via.placeholder.com/400x200/FFF0F5/000000\" title alt>\n                                    </a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                    <!-- End Trending Post -->\n\n                    <!-- Latest Post -->\n                    <div class=\"widget widget-latest-post\">\n                        <div class=\"widget-title\">\n                            <h3>Latest Post</h3>\n                        </div>\n                        <div class=\"widget-body\">\n                            <div class=\"latest-post-aside media\" mbr-if=\"latestpost > 0\">\n                                <div class=\"lpa-left media-body\">\n                                    <div class=\"lpa-title\">\n                                        <h5><a href=\"details.html\">Prevent 75% of visitors from google analytics</a></h5>\n                                    </div>\n                                    <div class=\"lpa-meta\">\n                                        <a class=\"name\" href=\"#\">\n                                            Rachel Roth\n                                        </a>\n                                        <a class=\"date\" href=\"#\">\n                                            26 FEB 2020\n                                        </a>\n                                    </div>\n                                </div>\n                                <div class=\"lpa-right\">\n                                    <a href=\"#\">\n                                        <img src=\"https://via.placeholder.com/400x200/E6E6FA/000000\" title alt>\n                                    </a>\n                                </div>\n                            </div>\n\n                            <div class=\"latest-post-aside media\" mbr-if=\"latestpost > 1\">\n                                <div class=\"lpa-left media-body\">\n                                    <div class=\"lpa-title\">\n                                        <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    </div>\n                                    <div class=\"lpa-meta\">\n                                        <a class=\"name\" href=\"#\">\n                                            Rachel Roth\n                                        </a>\n                                        <a class=\"date\" href=\"#\">\n                                            26 FEB 2020\n                                        </a>\n                                    </div>\n                                </div>\n                                <div class=\"lpa-right\">\n                                    <a href=\"#\">\n                                        <img src=\"https://via.placeholder.com/400x200/FFA07A/000000\" title alt>\n                                    </a>\n                                </div>\n                            </div>\n\n                            <div class=\"latest-post-aside media\" mbr-if=\"latestpost > 2\">\n                                <div class=\"lpa-left media-body\">\n                                    <div class=\"lpa-title\">\n                                        <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    </div>\n                                    <div class=\"lpa-meta\">\n                                        <a class=\"name\" href=\"#\">\n                                            Rachel Roth\n                                        </a>\n                                        <a class=\"date\" href=\"#\">\n                                            26 FEB 2020\n                                        </a>\n                                    </div>\n                                </div>\n                                <div class=\"lpa-right\">\n                                    <a href=\"#\">\n                                        <img src=\"https://via.placeholder.com/400x200/FFF0F5/000000\" title alt>\n                                    </a>\n                                </div>\n                            </div>\n                          <div class=\"latest-post-aside media\" mbr-if=\"latestpost > 3\">\n                                <div class=\"lpa-left media-body\">\n                                    <div class=\"lpa-title\">\n                                        <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    </div>\n                                    <div class=\"lpa-meta\">\n                                        <a class=\"name\" href=\"#\">\n                                            Rachel Roth\n                                        </a>\n                                        <a class=\"date\" href=\"#\">\n                                            26 FEB 2020\n                                        </a>\n                                    </div>\n                                </div>\n                                <div class=\"lpa-right\">\n                                    <a href=\"#\">\n                                        <img src=\"https://via.placeholder.com/400x200/FFF0F5/000000\" title alt>\n                                    </a>\n                                </div>\n                            </div>\n                          <div class=\"latest-post-aside media\" mbr-if=\"latestpost > 4\">\n                                <div class=\"lpa-left media-body\">\n                                    <div class=\"lpa-title\">\n                                        <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    </div>\n                                    <div class=\"lpa-meta\">\n                                        <a class=\"name\" href=\"#\">\n                                            Rachel Roth\n                                        </a>\n                                        <a class=\"date\" href=\"#\">\n                                            26 FEB 2020\n                                        </a>\n                                    </div>\n                                </div>\n                                <div class=\"lpa-right\">\n                                    <a href=\"#\">\n                                        <img src=\"https://via.placeholder.com/400x200/FFF0F5/000000\" title alt>\n                                    </a>\n                                </div>\n                            </div>\n                          <div class=\"latest-post-aside media\" mbr-if=\"latestpost > 5\">\n                                <div class=\"lpa-left media-body\">\n                                    <div class=\"lpa-title\">\n                                        <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    </div>\n                                    <div class=\"lpa-meta\">\n                                        <a class=\"name\" href=\"#\">\n                                            Rachel Roth\n                                        </a>\n                                        <a class=\"date\" href=\"#\">\n                                            26 FEB 2020\n                                        </a>\n                                    </div>\n                                </div>\n                                <div class=\"lpa-right\">\n                                    <a href=\"#\">\n                                        <img src=\"https://via.placeholder.com/400x200/FFF0F5/000000\" title alt>\n                                    </a>\n                                </div>\n                            </div>\n                          <div class=\"latest-post-aside media\" mbr-if=\"latestpost > 6\">\n                                <div class=\"lpa-left media-body\">\n                                    <div class=\"lpa-title\">\n                                        <h5><a href=\"#\">Prevent 75% of visitors from google analytics</a></h5>\n                                    </div>\n                                    <div class=\"lpa-meta\">\n                                        <a class=\"name\" href=\"#\">\n                                            Rachel Roth\n                                        </a>\n                                        <a class=\"date\" href=\"#\">\n                                            26 FEB 2020\n                                        </a>\n                                    </div>\n                                </div>\n                                <div class=\"lpa-right\">\n                                    <a href=\"#\">\n                                        <img src=\"https://via.placeholder.com/400x200/FFF0F5/000000\" title alt>\n                                    </a>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div>\n                    <!-- End Latest Post -->\n\n                    <!-- widget Tags -->\n                    <div class=\"widget widget-tags\" mbr-if=\"showtag\">\n                        <div class=\"widget-title\">\n                            <h3>Latest Tags</h3>\n                        </div>\n                        <div class=\"widget-body\">\n                            <div class=\"nav tag-cloud\" mbr-text mbr-buttons><a href=\"#\" data-app-placeholder=\"Type Text\">Design</a>\n                                <a href=\"#\" data-app-placeholder=\"Type Text\">Development</a>\n                                 <a href=\"#\" data-app-placeholder=\"Type Text\" class>Travel</a>\n                                <a href=\"#\" data-app-placeholder=\"Type Text\">Web Design</a>\n                                <a href=\"#\" data-app-placeholder=\"Type Text\">Marketing</a>\n                                <a href=\"#\" data-app-placeholder=\"Type Text\">Research</a>\n                                <a href=\"#\" data-app-placeholder=\"Type Text\">Managment</a></div>\n                        </div>\n                    </div>\n                    <!-- End widget Tags -->\n                </div>\n            </div>\n        </div>\n    </section>\n</section>",
+          "_cid": "KCb2z0m2E2",
+          "_anchor": "design-block-KCb2z0m2E2",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
