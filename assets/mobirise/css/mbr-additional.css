@@ -3599,78 +3599,36 @@ a.img {
 }
 }
 
-.cid-s63QiV3U9f {
-@paddingTop: 0;
-@paddingBottom: 3;
-@testimonialsSlides: 5;
-@showAutoplay: true;
-@interval: 5000;
-@showTitle: true;
-@showName: true;
-@showDesk: true;
-@uname__11: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-05-19_055424/assets/images/background1.jpg";
-@uname__12: false;
-@uname__13: #ffffff;
-@bg-value: #ffffff;
-@bg-type: "color";
-@bg-color-value: #ffffff;
-@bg-parallax: false;
-@overlay: true;
-@overlayColor: #ffffff;
-@overlayOpacity: 0.9;
+.cid-s63REPmKz0 {
 
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
-}
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-}
-.carousel-item {
-  justify-content: center;
-  -webkit-justify-content: center;
-}
-.carousel-item.active, .carousel-item-next, .carousel-item-prev {
-  display: flex;
-}
-.carousel-controls {
-  a {
-    transition: opacity .5s;
-    font-size: 2rem;
-    span {
-      position: absolute;
-      top: 180px;
-      padding: 10px;
-      border-radius: 50%;
-      color: #585858;
-      background: #c8c6c6;
-      opacity: .5;
-    }
-    &:hover {
-      span {
-        opacity: 1;
-      }
-    }
-  }
-}
-.user_image {
-  width: 200px;
-  height: 200px;
-  margin-bottom: 1.6rem;
-  overflow: hidden;
-  border-radius: 50%;
-  margin: 0 auto 2rem auto;
-  img {
+.google-map {
+  height: 34rem;
+  position: relative;
+  iframe {
+    height: 100%;
     width: 100%;
-    min-width: 100%;
-    min-height: 100%;
   }
-}
-@media (max-width: 230px) {
-  .user_image {
+  [data-state-details] {
+    color: #6b6763;
+    font-family: Montserrat;
+    height: 1.5em;
+    margin-top: -0.75em;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    position: absolute;
+    text-align: center;
+    top: 50%;
     width: 100%;
-    height: auto;
+  }
+  &[data-state] {
+    background: #e9e5dc;
+  }
+  &[data-state="loading"] {
+    [data-state-details] {
+      display: none;
+    }
+    &::after {
+    }
   }
 }
 }
@@ -3679,6 +3637,17 @@ padding-bottom: (@paddingBottom * 15px);
 }
 
 .cid-s63i3wRGUz {
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+.mbr-section {
+  text-align: center;
+  color: #fff;
+}
+}
+
+.cid-s63SR2unYc {
 
 padding-top: (@paddingTop * 15px);
 padding-bottom: (@paddingBottom * 15px);
