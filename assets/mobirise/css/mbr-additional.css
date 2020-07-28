@@ -3599,6 +3599,82 @@ a.img {
 }
 }
 
+.cid-s63QiV3U9f {
+@paddingTop: 0;
+@paddingBottom: 3;
+@testimonialsSlides: 5;
+@showAutoplay: true;
+@interval: 5000;
+@showTitle: true;
+@showName: true;
+@showDesk: true;
+@uname__11: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-05-19_055424/assets/images/background1.jpg";
+@uname__12: false;
+@uname__13: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #ffffff;
+@overlayOpacity: 0.9;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+.carousel-item {
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+  display: flex;
+}
+.carousel-controls {
+  a {
+    transition: opacity .5s;
+    font-size: 2rem;
+    span {
+      position: absolute;
+      top: 180px;
+      padding: 10px;
+      border-radius: 50%;
+      color: #585858;
+      background: #c8c6c6;
+      opacity: .5;
+    }
+    &:hover {
+      span {
+        opacity: 1;
+      }
+    }
+  }
+}
+.user_image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1.6rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 2rem auto;
+  img {
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+  }
+}
+@media (max-width: 230px) {
+  .user_image {
+    width: 100%;
+    height: auto;
+  }
+}
+}
+
 #witsec-custom-html-block-3c {
 }
 
