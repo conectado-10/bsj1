@@ -50,7 +50,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 130,
+    "uniqCompNum": 132,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform-to": "sintoniabarra@gmail.com",
@@ -3893,27 +3893,25 @@
           "_params": {}
         },
         {
-          "_params": {
-            "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
-            "hideOnPublish": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            }
           },
-          "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
-          "alias": "witsec-custom-html",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-custom-html-block",
-          "_anchor": "witsec-custom-html-block-3c"
+          "_name": "custom-html",
+          "_customHTML": "<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/jogosdecozinheira-56x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Tudo pensando em você!</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Participe seja um cliente VIP</p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>\n<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/jogosdecozinheira-56x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Breve Receitas</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Receitas Deliciosas</p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>",
+          "_cid": "s63Vecitns",
+          "_anchor": "custom-html-3m",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "alias": "deltapi-code-editor",
@@ -3956,6 +3954,62 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_params": {
+            "account": "andreiawebermsn",
+            "showTitle": true,
+            "layoutGridRadio": true,
+            "imagesPerRowGrid": "3",
+            "rows": "3",
+            "showMoreButton": true,
+            "layoutSliderRadio": false,
+            "imagesPerRowSlider": 4,
+            "spacing": 5,
+            "fullWidth": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColorRadio": true,
+            "bgColor": "#ff7f9f",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
+            "overlay": true,
+            "overlayColor": "#efefef",
+            "overlayOpacity": 0.6
+          },
+          "title": "MEU INSTAGRAN",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">IR INSTAGRAN</a>",
+          "display2": "display-2",
+          "display4": "display-4",
+          "alias": "instagram-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "instagram-feed-block",
+          "_anchor": "instagram-feed-block-3n"
+        },
+        {
+          "_params": {
+            "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
+            "hideOnPublish": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
+          "alias": "witsec-custom-html",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-custom-html-block",
+          "_anchor": "witsec-custom-html-block-3c"
         }
       ]
     }

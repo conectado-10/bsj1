@@ -3633,7 +3633,15 @@ a.img {
 }
 }
 
-#witsec-custom-html-block-3c {
+.cid-s63Vecitns {
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+.mbr-section {
+  text-align: center;
+  color: #fff;
+}
 }
 
 .cid-s63i3wRGUz {
@@ -3656,4 +3664,10 @@ background-color: @bgColor;
   text-align: center;
   color: #fff;
 }
+}
+
+#instagram-feed-block-3n {
+}
+
+#witsec-custom-html-block-3c {
 }
