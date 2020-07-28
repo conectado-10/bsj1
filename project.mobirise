@@ -50,7 +50,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 123,
+    "uniqCompNum": 124,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform-to": "sintoniabarra@gmail.com",
@@ -3842,26 +3842,9 @@
             }
           },
           "_name": "design-block",
-          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked>\n        <header>Images</header>\n\t    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\" checked>\n      \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type!==color\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n   <div mbr-class=\"{'container': !fullWidth}\">\n        <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            DELICIAS DA BARRA</h3>\n        <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n            Enter Gallery Subtitle here.\n        </h4>\n        <div class=\"row mbr-gallery\" data-toggle=\"modal\">\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                   <a href=\"https://www.google.be\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/rot-linien-sport-logo-500x500.jpg\" alt title>\n                </a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i><b>DELIVERY DE MASSAS</b></i><i><b><br></b></i></p></div>\n            </div>\n        </div>\n</div></section>\n<div class=\"list-group\">\n  <button\n    type=\"button\"\n    class=\"list-group-item list-group-item-action active\"\n    aria-current=\"true\"\n  >\n   TRABALHAMOS TAMBEM\n  </button>\n  <button type=\"button\" class=\"list-group-item list-group-item-action\">\n  Ecomendas Viagens\n  </button>\n  <button type=\"button\" class=\"list-group-item list-group-item-action\">\n   Encomendas Festas\n  </button>\n  <button type=\"button\" class=\"list-group-item list-group-item-action\">\n    Encomendas Aniversarios\n  </button>\n  <button type=\"button\" class=\"list-group-item list-group-item-action\" disabled>\n    Encomendas Eventos\n  </button>\n</div>\n",
+          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked>\n        <header>Images</header>\n\t    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\" checked>\n      \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type!==color\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n   <div mbr-class=\"{'container': !fullWidth}\">\n        <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            DELICIAS DA BARRA</h3>\n        <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n            Enter Gallery Subtitle here.\n        </h4>\n        <div class=\"row mbr-gallery\" data-toggle=\"modal\">\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                   <a href=\"https://store17441987.ecwid.com/DELICIAS-DA-BARRA-c46340523\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/rot-linien-sport-logo-500x500.jpg\" alt title>\n                </a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i><b>DELIVERY DE MASSAS</b></i><i><b><br></b></i></p></div>\n            </div>\n        </div>\n</div></section>\n<div class=\"list-group\">\n  <button type=\"button\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\">\n   TRABALHAMOS TAMBEM\n  </button>\n  <button type=\"button\" class=\"list-group-item list-group-item-action\">\n  Ecomendas Viagens\n  </button>\n  <button type=\"button\" class=\"list-group-item list-group-item-action\">\n   Encomendas Festas\n  </button>\n  <button type=\"button\" class=\"list-group-item list-group-item-action\">\n    Encomendas Aniversarios\n  </button>\n  <button type=\"button\" class=\"list-group-item list-group-item-action\" disabled>\n    Encomendas Eventos\n  </button>\n</div>",
           "_cid": "2c6PKVYirN",
           "_anchor": "design-block-2c6PKVYirN",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "background-color": "@bottomcolor",
-            ".top": {
-              "fill": "@topcolor"
-            }
-          },
-          "_name": "design-block",
-          "_customHTML": "<section>\n  \n    <mbr-parameters>\n      <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"color\" title=\"Top Color\" name=\"topcolor\" value=\"#ffffff\">\n      <input type=\"color\" title=\"Bottom Color\" name=\"bottomcolor\" value=\"#55b4d4\">\n      <select title=\"Shape\" name=\"shape\">\n        <option value=\"1\">Shape 1</option>\n        <option value=\"2\" selected>Shape 2</option>\n      </select>\n      <!-- End block parameters -->\n    </mbr-parameters>\n\n\t<svg mbr-if=\"shape == 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1185 248\">\n      <circle cx=\"76\" cy=\"121.1\" r=\"20\" class=\"top\"></circle>\n      <circle cx=\"870\" cy=\"201.1\" r=\"11\" class=\"top\"></circle>\n      <circle cx=\"814.5\" cy=\"165.6\" r=\"24.5\" class=\"top\"></circle>\n      <path d=\"M0 0v17.7c22.7 14.8 53 31.9 90.7 51.5 150.8 78 322 116.6 424.8 69.3 102.9-47.4 138-69.3 210.8-69.3s118.3 48.6 219.5 38.3 76.3-59.3 188.7-59.3c18.9 0 35.5 2.6 50.5 6.8V0H0z\" class=\"top\"></path>\n  \t</svg>\n\n\t<svg mbr-if=\"shape == 2\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1185 248\">\n      <path d=\"M50.5 199.8c112.4 0 87.5-49 188.7-59.3s146.7 38.3 219.5 38.3 107.9-21.9 210.8-69.3c102.8-47.3 274-8.7 424.8 69.3 37.7 19.5 68 36.7 90.7 51.5V0H0v193C15 197.2 31.6 199.8 50.5 199.8zM1109 106.9c11 0 20 9 20 20 0 11-9 20-20 20s-20-9-20-20C1089 115.9 1098 106.9 1109 106.9zM370.5 57.9c13.5 0 24.5 11 24.5 24.5 0 13.5-11 24.5-24.5 24.5S346 95.9 346 82.4C346 68.9 357 57.9 370.5 57.9zM315 35.9c6.1 0 11 4.9 11 11s-4.9 11-11 11 -11-4.9-11-11S308.9 35.9 315 35.9z\" class=\"top\"></path>\n  \t</svg>\n  \n</section>",
-          "_cid": "JHDbPIU5x5",
-          "_anchor": "design-block-JHDbPIU5x5",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -3889,6 +3872,27 @@
           ],
           "_name": "witsec-custom-html-block",
           "_anchor": "witsec-custom-html-block-3c"
+        },
+        {
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            }
+          },
+          "_name": "custom-html",
+          "_customHTML": "<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<a href=\"https://wa.me/22997831424\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"500\" data-original-width=\"500\" height=\"200\" src=\"@PROJECT_PATH@/assets/images/delivery-1.gif\" width=\"200\" alt title></a></div>",
+          "_cid": "s63i3wRGUz",
+          "_anchor": "custom-html-3f",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     }
