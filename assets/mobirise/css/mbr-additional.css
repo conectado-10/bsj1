@@ -4683,24 +4683,6 @@ background-color: @bgColor;
 #instagram-feed-block-4k {
 }
 
-.cid-s6AVEiwOkt {
-@bgcolor: #ffffff;
-@wavecolor: #55b4d4;
-
-background-color: @bgcolor;
-.wave1 {
-  fill: @wavecolor;
-}
-.wave2 {
-  fill: @wavecolor;
-  opacity: 0.5;
-}
-.wave3, .wave4 {
-  fill: @wavecolor;
-  opacity: 0.35;
-}
-}
-
 #witsec-modal-window-block-4j {
 }
 
