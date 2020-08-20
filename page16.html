@@ -26,6 +26,69 @@
 <body>
   <section class="team1 cid-s8caXhMPOh" id="team01-4n">  <div class="container"> <h2 class="mbr-title mbr-fonts-style align-center mbr-white display-2">Costuras e Bordados</h2> <div class="row justify-content-center pt-5"> <div class="col-sm-6 col-md-4 card-wrap col-lg-4 col-lg-3"> <div class="card-block"> <div class="image-wrap"> <a href="page21.html"><img src="assets/images/design-ohne-titel-4-min-500x500.png" alt="" title=""></a> </div></div><div class="card-bottom"> <h3 class="mbr-fonts-style mbr-section-title align-center pt-2 display-5">Gabriela Titoneli</h3> <h3 class="mbr-fonts-style mbr-role align-center pt-2 display-4"><em>Bordados&nbsp;</em></h3> <div class="social-media align-center"> <ul> <li> <a class="icon-transition" href="https://www.facebook.com/gabriele.titonelitavares"> <span class="mbr-iconfont mbr-black socicon-facebook socicon" style="font-size: 27px; color: rgb(19, 57, 150); fill: rgb(19, 57, 150);"></span> </a> </li><li> <a class="icon-transition" href="https://wa.me/5522999582391"> <span class="mbr-iconfont mbr-black socicon-whatsapp socicon" style="font-size: 27px; color: rgb(0, 196, 140); fill: rgb(0, 196, 140);"></span> </a> </li><li> <a class="icon-transition" href="https://www.instagram.com/gaby.titoneli/"> <span class="mbr-iconfont mbr-black socicon-instagram socicon" style="font-size: 27px; color: rgb(255, 51, 212); fill: rgb(255, 51, 212);"></span> </a> </li></ul> </div></div></div></div></div></section>
 
+<section class="mbr-section" id="witsec-modal-window-block-4w" data-rv-view="745">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="seja-bem-vindo" tabindex="-1" role="dialog" aria-labelledby="seja-bem-vindoLabel" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="seja-bem-vindoLabel">Gabriele Titoneli</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="seja-bem-vindo_body">Venha conhecer nossos produtos, seja um cliente especial. Ganhe descontos no seu orçamento.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">ok?</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#seja-bem-vindo").on("hidden.bs.modal", function () {    var html = $( "#seja-bem-vindo_body" ).html();    $( "#seja-bem-vindo_body" ).empty();    $( "#seja-bem-vindo_body" ).append(html);  })});</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if ($('#' + modalName).length)
+				$('#' + modalName).modal('show');
+			else
+				alert("Sorry, but there is no modal for " + modalName);
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section><script>
+document.addEventListener("DOMContentLoaded", function() {
+  if (modalGetCookie("seja-bem-vindo_viewed") == "") {
+    setTimeout( function() {
+      if (document.cookie)
+        modalSetCookie("seja-bem-vindo_viewed", true, 3600);
+      OpenModal("seja-bem-vindo");
+    } , 0);
+  }
+});
+</script>
+
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
