@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page1.html",
+    "currentPage": "page21.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -4049,7 +4049,8 @@
     "page21.html": {
       "settings": {
         "title": "GABRIELA TITONELI",
-        "order": 6
+        "order": 6,
+        "meta_image": "@PROJECT_PATH@/assets/images/design-ohne-titel-4-min-952x952.png"
       },
       "components": [
         {
@@ -4204,7 +4205,7 @@
             }
           },
           "_name": "custom-html",
-          "_customHTML": "<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"https://store17441987.ecwid.com/DIARISTA-ELAINE-p180259005\"><img src=\"@PROJECT_PATH@/assets/images/icon-min-50x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Festas e Brinde&nbsp;</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Toalha e Panos</p>\n\n    </div>\n<div class=\"card promoting-card\">\n\n  </div></div>\n  <div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/vassoura.gif\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Eu Cintia...</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Melhor faxina da Regiao</p>\n\n    </div></div></div></div>",
+          "_customHTML": "<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"https://store17441987.ecwid.com/DIARISTA-ELAINE-p180259005\"><img src=\"@PROJECT_PATH@/assets/images/icon-min-50x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Festas e Brinde&nbsp;</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Toalha e Panos</p>\n\n    </div>\n<div class=\"card promoting-card\">\n\n  </div></div>\n  <div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/si-duo-sewing-button-icon-icons.com-62699-min-1-50x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Seu Nascimento</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Tolhas e Fraldas de bebê</p>\n\n    </div></div></div></div>",
           "_cid": "s8cgyfLEBh",
           "_anchor": "custom-html-4q",
           "_protectedParams": [],
@@ -4277,7 +4278,7 @@
         },
         {
           "_params": {
-            "account": "gaby.titoneli",
+            "account": "meus.trabalhos.titoneli",
             "showTitle": true,
             "layoutGridRadio": true,
             "imagesPerRowGrid": "2",
@@ -4289,15 +4290,15 @@
             "fullWidth": false,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "bgColor": "#fafafa",
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
             "overlay": true,
             "overlayColor": "#efefef",
             "overlayOpacity": 0.6
           },
-          "title": "MEU INSTAGRAM",
+          "title": "MEU INSTAGRAM<br>Alguns Trabalhos",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Mais</a>",
           "display2": "display-2",
           "display4": "display-4",
