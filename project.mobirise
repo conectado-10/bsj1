@@ -4887,63 +4887,6 @@
         {
           "alias": false,
           "_styles": {
-            "background-color": "@bgcolor",
-            ".wave1": {
-              "fill": "@wavecolor"
-            },
-            ".wave2": {
-              "fill": "@wavecolor",
-              "opacity": "0.5"
-            },
-            ".wave3, .wave4": {
-              "fill": "@wavecolor",
-              "opacity": "0.35"
-            }
-          },
-          "_name": "design-block",
-          "_customHTML": "<section class=\"mbr-section mbr-section--no-padding\">\n\n<mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"color\" title=\"Background Color\" name=\"bgcolor\" value=\"#ffffff\">\n  \t<input type=\"color\" title=\"Wave Color\" name=\"wavecolor\" value=\"#55b4d4\">\n    <!-- End block parameters -->\n</mbr-parameters>\n\n<svg width=\"100%\" height=\"50px\" preserveAspectRatio=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 1920 75\">\n  <path class=\"wave1\" d=\"M1963,327H-105V65A2647.49,2647.49,0,0,1,431,19c217.7,3.5,239.6,30.8,470,36,297.3,6.7,367.5-36.2,642-28a2511.41,2511.41,0,0,1,420,48\"></path>\n  <path class=\"wave2\" d=\"M-127,404H1963V44c-140.1-28-343.3-46.7-566,22-75.5,23.3-118.5,45.9-162,64-48.6,20.2-404.7,128-784,0C355.2,97.7,341.6,78.3,235,50,86.6,10.6-41.8,6.9-127,10\"></path>\n  <path class=\"wave3\" d=\"M1979,462-155,446V106C251.8,20.2,576.6,15.9,805,30c167.4,10.3,322.3,32.9,680,56,207,13.4,378,20.3,494,24\"></path>\n  <path class=\"wave4\" d=\"M1998,484H-243V100c445.8,26.8,794.2-4.1,1035-39,141-20.4,231.1-40.1,378-45,349.6-11.6,636.7,73.8,828,150\"></path>\n</svg>\n\n</section>",
-          "_cid": "s9hgnHbYXi",
-          "_anchor": "design-block-53",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_params": {
-            "modalName": "seja-bem-vindo",
-            "modalSize": "medium",
-            "modalHeader": true,
-            "modalTitle": "SEJA BEM VINDO",
-            "modalBody": "Aqui você pode esta agendando e fazendo orçamento.",
-            "modalBodyHTML": false,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "ok?",
-            "modalLink": false,
-            "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": true,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
-          },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#seja-bem-vindo\">Preview seja-bem-vindo</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#seja-bem-vindo-howtouse\">How to use seja-bem-vindo</a>\n</div>\n<div class=\"modal fade\" id=\"seja-bem-vindo-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"seja-bem-vindo-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"seja-bem-vindo-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('seja-bem-vindo')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "Aqui você pode esta agendando e fazendo orçamento.",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "modalWindow": "<div class=\"modal fade\" id=\"seja-bem-vindo\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"seja-bem-vindoLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"seja-bem-vindoLabel\">SEJA BEM VINDO</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"seja-bem-vindo_body\">Aqui você pode esta agendando e fazendo orçamento.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">ok?</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#seja-bem-vindo\").on(\"hidden.bs.modal\", function () {    var html = $( \"#seja-bem-vindo_body\" ).html();    $( \"#seja-bem-vindo_body\" ).empty();    $( \"#seja-bem-vindo_body\" ).append(html);  })});</script>",
-          "_anchor": "witsec-modal-window-block-55"
-        },
-        {
-          "alias": false,
-          "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
@@ -5060,6 +5003,55 @@
           "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n<header>Banner Config</header>\n              <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n       <input type=\"range\" inline title=\"Text Zoom\" name=\"sizetext\" min=\"10\" max=\"70\" step=\"1\" value=\"28\">\n             <input type=\"checkbox\" title=\"Text Effect\" name=\"showneon\" checked>\n          <select title=\"Effect Style\" name=\"effectstyle\" condition=\"showneon\">\n          <option value=\"3d\">3D</option>\n            <option value=\"neon\">Neon</option>\n                    <option value=\"offset\">Offset</option>\n         <option value=\"stroke\" selected>Stroke</option>\n          \t</select>\n      <input type=\"color\" name=\"textshadow\" title=\"Color Shadow 1\" value=\"#ff33d4\" selected condition=\"showneon\">\n      <input type=\"color\" name=\"dcolor1\" title=\"Color Shadow 2\" value=\"#c1c1c1\" condition=\"showneon&&effectstyle=='3d'\">\n      <input type=\"color\" name=\"dcolor2\" title=\"Color Shadow 3\" value=\"#232323\" condition=\"showneon&&effectstyle=='3d'\">\n\n      <hr>\n      <input type=\"checkbox\" title=\"Show Start Logo\" name=\"showLogo1\" checked>\n       <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize1\" min=\"1\" max=\"100\" step=\"0.5\" value=\"15.5\" condition=\"showLogo1\">\n       <input type=\"checkbox\" title=\"Show End Logo\" name=\"showLogo2\">\n       <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize2\" min=\"1\" max=\"100\" step=\"0.5\" value=\"25\" condition=\"showLogo2\">\n       <hr>\n        <select title=\"Style\" name=\"Style\">\n          <option value=\"fix\">Fixed</option>\n         <option value=\"blink\">Blink</option>\n            <option value=\"defile\">Defile</option>\n          <option value=\"pulse\" selected>Pulse</option>\n          \t</select>\n      \n      <input type=\"range\" inline title=\"Left Padding\" name=\"leftpad\" min=\"1\" max=\"100\" step=\"1\" value=\"1\" condition=\"Style=='blink'||Style=='fix'||Style=='pulse'\">\n      <input type=\"range\" inline title=\"Right Padding\" name=\"rightpad\" min=\"1\" max=\"100\" step=\"1\" value=\"1\" condition=\"Style=='blink'||Style=='fix'||Style=='pulse'\">\n        <input type=\"range\" inline title=\"Speed\" name=\"speedtext\" min=\"1\" max=\"50\" step=\"1\" value=\"1\" condition=\"Style=='blink'||Style=='defile'||Style=='pulse'\">\n       <input type=\"range\" inline title=\"Text Area\" name=\"wdtext\" min=\"1\" max=\"100\" step=\"1\" value=\"100\" condition=\"Style=='defile'\">\n      <input type=\"range\" inline title=\"Iteration\" name=\"counttext\" min=\"1\" max=\"100\" step=\"1\" value=\"85\" condition=\"Style=='blink'||Style=='defile'||Style=='pulse'\">\n\n      \n        <input type=\"checkbox\" title=\"Mouse Hover\" name=\"moussehover\" condition=\"Style=='defile'\">\n       \n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n        <input type=\"color\" title=\"Background Color\" value=\"#ff33d4\" selected>\n       </fieldset>\n       <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n       <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#232323\" condition=\"bg.type=='color'&&gradientBg\">\n\n\n    <!-- End block parameters -->\n    </mbr-parameters> \n  \n <div class=\"media-container-row\">\n   \n    <div class=\"marquee-rtl mbr-text\">\n\n  \n  <div>\n<span mbr-if=\"showLogo1\"><a href=\"https://mobirise.com\"><img src=\"@PROJECT_PATH@/assets/images/capturar5-240x257.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize1 + 'rem'}\" title></a>\n</span>\n <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">PROMOÇÃO R$50,00&nbsp;<br>PEGUE MONTE&nbsp;</p>  \n<span mbr-if=\"showLogo2\"><a href=\"https://mobirise.com\"><img src=\"@PROJECT_PATH@/assets/images/capturar-160x159.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize2 + 'rem'}\" title></a>\n</span>\n      <div>\n\n   \n   \n   </div>\n</div>\n\n</div></div></section>",
           "_cid": "igv5tB7CdS",
           "_anchor": "design-block-igv5tB7CdS",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_params": {
+            "modalName": "seja-bem-vindo",
+            "modalSize": "medium",
+            "modalHeader": true,
+            "modalTitle": "SEJA BEM VINDO",
+            "modalBody": "Aqui você pode esta agendando e fazendo orçamento.",
+            "modalBodyHTML": false,
+            "modalFooter": true,
+            "modalCloseBtn": true,
+            "modalCloseText": "ok?",
+            "modalLink": false,
+            "modalLinkUrl": "https://mobirise.com/",
+            "modalLinkText": "Visit Mobirise",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": false,
+            "modalFade": true,
+            "modalAutoOpen": true,
+            "modalAutoOpenOnce": true,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": 0
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#seja-bem-vindo\">Preview seja-bem-vindo</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#seja-bem-vindo-howtouse\">How to use seja-bem-vindo</a>\n</div>\n<div class=\"modal fade\" id=\"seja-bem-vindo-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"seja-bem-vindo-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"seja-bem-vindo-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('seja-bem-vindo')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "Aqui você pode esta agendando e fazendo orçamento.",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "modalWindow": "<div class=\"modal fade\" id=\"seja-bem-vindo\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"seja-bem-vindoLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"seja-bem-vindoLabel\">SEJA BEM VINDO</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"seja-bem-vindo_body\">Aqui você pode esta agendando e fazendo orçamento.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">ok?</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#seja-bem-vindo\").on(\"hidden.bs.modal\", function () {    var html = $( \"#seja-bem-vindo_body\" ).html();    $( \"#seja-bem-vindo_body\" ).empty();    $( \"#seja-bem-vindo_body\" ).append(html);  })});</script>",
+          "_anchor": "witsec-modal-window-block-55"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bottomcolor",
+            ".top": {
+              "fill": "@topcolor"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section>\n  \n    <mbr-parameters>\n      <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"color\" title=\"Top Color\" name=\"topcolor\" value=\"#ffffff\">\n      <input type=\"color\" title=\"Bottom Color\" name=\"bottomcolor\" value=\"#ff33d4\">\n      <select title=\"Shape\" name=\"shape\">\n        <option value=\"1\">Shape 1</option>\n        <option value=\"2\" selected>Shape 2</option>\n      </select>\n      <!-- End block parameters -->\n    </mbr-parameters>\n\n\t<svg mbr-if=\"shape == 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1185 248\">\n      <circle cx=\"76\" cy=\"121.1\" r=\"20\" class=\"top\"></circle>\n      <circle cx=\"870\" cy=\"201.1\" r=\"11\" class=\"top\"></circle>\n      <circle cx=\"814.5\" cy=\"165.6\" r=\"24.5\" class=\"top\"></circle>\n      <path d=\"M0 0v17.7c22.7 14.8 53 31.9 90.7 51.5 150.8 78 322 116.6 424.8 69.3 102.9-47.4 138-69.3 210.8-69.3s118.3 48.6 219.5 38.3 76.3-59.3 188.7-59.3c18.9 0 35.5 2.6 50.5 6.8V0H0z\" class=\"top\"></path>\n  \t</svg>\n\n\t<svg mbr-if=\"shape == 2\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1185 248\">\n      <path d=\"M50.5 199.8c112.4 0 87.5-49 188.7-59.3s146.7 38.3 219.5 38.3 107.9-21.9 210.8-69.3c102.8-47.3 274-8.7 424.8 69.3 37.7 19.5 68 36.7 90.7 51.5V0H0v193C15 197.2 31.6 199.8 50.5 199.8zM1109 106.9c11 0 20 9 20 20 0 11-9 20-20 20s-20-9-20-20C1089 115.9 1098 106.9 1109 106.9zM370.5 57.9c13.5 0 24.5 11 24.5 24.5 0 13.5-11 24.5-24.5 24.5S346 95.9 346 82.4C346 68.9 357 57.9 370.5 57.9zM315 35.9c6.1 0 11 4.9 11 11s-4.9 11-11 11 -11-4.9-11-11S308.9 35.9 315 35.9z\" class=\"top\"></path>\n  \t</svg>\n  \n</section>",
+          "_cid": "pwHqVkn6UT",
+          "_anchor": "design-block-pwHqVkn6UT",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
