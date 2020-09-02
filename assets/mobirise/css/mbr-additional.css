@@ -4209,6 +4209,12 @@ table {
   color: #133996;
   text-align: left;
 }
+.cid-ngHBeEdfRM {
+  background-color: #ff33d4;
+}
+.cid-ngHBeEdfRM .top {
+  fill: #efefef;
+}
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #00c48c;
