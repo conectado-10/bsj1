@@ -4378,6 +4378,80 @@ H3 {
 }
 }
 
+.cid-pN4sQXDE4X {
+@paddingTop: 4;
+@paddingBottom: 4;
+@borderradius: 15;
+@marginbottom: 2;
+@tabColor: #ff7f9f;
+@widthContent: 3;
+@showTitle: true;
+@bootstrapAccordion: "3";
+@uname__10: "file:///C:/Users/leo-j/AppData/Local/Mobirise.com/Mobirise/leonardo_002ecorsetti_0040gmail_002ecom/userblocks/mobirise4/design-block_2/background4.jpg";
+@uname__11: false;
+@uname__12: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #ffffff;
+@overlayOpacity: 0.9;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+position: relative;
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+p {
+  color: #767676;
+}
+.card {
+  border-radius: (@borderradius * 1px);
+  margin-bottom: (@marginbottom * 1px);
+  .card-header {
+    border-radius: (@borderradius * 1px);
+    border: 0px;
+    padding: 0;
+    a.panel-title {
+      margin-bottom: 0;
+      margin-top: -1px;
+      font-weight: 500;
+      font-style: normal;
+      display: block;
+      text-decoration: none !important;
+      line-height: normal;
+      &:focus {
+        text-decoration: none !important;
+      }
+      h4 {
+        border: 1px solid #dfdfdf;
+        border-radius: (@borderradius * 1px);
+        padding: 1.3rem 2rem;
+        margin-bottom: 0;
+        background-color: @tabColor;
+        .sign {
+          padding-right: 1rem;
+        }
+      }
+    }
+  }
+}
+H4 {
+  color: #ffffff;
+}
+.panel-text {
+  color: #ff3366;
+}
+H2 {
+  color: #ff3366;
+}
+}
+
 .cid-s9hgnDJPmS {
 
 .google-map {
@@ -4434,12 +4508,6 @@ background-color: @bgColor;
 }
 }
 
-#instagram-feed-block-56 {
-}
-
-#witsec-modal-window-block-55 {
-}
-
 .cid-s9qCvyGq0Q {
 
 padding-top: (@paddingTop * 15px);
@@ -4451,24 +4519,8 @@ background-color: @bgColor;
 }
 }
 
-.cid-s9qNzkjm9l {
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-background-color: @bgColor;
-.mbr-section {
-  text-align: center;
-  color: #fff;
-}
+#instagram-feed-block-56 {
 }
 
-.cid-s9qG5Wde9M {
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-background-color: @bgColor;
-.mbr-section {
-  text-align: center;
-  color: #fff;
-}
+#witsec-modal-window-block-55 {
 }

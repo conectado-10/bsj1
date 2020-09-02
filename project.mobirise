@@ -4770,6 +4770,71 @@
         {
           "alias": false,
           "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "position": "relative",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "p": {
+              "color": "#767676"
+            },
+            ".card": {
+              "border-radius": "(@borderradius * 1px)",
+              "margin-bottom": "(@marginbottom * 1px)",
+              ".card-header": {
+                "border-radius": "(@borderradius * 1px)",
+                "border": "0px",
+                "padding": "0",
+                "a.panel-title": {
+                  "margin-bottom": "0",
+                  "margin-top": "-1px",
+                  "font-weight": "500",
+                  "font-style": "normal",
+                  "display": "block",
+                  "text-decoration": "none !important",
+                  "line-height": "normal",
+                  "&:focus": {
+                    "text-decoration": "none !important"
+                  },
+                  "h4": {
+                    "border": "1px solid #dfdfdf",
+                    "border-radius": "(@borderradius * 1px)",
+                    "padding": "1.3rem 2rem",
+                    "margin-bottom": "0",
+                    "background-color": "@tabColor",
+                    ".sign": {
+                      "padding-right": "1rem"
+                    }
+                  }
+                }
+              }
+            },
+            "H4": {
+              "color": "#ffffff"
+            },
+            ".panel-text": {
+              "color": "#ff3366"
+            },
+            "H2": {
+              "color": "#ff3366"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section class=\"toggle1\" group=\"Accordion & Toggles & Tabs\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Superiore\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Inferiore\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n      \n      \n        <input type=\"range\" inline title=\"Border Radius\" name=\"borderradius\" min=\"0\" max=\"50\" step=\"1\" value=\"15\">\n      \n              <input type=\"range\" inline title=\"Tab margin bottom\" name=\"marginbottom\" min=\"-1\" max=\"10\" step=\"1\" value=\"2\">\n      \n      <input type=\"color\" title=\"Colore tab\" name=\"tabColor\" value=\"#ff7f9f\">\n      \n      <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"3\">\n      \n      \n      \n\n        <input type=\"checkbox\" title=\"Mostra titolo\" name=\"showTitle\" checked>\n        <select title=\"Interrutore conteggio\" name=\"bootstrapAccordion\">\n             <option value=\"1\">1</option>\n             <option value=\"2\">2</option>\n             <option value=\"3\" selected>3</option>\n             <option value=\"4\">4</option>\n             <option value=\"5\">5</option>\n             <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Immagine di sfondo\" value=\"file:///C:/Users/leo-j/AppData/Local/Mobirise.com/Mobirise/leonardo_002ecorsetti_0040gmail_002ecom/userblocks/mobirise4/design-block_2/background4.jpg\">\n            <input type=\"color\" title=\"Colore di sfondo\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video di sfondo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Sovrapponi\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Colore sovrapposto\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacità\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n        <div class=\"container\">\n            <div class=\"media-container-row\">\n              \n              \n                <div mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                    <div class=\"section-head text-center space30\">\n                       <h2 class=\"mbr-section-title pb-5 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">O QUE FAZEMOS ?</h2>\n                    </div>\n                    <div class=\"clearfix\"></div>\n                    <div id=\"bootstrap-toggle\" class=\"toggle-panel accordionStyles tab-content\">\n                        <div class=\"card\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                    <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                        <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>&nbsp;Pegue-Monte</h4>\n                                </a>\n                            </div>\n                            <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\">\n                                <div class=\"panel-body p-4\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Trabalhamos com organização elaboral de enventos e festas de aniversários, entregamos tudo conforme a solicitação do clientes, arrumamos tambem se o cliente autorizar.</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 1\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingTwo\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                    <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                        <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>&nbsp;Decorações</h4>\n                                </a>\n\n                            </div>\n                            <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingTwo\">\n                                <div class=\"panel-body p-4\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Mini -table decorações personalizada, organização e elaboração de ideias para arrumação. Já com bolas incluso. Entrega no local&nbsp;</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 2\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                    <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                        <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>&nbsp;Lembranças</h4>\n                                </a>\n                            </div>\n                            <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body p-4\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lembranças para enventos e aniversários, caixinhas personalizadas com temas impressionante para os clientes.Não tenha duvida que fazemos o melhor para que você e sua família fique satisfeito.</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 3\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                    <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                        <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span> Questo è un accordion con titolo 4\n                                    </h4>\n                                </a>\n                            </div>\n                            <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body p-4\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 4\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                    <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                        <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span> Questo è un accordion con titolo 5\n                                    </h4>\n                                </a>\n                            </div>\n                            <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body p-4\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 5\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                    <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                        <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span> Questo è un accordion con titolo 4\n                                    </h4>\n                                </a>\n                            </div>\n                            <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body p-4\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n</section>",
+          "_cid": "pN4sQXDE4X",
+          "_anchor": "design-block-pN4sQXDE4X",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
             ".google-map": {
               "height": "34rem",
               "position": "relative",
@@ -4852,19 +4917,40 @@
           "_params": {}
         },
         {
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            }
+          },
+          "_name": "custom-html",
+          "_customHTML": "<!-- Card -->\n<div class=\"card booking-card\">\n\n  <!-- Card image -->\n  <div class=\"view overlay\">\n    <img class=\"card-img-top\" src=\"@PROJECT_PATH@/assets/images/6-800x800.png\" alt=\"Card image cap\" title>\n    <a href=\"#!\">\n      <div class=\"mask rgba-white-slight\"></div>\n    </a>\n  </div>\n\n  <!-- Card content -->\n  <div class=\"card-body\">\n\n    <!-- Title -->\n    <h4 class=\"card-title font-weight-bold\"><span style=\"font-weight: 500;\">PAGUE MONTE</span></h4>\n    <!-- Data -->\n    <p class=\"mb-2\">R$ 50,00</p>\n    <!-- Text -->\n    <p class=\"card-text\">Pacote promocional, entregamos e montamos conforme a solicitação do cliente.Tudo pensando na melhor forma para você e sua família se divertir.</p>\n    <hr class=\"my-4\">\n    <p class=\"lead\"><b>Funcionamento</b><br><b>Terça à Sabado</b></p>\n    <ul class=\"list-unstyled list-inline d-flex justify-content-between mb-0\">\n      <li class=\"list-inline-item mr-0\">\n        <div class=\"chip mr-0\">08:00</div>\n      </li>\n      <li class=\"list-inline-item mr-0\">\n        <div class=\"chip deep-purple white-text mr-0\">12:00</div>\n      </li>\n      <li class=\"list-inline-item mr-0\">\n        <div class=\"chip mr-0\">14:00</div>\n      </li>\n      <li class=\"list-inline-item mr-0\">\n        <div class=\"chip mr-0\">17:00</div>\n      </li>\n    </ul>\n    <!-- Button -->\n    <a href=\"#\" class=\"btn btn-flat deep-purple-text p-1 mx-0 mb-0\">FAÇA SEU ORÇAMENTO</a>\n\n  </div>\n\n</div>\n<!-- Card -->",
+          "_cid": "s9qCvyGq0Q",
+          "_anchor": "custom-html-5a",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "_params": {
             "account": "livia_diversog",
             "showTitle": true,
-            "layoutGridRadio": true,
+            "layoutGridRadio": false,
             "imagesPerRowGrid": "3",
             "rows": 2,
             "showMoreButton": true,
-            "layoutSliderRadio": false,
+            "layoutSliderRadio": true,
             "imagesPerRowSlider": 4,
             "spacing": 5,
             "fullWidth": false,
-            "paddingTop": "2",
-            "paddingBottom": 4,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgColorRadio": true,
             "bgColor": "#f97fff",
             "bgImageRadio": false,
@@ -4890,16 +4976,16 @@
             "modalSize": "medium",
             "modalHeader": true,
             "modalTitle": "SEJA BEM VINDO",
-            "modalBody": "Aqui você pode esta agendando e fazendo orçamento.",
+            "modalBody": "Aqui você podera esta fazendo orçamentos, e vendo as suas duvidas.",
             "modalBodyHTML": false,
             "modalFooter": true,
             "modalCloseBtn": true,
-            "modalCloseText": "ok?",
+            "modalCloseText": "Entrar ....",
             "modalLink": false,
             "modalLinkUrl": "https://mobirise.com/",
             "modalLinkText": "Visit Mobirise",
             "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
+            "modalVerticalCenter": true,
             "modalFade": true,
             "modalAutoOpen": true,
             "modalAutoOpenOnce": true,
@@ -4907,77 +4993,14 @@
             "modalAutoOpenDelay": 0
           },
           "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#seja-bem-vindo\">Preview seja-bem-vindo</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#seja-bem-vindo-howtouse\">How to use seja-bem-vindo</a>\n</div>\n<div class=\"modal fade\" id=\"seja-bem-vindo-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"seja-bem-vindo-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"seja-bem-vindo-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('seja-bem-vindo')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "Aqui você pode esta agendando e fazendo orçamento.",
+          "modalBody": "Aqui você podera esta fazendo orçamentos, e vendo as suas duvidas.",
           "alias": "witsec-modal-window",
           "_tags": [
             "Extension"
           ],
           "_name": "witsec-modal-window-block",
-          "modalWindow": "<div class=\"modal fade\" id=\"seja-bem-vindo\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"seja-bem-vindoLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"seja-bem-vindoLabel\">SEJA BEM VINDO</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"seja-bem-vindo_body\">Aqui você pode esta agendando e fazendo orçamento.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">ok?</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#seja-bem-vindo\").on(\"hidden.bs.modal\", function () {    var html = $( \"#seja-bem-vindo_body\" ).html();    $( \"#seja-bem-vindo_body\" ).empty();    $( \"#seja-bem-vindo_body\" ).append(html);  })});</script>",
+          "modalWindow": "<div class=\"modal fade\" id=\"seja-bem-vindo\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"seja-bem-vindoLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"seja-bem-vindoLabel\">SEJA BEM VINDO</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"seja-bem-vindo_body\">Aqui você podera esta fazendo orçamentos, e vendo as suas duvidas.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Entrar ....</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#seja-bem-vindo\").on(\"hidden.bs.modal\", function () {    var html = $( \"#seja-bem-vindo_body\" ).html();    $( \"#seja-bem-vindo_body\" ).empty();    $( \"#seja-bem-vindo_body\" ).append(html);  })});</script>",
           "_anchor": "witsec-modal-window-block-55"
-        },
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_customHTML": "<!-- Card -->\n<div class=\"card booking-card\">\n\n  <!-- Card image -->\n  <div class=\"view overlay\">\n    <img class=\"card-img-top\" src=\"@PROJECT_PATH@/assets/images/6-800x800.png\" alt=\"Card image cap\" title>\n    <a href=\"#!\">\n      <div class=\"mask rgba-white-slight\"></div>\n    </a>\n  </div>\n\n  <!-- Card content -->\n  <div class=\"card-body\">\n\n    <!-- Title -->\n    <h4 class=\"card-title font-weight-bold\"><span style=\"font-weight: 500;\">PAGUE MONTE</span></h4>\n    <!-- Data -->\n    <ul class=\"list-unstyled list-inline rating mb-0\">\n      <li class=\"list-inline-item mr-0\"><i class=\"fas fa-star amber-text\"> </i></li>\n      <li class=\"list-inline-item mr-0\"><i class=\"fas fa-star amber-text\"></i></li>\n      <li class=\"list-inline-item mr-0\"><i class=\"fas fa-star amber-text\"></i></li>\n      <li class=\"list-inline-item mr-0\"><i class=\"fas fa-star amber-text\"></i></li>\n      <li class=\"list-inline-item\"><i class=\"fas fa-star-half-alt amber-text\"></i></li>\n      <li class=\"list-inline-item\"><p class=\"cliente satisfeito\">4.5 (413)</p></li>\n    </ul>\n    <p class=\"mb-2\">R$ 50,00</p>\n    <!-- Text -->\n    <p class=\"card-text\">Pacote promocional, entregamos e montamos conforme a solicitação do cliente.Tudo pensando na melhor forma para você e sua família se divertir.</p>\n    <hr class=\"my-4\">\n    <p class=\"lead\"><b>Funcionamento</b><br><b>Terça à Sabado</b></p>\n    <ul class=\"list-unstyled list-inline d-flex justify-content-between mb-0\">\n      <li class=\"list-inline-item mr-0\">\n        <div class=\"chip mr-0\">08:00</div>\n      </li>\n      <li class=\"list-inline-item mr-0\">\n        <div class=\"chip deep-purple white-text mr-0\">12:00</div>\n      </li>\n      <li class=\"list-inline-item mr-0\">\n        <div class=\"chip mr-0\">14:00</div>\n      </li>\n      <li class=\"list-inline-item mr-0\">\n        <div class=\"chip mr-0\">17:00</div>\n      </li>\n    </ul>\n    <!-- Button -->\n    <a href=\"#\" class=\"btn btn-flat deep-purple-text p-1 mx-0 mb-0\">FAÇA SEU ORÇAMENTO</a>\n\n  </div>\n\n</div>\n<!-- Card -->",
-          "_cid": "s9qCvyGq0Q",
-          "_anchor": "custom-html-5a",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_customHTML": "<!-- Card -->\n<div class=\"card booking-card\">\n\n  <!-- Card image -->\n  <div class=\"view overlay\">\n    <img class=\"card-img-top\" src=\"@PROJECT_PATH@/assets/images/6-800x800.png\" alt=\"Card image cap\" title>\n    <a href=\"#!\">\n      <div class=\"mask rgba-white-slight\"></div>\n    </a>\n  </div>\n\n  <!-- Card content -->\n  <div class=\"card-body\">\n\n    <!-- Title -->\n    <h4 class=\"card-title font-weight-bold\"><span style=\"font-weight: 500;\">MINI TABLE</span></h4>\n    <!-- Data -->\n    <ul class=\"list-unstyled list-inline rating mb-0\">\n      <li class=\"list-inline-item mr-0\"><i class=\"fas fa-star amber-text\"> </i></li>\n      <li class=\"list-inline-item mr-0\"><i class=\"fas fa-star amber-text\"></i></li>\n      <li class=\"list-inline-item mr-0\"><i class=\"fas fa-star amber-text\"></i></li>\n      <li class=\"list-inline-item\"><p class=\"cliente satisfeito\">3.5 (287)</p></li>\n    </ul>\n    <p class=\"mb-2\">R$ 150,00</p>\n    <!-- Text -->\n    <p class=\"card-text\">Paconte promocional, com arrumação e decorações de bolas no local&nbsp;</p></div>\n\n</div>\n<!-- Card -->",
-          "_cid": "s9qNzkjm9l",
-          "_anchor": "custom-html-5c",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_customHTML": "<template>\n  <mdb-container>\n    <mdb-btn rounded color=\"default\" @click.native=\"avatar = true\">launch avatar modal <mdb-icon icon=\"eye\" class=\"ml-1\"/></mdb-btn>\n    <mdb-modal :show=\"avatar\" @close=\"avatar = false\" avatar size=\"sm\">\n      <mdb-modal-header :close=\"false\">\n        <img src=\"https://mdbootstrap.com/img/Photos/Avatars/img%20%281%29.jpg\" alt=\"avatar\" class=\"rounded-circle img-responsive\">\n      </mdb-modal-header>\n      <mdb-modal-body class=\"mb-1 text-center\">\n        <h5 class=\"mt-1 mb-2\">Livia Diverso</h5>\n        <mdb-input label=\"Enter password\" type=\"password\"/>\n        <div class=\"mt-5 text-center\">\n          <mdb-btn color=\"cyan\" icon=\"sign-in-alt\" iconRight iconClass=\"ml-1\">Login</mdb-btn>\n        </div>\n      </mdb-modal-body>\n    </mdb-modal>\n  </mdb-container>\n</template>",
-          "_cid": "s9qG5Wde9M",
-          "_anchor": "custom-html-5b",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
         }
       ]
     }
