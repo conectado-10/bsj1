@@ -4209,12 +4209,6 @@ table {
   color: #133996;
   text-align: left;
 }
-.cid-ngHBeEdfRM {
-  background-color: #ff33d4;
-}
-.cid-ngHBeEdfRM .top {
-  fill: #efefef;
-}
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #00c48c;
@@ -4443,156 +4437,38 @@ background-color: @bgColor;
 #instagram-feed-block-56 {
 }
 
-.cid-igv5tB7CdS {
-@paddingTop: 1;
-@paddingBottom: 1;
-@sizetext: 28;
-@showneon: true;
-@effectstyle: "stroke";
-@textshadow: #ff33d4;
-@dcolor1: #c1c1c1;
-@dcolor2: #232323;
-@showLogo1: true;
-@logoSize1: 15.5;
-@showLogo2: false;
-@logoSize2: 25;
-@Style: "pulse";
-@leftpad: 1;
-@rightpad: 1;
-@speedtext: 1;
-@wdtext: 100;
-@counttext: 85;
-@moussehover: false;
-@uname__19: #ff33d4;
-@bg-value: #ff33d4;
-@bg-type: "color";
-@bg-color-value: #ff33d4;
-@gradientBg: true;
-@color2: #232323;
+#witsec-modal-window-block-55 {
+}
+
+.cid-s9qCvyGq0Q {
 
 padding-top: (@paddingTop * 15px);
 padding-bottom: (@paddingBottom * 15px);
-& when (@bg-type = 'color') {
-  background: @bg-value;
-  & when (@gradientBg) {
-    background: linear-gradient(90deg, @bg-value, @color2);
-  }
-}
+background-color: @bgColor;
 .mbr-section {
   text-align: center;
   color: #fff;
 }
-p {
-  display: inline;
-  font-size: unit(@sizetext, px);
-  color: #FFD100;
-  & when (@showneon) {
-    & when (@effectstyle = 'stroke') {
-      text-shadow: -1px -1px 0 @textshadow, 1px -1px 0 @textshadow, -1px 1px 0 @textshadow, 1px 1px 0 @textshadow, 1px 1px 10px #141414;
-    }
-    & when (@effectstyle = 'neon') {
-      text-shadow: 0 0 2px @textshadow, 0 0 30px @textshadow, 0px 0px 5px @textshadow, 0 0 150px @textshadow;
-    }
-    & when (@effectstyle = 'offset') {
-      text-shadow: 4px 4px 0px @textshadow, 7px 7px 0px rgba(0, 0, 0, 0.2);
-    }
-    & when (@effectstyle = '3d') {
-      text-shadow: @textshadow 3px 5px 0, @3dcolor1 4px 6px 3px, @3dcolor2 8px 11px 10px;
-    }
-  }
 }
-& when (@Style = 'defile') {
-  .marquee-rtl {
-    width: unit(@wdtext, %);
-    max-width: 100%;
-    overflow: hidden;
-  }
-  .marquee-rtl > :first-child {
-    display: inline-block;
-    padding-right: 2em;
-    padding-left: 100%;
-    white-space: nowrap;
-    animation: defilement-rtl (@speedtext * 1s) infinite linear;
-    animation-iteration-count: (@counttext * 1);
-  }
-  & when (@moussehover) {
-    .marquee-rtl:hover :first-child {
-      animation-play-state: paused;
-    }
-  }
-  @keyframes defilement-rtl {
-    0% {
-      transform: translate3d(0, 0, 0);
-    }
-    100% {
-      transform: translate3d(-100%, 0, 0);
-    }
-  }
-  .media-container-row .mbr-text {
-    color: #ffffff;
-  }
-}
-& when (@Style = 'blink') {
-  .marquee-rtl {
-    animation: Test (@speedtext * 1s) infinite;
-    padding-right: unit(@rightpad, %);
-    padding-left: unit(@leftpad, %);
-    animation-iteration-count: (@counttext * 1);
-  }
-  @keyframes Test {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-}
-& when (@Style = 'fix') {
-  .marquee-rtl {
-    padding-right: unit(@rightpad, %);
-    padding-left: unit(@leftpad, %);
-  }
-}
-& when (@Style = 'pulse') {
-  .marquee-rtl {
-    -webkit-animation: Test (@speedtext * 1s) ease-out;
-    -webkit-animation-iteration-count: infinite;
-    opacity: 0.5;
-    padding-right: unit(@rightpad, %);
-    padding-left: unit(@leftpad, %);
-  }
-  @-webkit-keyframes Test {
-    0% {
-      opacity: 0.5;
-    }
-    50% {
-      opacity: 1.0;
-    }
-    100% {
-      opacity: 0.5;
-    }
-  }
-}
-.media-container-row .mbr-text {
-  color: #ffffff;
+
+.cid-s9qNzkjm9l {
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+.mbr-section {
   text-align: center;
+  color: #fff;
 }
 }
 
-#witsec-modal-window-block-55 {
-}
+.cid-s9qG5Wde9M {
 
-.cid-pwHqVkn6UT {
-@topcolor: #ffffff;
-@bottomcolor: #ff33d4;
-@shape: "2";
-
-background-color: @bottomcolor;
-.top {
-  fill: @topcolor;
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+.mbr-section {
+  text-align: center;
+  color: #fff;
 }
 }
