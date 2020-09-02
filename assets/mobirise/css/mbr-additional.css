@@ -4379,10 +4379,10 @@ H3 {
 }
 
 .cid-pN4sQXDE4X {
-@paddingTop: 4;
+@paddingTop: 1;
 @paddingBottom: 4;
 @borderradius: 15;
-@marginbottom: 2;
+@marginbottom: 3;
 @tabColor: #ff7f9f;
 @widthContent: 3;
 @showTitle: true;
@@ -4523,4 +4523,7 @@ background-color: @bgColor;
 }
 
 #witsec-modal-window-block-55 {
+}
+
+#witsec-custom-html-block-5f {
 }
