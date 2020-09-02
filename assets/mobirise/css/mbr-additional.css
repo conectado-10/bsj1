@@ -538,8 +538,8 @@ a:hover {
   color: #dee1e8;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 .form-control {
   font-family: 'DM Sans', sans-serif;
@@ -2314,8 +2314,8 @@ section.lazy-placeholder:after {
 @display4Font: 'DM Sans', sans-serif;
 @display4Size: 0.875;
 @isRoundedButtons: true;
-@isAnimatedOnScroll: false;
-@isScrollToTopButton: false;
+@isAnimatedOnScroll: true;
+@isScrollToTopButton: true;
 @isPublish: true;
 
 .cid-2c6PKVYirN {
@@ -2552,8 +2552,8 @@ background-color: @bgColor;
 @display4Font: 'DM Sans', sans-serif;
 @display4Size: 0.875;
 @isRoundedButtons: true;
-@isAnimatedOnScroll: false;
-@isScrollToTopButton: false;
+@isAnimatedOnScroll: true;
+@isScrollToTopButton: true;
 @isPublish: true;
 
 .cid-s63ZZUUJSR {
@@ -3020,8 +3020,8 @@ background-color: @bgColor;
 @display4Font: 'DM Sans', sans-serif;
 @display4Size: 0.875;
 @isRoundedButtons: true;
-@isAnimatedOnScroll: false;
-@isScrollToTopButton: false;
+@isAnimatedOnScroll: true;
+@isScrollToTopButton: true;
 @isPublish: true;
 
 .cid-s67x2QfZFk {
@@ -3412,8 +3412,8 @@ background-color: @bgcolor;
 @display4Font: 'DM Sans', sans-serif;
 @display4Size: 0.875;
 @isRoundedButtons: true;
-@isAnimatedOnScroll: false;
-@isScrollToTopButton: false;
+@isAnimatedOnScroll: true;
+@isScrollToTopButton: true;
 @isPublish: true;
 
 .cid-s6AVEbO7T9 {
@@ -3767,8 +3767,8 @@ background-color: @bgColor;
 @display4Font: 'DM Sans', sans-serif;
 @display4Size: 0.875;
 @isRoundedButtons: true;
-@isAnimatedOnScroll: false;
-@isScrollToTopButton: false;
+@isAnimatedOnScroll: true;
+@isScrollToTopButton: true;
 @isPublish: true;
 
 .cid-s8cgyaVmNs {
@@ -4233,8 +4233,8 @@ table {
 @display4Font: 'DM Sans', sans-serif;
 @display4Size: 0.875;
 @isRoundedButtons: true;
-@isAnimatedOnScroll: false;
-@isScrollToTopButton: false;
+@isAnimatedOnScroll: true;
+@isScrollToTopButton: true;
 @isPublish: true;
 
 .cid-s9hgnBWKy4 {

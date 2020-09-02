@@ -23,8 +23,8 @@
         "display4Font": "DM Sans",
         "display4Size": 0.875,
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": false,
-        "isScrollToTopButton": false
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
       },
       "titlePreset": "Creative Agency",
       "nameSelectPreset": "creativeagency",
