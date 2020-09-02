@@ -52,7 +52,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 196,
+    "uniqCompNum": 197,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform-to": "sintoniabarra@gmail.com",
@@ -4759,7 +4759,7 @@
             }
           },
           "_name": "design-block",
-          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\"> <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\"> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\"> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked=\"\"> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\"> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\" checked=\"\"> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax=\"\"> <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax=\"\"> <input type=\"color\" title=\"Background Color\" value=\"#f97fff\" selected=\"\"> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay &amp;&amp; bg.type !=='color'\"> <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><i>LIVIA DIVERSO</i></h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"> Enter Gallery Subtitle here. </h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <a href=\"https://store17441987.ecwid.com/AUTO-ELETRICA-c46401174\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/picasion.com-6e7282235f41dd484f3646f8773523ef1.gif\" alt=\"\" title=\"\"> </a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><i>SUA FESTA PERSONALIZAD</i></b><b style=\"font-size: 1.5rem;\"><i>A</i></b><br>liviadiversog@gmail.com<b style=\"font-size: 1.5rem;\"><i><br></i></b></p><center><i><b><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"tel:5522997203997\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/phone-30029-100x100.png\" width=\"50\" alt=\"\" title=\"\"></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://wa.me/5522997203997\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/whatsapp-37229-100x100.png\" width=\"50\" alt=\"\" title=\"\"></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://www.facebook.com/livia.diverso.7\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"512\" data-original-width=\"512\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/facebook-108044-100x100.png\" width=\"50\" alt=\"\" title=\"\"></a></div></div></b></i></center><i><b><br><br></b></i></div><i><b> <br></b></i></div></div></div></section>",
+          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\"> <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\"> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\"> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked=\"\"> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\"> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\" checked=\"\"> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax=\"\"> <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax=\"\"> <input type=\"color\" title=\"Background Color\" value=\"#f97fff\" selected=\"\"> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay &amp;&amp; bg.type !=='color'\"> <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><i>LIVIA DIVERSO</i></h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"> Enter Gallery Subtitle here. </h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <a href=\"https://store17441987.ecwid.com/AUTO-ELETRICA-c46401174\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/picasion.com-6e7282235f41dd484f3646f8773523ef0.gif\" alt=\"\" title=\"\"> </a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><i>SUA FESTA PERSONALIZAD</i></b><b style=\"font-size: 1.5rem;\"><i>A</i></b><br>liviadiversog@gmail.com<b style=\"font-size: 1.5rem;\"><i><br></i></b></p><center><i><b><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"tel:5522997203997\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/phone-30029-100x100.png\" width=\"50\" alt=\"\" title=\"\"></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://wa.me/5522997203997\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/whatsapp-37229-100x100.png\" width=\"50\" alt=\"\" title=\"\"></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://www.facebook.com/livia.diverso.7\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"512\" data-original-width=\"512\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/facebook-108044-100x100.png\" width=\"50\" alt=\"\" title=\"\"></a></div></div></b></i></center><i><b><br><br></b></i></div><i><b> <br></b></i></div></div></div></section>",
           "_cid": "s9hgnBWKy4",
           "_anchor": "design-block-4y",
           "_protectedParams": [],
@@ -4894,6 +4894,554 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "section": {
+              "position": "relative"
+            },
+            ".container": {
+              "overflow": "hidden",
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "padding": "169px 92px",
+              "border-radius": "50px",
+              "background-color": "@svg1",
+              "max-width": "80%"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#46495f"
+            },
+            ".circles": {
+              "position": "absolute",
+              "bottom": "0",
+              "right": "0",
+              "top": "0",
+              "left": "0"
+            },
+            ".circle1": {
+              "height": "100%",
+              "width": "87px",
+              "right": "130px",
+              "top": "100px",
+              "position": "absolute !important",
+              "background-image": "url(@circle1)",
+              "div[id^=\"jarallax-container\"] > *": {
+                "background-size": "inherit !important",
+                "width": "87px !important"
+              }
+            },
+            ".circle2": {
+              "height": "100%",
+              "width": "206px",
+              "right": "-30px",
+              "bottom": "-240px",
+              "position": "absolute !important",
+              "background-image": "url(@circle2)",
+              "background-repeat": "no-repeat",
+              "span": {
+                "position": "absolute",
+                "top": "80px",
+                "left": "83px"
+              }
+            },
+            ".circle3": {
+              "height": "100%",
+              "width": "35px",
+              "position": "absolute !important",
+              "right": "230px",
+              "background-image": "url(@circle3)",
+              "div[id^=\"jarallax-container\"] > *": {
+                "background-size": "inherit !important",
+                "width": "35px !important"
+              }
+            },
+            ".circle4": {
+              "left": "436px",
+              "top": "400px",
+              "height": "100%",
+              "width": "234px",
+              "position": "absolute !important",
+              "background-image": "url(@circle4)",
+              "background-repeat": "no-repeat",
+              "span": {
+                "position": "absolute",
+                "top": "96px",
+                "left": "93px"
+              }
+            },
+            ".circle5": {
+              "left": "263px",
+              "top": "-51px",
+              "height": "100%",
+              "width": "57px",
+              "position": "absolute !important",
+              "background-image": "url(@circle5)",
+              "div[id^=\"jarallax-container\"] > *": {
+                "background-size": "inherit !important",
+                "width": "57px !important",
+                "position": "static !important"
+              }
+            },
+            ".circle6": {
+              "left": "20px",
+              "top": "301px",
+              "height": "100%",
+              "width": "206px",
+              "position": "absolute !important",
+              "background-image": "url(@circle6)",
+              "background-repeat": "no-repeat",
+              "span": {
+                "position": "absolute",
+                "top": "80px",
+                "left": "83px"
+              }
+            },
+            ".circle7": {
+              "top": "-100px",
+              "left": "0",
+              "height": "100%",
+              "width": "35px",
+              "position": "absolute !important",
+              "background-image": "url(@circle7)",
+              "div[id^=\"jarallax-container\"] > *": {
+                "background-size": "inherit !important",
+                "width": "35px !important",
+                "position": "static !important"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "@primaryColor"
+            },
+            ".mbr-iconfont": {
+              "font-size": "2.5rem",
+              "color": "white"
+            },
+            "@media (max-width: 1199px)": {
+              ".circle2": {
+                "right": "-60px",
+                "bottom": "-290px"
+              },
+              ".circle4": {
+                "left": "256px",
+                "top": "430px"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".circles": {
+                "display": "none"
+              },
+              ".container": {
+                "padding": "140px 15px"
+              }
+            }
+          },
+          "_name": "title01",
+          "_customHTML": "",
+          "_cid": "s9ryhWrXg8",
+          "_protectedParams": [],
+          "_params": {}
+        },
+        {
+          "_name": "gallery1",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            }
+          },
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
+          "_anchor": "gallery1-5g",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "s9rnXHC4wn",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "TODOS MODELOS",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "PAGUE MONTE",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/6ea332ed-36f9-48a9-96e7-3ab5062bb9a3-720x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/6ea332ed-36f9-48a9-96e7-3ab5062bb9a3-720x1280-720x1280.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "PAGUE MONTE",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/168a3901-c530-4b1c-8601-6b6e171444b3-960x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/168a3901-c530-4b1c-8601-6b6e171444b3-960x1280-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "PAGUE MONTE",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/7e8ba137-d12c-4038-ab24-1f638b473bb0-960x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/7e8ba137-d12c-4038-ab24-1f638b473bb0-960x1280-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "PAGUE MONTE",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/3981d007-0816-4007-be49-1a1eb283f92f-960x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3981d007-0816-4007-be49-1a1eb283f92f-960x1280-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "PAGUE MONTE",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/bc47ef40-a47b-48d6-8b28-f2bdec7d7ad7-720x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bc47ef40-a47b-48d6-8b28-f2bdec7d7ad7-720x1280-720x1280.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "DECORAÇÕES",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/0cb54cde-7801-42db-9529-25df5b5c9ebf-959x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/0cb54cde-7801-42db-9529-25df5b5c9ebf-959x1280-800x1068.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "DECORAÇÕES",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/02e49cac-94bd-4ca6-83bb-92c01b77b6b0-960x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/02e49cac-94bd-4ca6-83bb-92c01b77b6b0-960x1280-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "DECORAÇÕES",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/50edfd76-6db1-4cef-9daf-56be38a218be-780x1040.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/50edfd76-6db1-4cef-9daf-56be38a218be-780x1040-780x1040.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "DECORAÇÕES",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/86d9ad29-fc4c-48e2-a962-7f2438ec4f1e-605x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/86d9ad29-fc4c-48e2-a962-7f2438ec4f1e-605x1280-605x1280.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "DECORAÇÕES",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/3903a253-83cd-4bd6-81e0-40c3cd76ce19-720x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3903a253-83cd-4bd6-81e0-40c3cd76ce19-720x1280-720x1280.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "DECORAÇÕES",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/5239cedc-657d-4578-84e1-6b95ab9d5005-1280x983.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/5239cedc-657d-4578-84e1-6b95ab9d5005-1280x983-800x614.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "DECORAÇÕES",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/a4ded3f5-ab6e-4fe6-a242-34e5f4d4f622-480x960.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/a4ded3f5-ab6e-4fe6-a242-34e5f4d4f622-480x960-480x960.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "DECORAÇÕES",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/b1dfdf88-1629-4eda-a642-8cd9fd2bffb7-960x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/b1dfdf88-1629-4eda-a642-8cd9fd2bffb7-960x1280-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "DECORAÇÕES",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/ed740914-8729-4977-b38a-0bfbea3ca6ef-1032x581.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ed740914-8729-4977-b38a-0bfbea3ca6ef-1032x581-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "DECORAÇÕES",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/eef7091e-7db5-4421-95c9-b35db102aa3f-1280x960.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/eef7091e-7db5-4421-95c9-b35db102aa3f-1280x960-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "PERSONALIZADOS",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/9d8dd245-d2f2-4dcb-b1c1-51f332e05158-640x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/9d8dd245-d2f2-4dcb-b1c1-51f332e05158-640x1280-640x1280.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": true
+              },
+              {
+                "tags": "PERSONALIZADOS",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/34e4ebbe-65a6-408f-b33c-0a8342847e46-1040x780.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/34e4ebbe-65a6-408f-b33c-0a8342847e46-1040x780-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "PERSONALIZADOS",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/64a882c9-42cb-4a4c-974c-6ce7189a4dcf-960x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/64a882c9-42cb-4a4c-974c-6ce7189a4dcf-960x1280-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "PERSONALIZADOS",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/319d056a-dafa-456e-b162-fd26c00c2afa-1280x960.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/319d056a-dafa-456e-b162-fd26c00c2afa-1280x960-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "PERSONALIZADOS",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/610cf324-8456-42eb-b681-9dc3cf606d7b-720x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/610cf324-8456-42eb-b681-9dc3cf606d7b-720x1280-720x1280.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "PERSONALIZADOS",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/41510484-fcfc-4e23-9e0a-54a2d9dfccdd-1280x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/41510484-fcfc-4e23-9e0a-54a2d9dfccdd-1280x720-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "PERSONALIZADOS",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/cdf9259b-1b67-4e52-97d3-e4bad6900fa5-960x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cdf9259b-1b67-4e52-97d3-e4bad6900fa5-960x1280-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "PERSONALIZADOS",
+                "videoPreview": "../../app/themes/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/fa93a00c-d791-4d10-b4cd-7950820b5f3b-1280x960.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fa93a00c-d791-4d10-b4cd-7950820b5f3b-1280x960-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              }
+            ]
+          }
         },
         {
           "alias": "deltapi-code-editor",
