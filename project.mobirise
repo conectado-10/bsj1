@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page21.html",
+    "currentPage": "page25.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -2584,7 +2584,7 @@
             "bgColorRadio": true,
             "bgColor": "#ff7f9f",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
+            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
             "overlay": true,
             "overlayColor": "#efefef",
             "overlayOpacity": 0.6
@@ -3816,7 +3816,7 @@
             "bgColorRadio": false,
             "bgColor": "#fafafa",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
+            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
             "overlay": true,
             "overlayColor": "#efefef",
             "overlayOpacity": 0.6
@@ -4326,7 +4326,7 @@
             "bgColorRadio": true,
             "bgColor": "#fafafa",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
+            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
             "overlay": true,
             "overlayColor": "#efefef",
             "overlayOpacity": 0.6
@@ -5502,7 +5502,7 @@
             "bgColorRadio": true,
             "bgColor": "#f97fff",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
+            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
             "overlay": false,
             "overlayColor": "#efefef",
             "overlayOpacity": 0.6
@@ -5891,7 +5891,7 @@
             }
           },
           "_name": "custom-html",
-          "_customHTML": "<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"https://store17441987.ecwid.com/LIMPA-FOSSA-p233252105\"><img src=\"@PROJECT_PATH@/assets/images/rio-das-ostras-3-50x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Casa Limpa</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\"><a href=\"https://conectado-10.github.io/cadastro/\">Seja um cliente do Grupo</a></p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>\n<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"tel:22981666789\"><img src=\"@PROJECT_PATH@/assets/images/animation-1.gif\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Emergência</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\"><a href=\"tel:22 98166-6789\">Chamada Urgente</a></p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>",
+          "_customHTML": "<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"https://store17441987.ecwid.com/LIMPA-FOSSA-p233252105\"><img src=\"@PROJECT_PATH@/assets/images/rio-das-ostras-3-50x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Casa Limpa</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\"><a href=\"https://conectado-10.github.io/cadastro/\">Seja um cliente do Grupo</a></p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>\n<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"tel:22981666789\"><img src=\"@PROJECT_PATH@/assets/images/animation-1.gif\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Emergência</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\"><a href=\"https://wa.me/5522992572818\">Chamada Urgente</a></p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>",
           "_cid": "s9wg3AGaK0",
           "_anchor": "custom-html-5k",
           "_protectedParams": [],
@@ -5912,7 +5912,7 @@
             }
           },
           "_name": "custom-html",
-          "_customHTML": "<center>\n  <br>\n FOSSA - FILTRO - SUMIDORO - CAIXA DE GORDURA\n    <br>\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<a href=\"https://store17441987.ecwid.com/LIMPA-FOSSA-p233252105\"><img border=\"0\" data-original-height=\"500\" data-original-width=\"500\" height=\"290\" src=\"@PROJECT_PATH@/assets/images/faxina-7-540x540.png\" width=\"270\" alt title></a></div>\n</center>",
+          "_customHTML": "<center>\n  <br>\n FOSSA - FILTRO - SUMIDORO - CAIXA DE GORDURA\n    <br>\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<a href=\"https://wa.me/5522992572818\"><img border=\"0\" data-original-height=\"500\" data-original-width=\"500\" height=\"290\" src=\"@PROJECT_PATH@/assets/images/faxina-7-540x540.png\" width=\"270\" alt title></a></div>\n</center>",
           "_cid": "s9wg3BwODZ",
           "_anchor": "custom-html-5l",
           "_protectedParams": [],
