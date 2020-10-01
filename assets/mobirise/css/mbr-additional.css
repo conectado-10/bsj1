@@ -5221,6 +5221,285 @@ a.img {
 }
 }
 
+.cid-scayBxWplD {
+@paddingTop: 0;
+@paddingBottom: 6;
+@bglayer: false;
+@bgLayerColor: #bfebf3;
+@showTitle: true;
+@showSubtitle: true;
+@showText: true;
+@hoverEffect: true;
+@hoverColor: #bfebf3;
+@animation: false;
+@progressCount: "3";
+@progressColor: #133996;
+@gradientProgress: true;
+@progressColor2: #fc643f;
+@progress1: 93;
+@progress2: 69;
+@progress3: 78;
+@progress4: 81;
+@uname__19: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/sintoniabarra_0040gmail_002ecom/addons/creativem4/components/progress-bars01/../_images/background2.jpg";
+@uname__20: false;
+@uname__21: #fafafa;
+@bg-value: #fafafa;
+@bg-type: "color";
+@bg-color-value: #fafafa;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #cccccc;
+@overlayOpacity: 0.7;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+& when (@bg-type = "color") {
+  background-color: @bg-value;
+}
+& when (@bg-type = "image") {
+  background-image: url(../../../@bg-value);
+}
+& when (@bglayer) {
+  .container {
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 169px 15px;
+    border-radius: 50px;
+    background-color: @bgLayerColor;
+    max-width: 80%;
+  }
+}
+& when not (@animation) {
+  .figures-wrap {
+    display: none;
+  }
+}
+.svg-gradient {
+  position: absolute;
+}
+h3 {
+  text-align: center;
+  font-weight: 300;
+}
+.mbr-section-subtitle {
+  color: #767676;
+}
+.card {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  word-wrap: break-word;
+  border-radius: 40px;
+  .wrap {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    .pie_progress__number {
+      text-align: center !important;
+    }
+  }
+  .card-title {
+    margin-bottom: 0;
+  }
+  @media (max-width: 991px) and (min-width: 768px) {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+  }
+  & when (@hoverEffect) {
+    &:hover {
+      background-color: @hoverColor;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+  }
+}
+ellipse {
+  stroke: rgba(206, 206, 206, 0.4);
+}
+path {
+  & when not (@gradientProgress) {
+    stroke: @progressColor;
+  }
+}
+img {
+  width: 10%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.figures-wrap {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.image-1 {
+  position: absolute;
+  left: 845px;
+  bottom: 477px;
+  -webkit-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  will-change: transform;
+}
+.image-2 {
+  position: absolute;
+  left: 517px;
+  top: 35px;
+  -webkit-transition: all 1.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 1.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  will-change: transform;
+}
+.image-3 {
+  position: absolute;
+  left: 1089px;
+  bottom: -51px;
+  -webkit-transition: all 1.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 1.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  will-change: transform;
+}
+.image-4 {
+  position: absolute;
+  left: auto;
+  right: 1109px;
+  bottom: 488px;
+  -webkit-transition: all 1.6s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 1.6s cubic-bezier(0.19, 1, 0.22, 1);
+  will-change: transform;
+}
+.image-5 {
+  position: absolute;
+  left: 707px;
+  top: -35px;
+  -webkit-transition: all 1.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 1.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+  will-change: transform;
+}
+.image-6 {
+  position: absolute;
+  left: -155px;
+  top: 40px;
+  -webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+  will-change: transform;
+}
+@media (max-width: 1199px) {
+  img {
+    width: 12%;
+  }
+  .image-1 {
+    left: -75px;
+    bottom: 513px;
+  }
+  .image-2 {
+    left: 787px;
+    top: -625px;
+  }
+  .image-3 {
+    left: 469px;
+    bottom: -41px;
+  }
+  .image-4 {
+    right: 99px;
+    bottom: -172px;
+  }
+  .image-5 {
+    left: 7px;
+    top: -45px;
+  }
+  .image-6 {
+    left: 215px;
+    top: -657px;
+  }
+}
+@media (max-width: 992px) {
+  img {
+    width: 20%;
+  }
+  .image-1 {
+    bottom: 487px;
+    left: -245px;
+  }
+  .image-2 {
+    top: -585px;
+    left: 817px;
+  }
+  .image-3 {
+    left: -188px;
+    bottom: 218px;
+  }
+  .image-4 {
+    right: 49px;
+    bottom: -242px;
+  }
+  .image-5 {
+    left: 207px;
+    top: -45px;
+  }
+  .image-6 {
+    left: -165px;
+    top: 40px;
+  }
+}
+@media (max-width: 767px) {
+  img {
+    width: 25%;
+  }
+  .image-1 {
+    left: -185px;
+    bottom: 937px;
+  }
+  .image-2 {
+    top: -825px;
+    left: 537px;
+  }
+  .image-3 {
+    left: -171px;
+    bottom: 539px;
+  }
+  .image-4 {
+    bottom: 288px;
+    right: -21px;
+  }
+  .image-5 {
+    left: -93px;
+    top: -245px;
+  }
+  .image-6 {
+    left: 345px;
+    top: -210px;
+  }
+}
+}
+
+.cid-scaIzWjqoZ {
+@paddingTop: 2;
+@paddingBottom: 2;
+@reveal: false;
+@uname__8: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/sintoniabarra_0040gmail_002ecom/addons/creativem4/components/footer01/../_images/background1.jpg";
+@uname__9: false;
+@uname__10: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #232323;
+@overlayOpacity: 0.8;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+& when (@bg-type = "image") {
+  background-image: url(../../../@bg-value);
+}
+& when (@bg-type = "color") {
+  background-color: @bg-value;
+}
+p {
+  color: @dangerColor;
+}
+}
+
 .cid-s9wg3DsEwq {
 
 padding-top: (@paddingTop * 15px);
@@ -5229,92 +5508,6 @@ background-color: @bgColor;
 .mbr-section {
   text-align: center;
   color: #fff;
-}
-}
-
-.cid-s9wg3EpFPJ {
-@height-up: 10;
-@height-down: 17;
-@scale: -3;
-@type: "row red";
-@bgColorUp: #ffffff;
-@bgColorDown: #149dcc;
-@firstColor: #073b4c;
-@secondColor: #0f7699;
-
-.row, .rowUp {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  position: relative;
-  background-color: @bgColorUp;
-}
-.row {
-  height: (@height-down * 1vh);
-}
-.rowUp {
-  height: (@height-up * 1vh);
-}
-.svg-separator {
-  display: block;
-  background: 0 0;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 9;
-  -webkit-transform: translateY(-100%) translateY(2px);
-  transform: translateY(-100%) translateY(2px);
-  width: 100%;
-}
-.svg-separator.bottom {
-  top: auto;
-  bottom: 0;
-}
-.sep1 {
-  transform: translateY(-100%) translateY(@scale * 2px) scale(1, @scale);
-  transform-origin: bottom;
-}
-.sep2 {
-  transform: translateY(0%) translateY(@scale * -2px) scale(-1, @scale * -1);
-  transform-origin: bottom;
-}
-& when (@scale >= 0) {
-  .red, .green2, .stupid-blue, .v, .light-grey, .light-grey2, .dark-blue, .grey-blue, .white-trees, .zig-zag {
-    background-color: @bgColorDown;
-    fill: @bgColorDown;
-  }
-  .circle-line {
-    background-color: @bgColorUp;
-    fill: @bgColorUp;
-  }
-  .circle-line-down {
-    background-color: @bgColorDown;
-    fill: @bgColorDown;
-  }
-}
-& when (@scale < 0) {
-  .red, .green2, .stupid-blue, .v, .light-grey, .light-grey2, .dark-blue, .grey-blue, .white-trees, .zig-zag {
-    background-color: @bgColorDown;
-    fill: @bgColorUp;
-  }
-  .circle-line {
-    background-color: @bgColorUp;
-    fill: @bgColorDown;
-  }
-  .circle-line-down {
-    background-color: @bgColorDown;
-    fill: @bgColorDown;
-  }
-}
-.firstColor {
-  fill: @firstColor;
-}
-.secondColor {
-  fill: @secondColor;
 }
 }
 
