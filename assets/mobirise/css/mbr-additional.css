@@ -3002,9 +3002,6 @@ background-color: @bgColor;
   fill: @secondColor;
 }
 }
-
-#witsec-custom-html-block-3u {
-}
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #00c48c;
