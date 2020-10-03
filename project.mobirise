@@ -31,7 +31,8 @@
       "additionalSetColors": [
         "#ff7f9f",
         "#ff33d4",
-        "#f97fff"
+        "#f97fff",
+        "#303030"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -6064,238 +6065,6 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = \"color\")": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = \"image\")": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bglayer)": {
-              ".container": {
-                "overflow": "hidden",
-                "margin-right": "auto",
-                "margin-left": "auto",
-                "padding": "169px 15px",
-                "border-radius": "50px",
-                "background-color": "@bgLayerColor",
-                "max-width": "80%"
-              }
-            },
-            "& when not (@animation)": {
-              ".figures-wrap": {
-                "display": "none"
-              }
-            },
-            ".svg-gradient": {
-              "position": "absolute"
-            },
-            "h3": {
-              "text-align": "center",
-              "font-weight": "300"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#767676"
-            },
-            ".card": {
-              "-ms-flex-preferred-size": "100%",
-              "flex-basis": "100%",
-              "word-wrap": "break-word",
-              "border-radius": "40px",
-              ".wrap": {
-                "width": "150px",
-                "height": "150px",
-                "margin": "0 auto",
-                ".pie_progress__number": {
-                  "text-align": "center !important"
-                }
-              },
-              ".card-title": {
-                "margin-bottom": "0"
-              },
-              "@media (max-width: 991px) and (min-width: 768px)": {
-                "-ms-flex-preferred-size": "50%",
-                "flex-basis": "50%"
-              },
-              "& when (@hoverEffect)": {
-                "&:hover": {
-                  "background-color": "@hoverColor",
-                  "-webkit-transition": "all 0.3s",
-                  "transition": "all 0.3s"
-                }
-              }
-            },
-            "ellipse": {
-              "stroke": "rgba(206, 206, 206, 0.4)"
-            },
-            "path": {
-              "& when not (@gradientProgress)": {
-                "stroke": "@progressColor"
-              }
-            },
-            "img": {
-              "width": "10%",
-              "vertical-align": "middle",
-              "display": "inline-block"
-            },
-            ".figures-wrap": {
-              "position": "relative",
-              "float": "left",
-              "width": "100%",
-              "min-height": "1px",
-              "padding-left": "10px",
-              "padding-right": "10px"
-            },
-            ".image-1": {
-              "position": "absolute",
-              "left": "845px",
-              "bottom": "477px",
-              "-webkit-transition": "all 1s cubic-bezier(0.075, 0.82, 0.165, 1)",
-              "transition": "all 1s cubic-bezier(0.075, 0.82, 0.165, 1)",
-              "will-change": "transform"
-            },
-            ".image-2": {
-              "position": "absolute",
-              "left": "517px",
-              "top": "35px",
-              "-webkit-transition": "all 1.2s cubic-bezier(0.165, 0.84, 0.44, 1)",
-              "transition": "all 1.2s cubic-bezier(0.165, 0.84, 0.44, 1)",
-              "will-change": "transform"
-            },
-            ".image-3": {
-              "position": "absolute",
-              "left": "1089px",
-              "bottom": "-51px",
-              "-webkit-transition": "all 1.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
-              "transition": "all 1.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
-              "will-change": "transform"
-            },
-            ".image-4": {
-              "position": "absolute",
-              "left": "auto",
-              "right": "1109px",
-              "bottom": "488px",
-              "-webkit-transition": "all 1.6s cubic-bezier(0.19, 1, 0.22, 1)",
-              "transition": "all 1.6s cubic-bezier(0.19, 1, 0.22, 1)",
-              "will-change": "transform"
-            },
-            ".image-5": {
-              "position": "absolute",
-              "left": "707px",
-              "top": "-35px",
-              "-webkit-transition": "all 1.8s cubic-bezier(0.215, 0.61, 0.355, 1)",
-              "transition": "all 1.8s cubic-bezier(0.215, 0.61, 0.355, 1)",
-              "will-change": "transform"
-            },
-            ".image-6": {
-              "position": "absolute",
-              "left": "-155px",
-              "top": "40px",
-              "-webkit-transition": "all 2s cubic-bezier(0.23, 1, 0.32, 1)",
-              "transition": "all 2s cubic-bezier(0.23, 1, 0.32, 1)",
-              "will-change": "transform"
-            },
-            "@media (max-width: 1199px)": {
-              "img": {
-                "width": "12%"
-              },
-              ".image-1": {
-                "left": "-75px",
-                "bottom": "513px"
-              },
-              ".image-2": {
-                "left": "787px",
-                "top": "-625px"
-              },
-              ".image-3": {
-                "left": "469px",
-                "bottom": "-41px"
-              },
-              ".image-4": {
-                "right": "99px",
-                "bottom": "-172px"
-              },
-              ".image-5": {
-                "left": "7px",
-                "top": "-45px"
-              },
-              ".image-6": {
-                "left": "215px",
-                "top": "-657px"
-              }
-            },
-            "@media (max-width: 992px)": {
-              "img": {
-                "width": "20%"
-              },
-              ".image-1": {
-                "bottom": "487px",
-                "left": "-245px"
-              },
-              ".image-2": {
-                "top": "-585px",
-                "left": "817px"
-              },
-              ".image-3": {
-                "left": "-188px",
-                "bottom": "218px"
-              },
-              ".image-4": {
-                "right": "49px",
-                "bottom": "-242px"
-              },
-              ".image-5": {
-                "left": "207px",
-                "top": "-45px"
-              },
-              ".image-6": {
-                "left": "-165px",
-                "top": "40px"
-              }
-            },
-            "@media (max-width: 767px)": {
-              "img": {
-                "width": "25%"
-              },
-              ".image-1": {
-                "left": "-185px",
-                "bottom": "937px"
-              },
-              ".image-2": {
-                "top": "-825px",
-                "left": "537px"
-              },
-              ".image-3": {
-                "left": "-171px",
-                "bottom": "539px"
-              },
-              ".image-4": {
-                "bottom": "288px",
-                "right": "-21px"
-              },
-              ".image-5": {
-                "left": "-93px",
-                "top": "-245px"
-              },
-              ".image-6": {
-                "left": "345px",
-                "top": "-210px"
-              }
-            }
-          },
-          "_name": "progress-bars01",
-          "_customHTML": "<section class=\"progress-bars4 circle-progress-section\" group=\"Progress\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"as-pie-progress\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"BG Layer\" name=\"bglayer\">\n        <input type=\"color\" title=\"BG Layer Color\" name=\"bgLayerColor\" value=\"#bfebf3\" condition=\"bglayer\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Hover effect\" name=\"hoverEffect\" checked>\n        <input type=\"color\" title=\"Hover color\" name=\"hoverColor\" value=\"#bfebf3\" condition=\"hoverEffect\">\n        <input type=\"checkbox\" title=\"Animation\" name=\"animation\">\n        <header>Progress</header>\n        <select title=\"Count\" name=\"progressCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Color\" name=\"progressColor\" value=\"#133996\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientProgress\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"progressColor2\" value=\"#fc643f\" condition=\"gradientProgress\">\n        <input type=\"range\" inline title=\"Scale of №1\" name=\"progress1\" min=\"0\" max=\"100\" step=\"1\" value=\"93\">\n        <input type=\"range\" inline title=\"Scale of №2\" name=\"progress2\" min=\"0\" max=\"100\" step=\"1\" value=\"69\" condition=\"progressCount>1\">\n        <input type=\"range\" inline title=\"Scale of №3\" name=\"progress3\" min=\"0\" max=\"100\" step=\"1\" value=\"78\" condition=\"progressCount>2\">\n        <input type=\"range\" inline title=\"Scale of №4\" name=\"progress4\" min=\"0\" max=\"100\" step=\"1\" value=\"81\" condition=\"progressCount>3\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cccccc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <svg mbr-if=\"gradientProgress\" class=\"svg-gradient\">\n        <linearGradient>\n            <stop offset=\"0%\" stop-color=\"{{progressColor2}}\"></stop>\n            <stop offset=\"100%\" stop-color=\"{{progressColor}}\"></stop>\n        </linearGradient>\n    </svg>\n\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            VALORES&nbsp;</h2>\n\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Aqui segue os Valores e quantidade... PAGUE AQUI MESMO</h3>\n\n        <div class=\"media-container-row pt-5 mt-2\">\n            <div class=\"card p-3 align-center\">\n                <div class=\"wrap\">\n                    <div class=\"pie_progress progress1\" role=\"progressbar\" data-goal=\"{{progress1}}\">\n                        <p class=\"pie_progress__number mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".pie_progress__number\"><a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=182607936-774830c7-6057-4849-adf7-1ecbfe32f0f2\">100%</a></p>\n                    </div>\n                </div>\n                <div class=\"mbr-crt-title pt-3\">\n                    <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=182607936-774830c7-6057-4849-adf7-1ecbfe32f0f2\">R$270,00</a></h4>\n                </div>\n                <div class=\"mbr-crt-text pt-2\">\n                    <p class=\"mbr-fonts-style card-text\" data-app-selector=\".card-text\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                        Fossa, Filtro, Sumidouro e caixa de gordura<br><a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=182607936-774830c7-6057-4849-adf7-1ecbfe32f0f2\">CLIK AQUI!!!!</a></p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 align-center\" mbr-if=\"progressCount>1\">\n                <div class=\"wrap\">\n                    <div class=\"pie_progress progress2\" role=\"progressbar\" data-goal=\"{{progress2}}\">\n                        <p class=\"pie_progress__number mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".pie_progress__number\"><a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=182607936-71bf6ada-e4da-413d-9fa3-96776464de1a\">10.000L</a></p>\n                    </div>\n                </div>\n                <div class=\"mbr-crt-title pt-3\">\n                    <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=182607936-71bf6ada-e4da-413d-9fa3-96776464de1a\">R$330,00</a></h4>\n                </div>\n                <div class=\"mbr-crt-text pt-2\">\n                    <p class=\"mbr-fonts-style card-text\" data-app-selector=\".card-text\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Fossa, Filtro, Sumidoro e caixa de gordura<br><a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=182607936-71bf6ada-e4da-413d-9fa3-96776464de1a\">CLIK AQUI</a></p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 align-center\" mbr-if=\"progressCount>2\">\n                <div class=\"wrap\">\n                    <div class=\"pie_progress progress3\" role=\"progressbar\" data-goal=\"{{progress3}}\">\n                        <p class=\"pie_progress__number mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".pie_progress__number\">45%</p>\n                    </div>\n                </div>\n                <div class=\"mbr-crt-title pt-3\">\n                    <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        <a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=182607936-f16241ba-1284-4b53-a305-301f41986254\">R$530,00</a></h4>\n                </div>\n                <div class=\"mbr-crt-text pt-2\">\n                    <p class=\"mbr-fonts-style card-text\" data-app-selector=\".card-text\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                        Fossa, Filtro, Sumidoro e caixa de gordura<br><a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=182607936-f16241ba-1284-4b53-a305-301f41986254\">CLIK AQUI</a>\n                    </p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 align-center\" mbr-if=\"progressCount>3\">\n                <div class=\"wrap\">\n                    <div class=\"pie_progress progress4\" role=\"progressbar\" data-goal=\"{{progress4}}\">\n                        <p class=\"pie_progress__number mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".pie_progress__number\"></p>\n                    </div>\n                </div>\n                <div class=\"mbr-crt-title pt-3\">\n                    <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        Black and white\n                    </h4>\n                </div>\n                <div class=\"mbr-crt-text pt-2\">\n                    <p class=\"mbr-fonts-style card-text\" data-app-selector=\".card-text\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                        Monochromatic is so 2019. 2020 will be the year of seeing more.\n                    </p>\n                </div>\n            </div>\n        </div>\n        <div class=\"figures-wrap\">\n            <img src=\"../_images/svg/1.svg\" alt=\"Mobirise\" class=\"image-1 animated-elements1\">\n            <img src=\"../_images/svg/2.svg\" alt=\"Mobirise\" class=\"image-2 animated-elements2\">\n            <img src=\"../_images/svg/3.svg\" alt=\"Mobirise\" class=\"image-3 animated-elements3\">\n            <img src=\"../_images/svg/4.svg\" alt=\"Mobirise\" class=\"image-4 animated-elements4\">\n            <img src=\"../_images/svg/5.svg\" alt=\"Mobirise\" class=\"image-5 animated-elements5\">\n            <img src=\"../_images/svg/6.svg\" alt=\"Mobirise\" class=\"image-6 animated-elements6\">\n        </div>\n</div></section>",
-          "_cid": "scayBxWplD",
-          "_anchor": "progress-bars01-5u",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = \"image\")": {
               "background-image": "url(@bg-value)"
             },
@@ -6331,6 +6100,225 @@
           "_customHTML": "********BATE PAPO\n<head>\n<!-- Chatra {literal} -->\n<script>\n    (function(d, w, c) {\n        w.ChatraID = 'RbJ8WX6ZCTMB34s9L';\n        var s = d.createElement('script');\n        w[c] = w[c] || function() {\n            (w[c].q = w[c].q || []).push(arguments);\n        };\n        s.async = true;\n        s.src = 'https://call.chatra.io/chatra.js';\n        if (d.head) d.head.appendChild(s);\n    })(document, window, 'Chatra');\n</script>\n<!-- /Chatra {/literal} -->\n</head>\n",
           "_cid": "s9wg3DsEwq",
           "_anchor": "custom-html-5n",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".showcartimg": {
+              "cursor": "pointer"
+            },
+            "h3.h3": {
+              "text-align": "center",
+              "margin": "1em",
+              "text-transform": "capitalize",
+              "font-size": "1.7em"
+            },
+            ".demo": {
+              "padding": "45px 0"
+            },
+            ".product-grid2": {
+              "font-family": "'Open Sans', sans-serif",
+              "position": "relative"
+            },
+            ".product-grid2 .product-image2": {
+              "overflow": "hidden",
+              "position": "relative"
+            },
+            ".product-grid2 .product-image2 a": {
+              "display": "block"
+            },
+            ".product-grid2 .product-image2 img": {
+              "width": "100%",
+              "height": "auto"
+            },
+            ".product-image2 .pic-1": {
+              "opacity": "1",
+              "transition": "all 0.5s"
+            },
+            ".product-grid2:hover .product-image2 .pic-1": {
+              "opacity": "0"
+            },
+            ".product-image2 .pic-2": {
+              "width": "100%",
+              "height": "100%",
+              "opacity": "0",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "transition": "all 0.5s"
+            },
+            ".product-grid2:hover .product-image2 .pic-2": {
+              "opacity": "1"
+            },
+            ".product-grid2 .social": {
+              "padding": "0",
+              "margin": "0",
+              "position": "absolute",
+              "bottom": "50px",
+              "right": "25px",
+              "z-index": "1"
+            },
+            ".product-grid2 .social li": {
+              "margin": "0 0 10px",
+              "display": "block",
+              "transform": "translateX(100px)",
+              "transition": "all 0.5s"
+            },
+            ".product-grid2:hover .social li": {
+              "transform": "translateX(0)"
+            },
+            ".product-grid2:hover .social li:nth-child(2)": {
+              "transition-delay": "0.15s"
+            },
+            ".product-grid2:hover .social li:nth-child(3)": {
+              "transition-delay": "0.25s"
+            },
+            ".product-grid2 .social li a": {
+              "color": "#505050",
+              "background-color": "#fff",
+              "font-size": "17px",
+              "line-height": "45px",
+              "text-align": "center",
+              "height": "45px",
+              "width": "45px",
+              "border-radius": "50%",
+              "display": "block",
+              "transition": "all 0.3s ease 0s"
+            },
+            ".product-grid2 .social li a:hover": {
+              "color": "#fff",
+              "background-color": "#3498db",
+              "box-shadow": "0 0 10px rgba(0, 0, 0, 0.5)"
+            },
+            ".product-grid2 .social li a:after,.product-grid2 .social li a:before": {
+              "content": "attr(data-tip)",
+              "color": "#fff",
+              "background-color": "#000",
+              "font-size": "12px",
+              "line-height": "22px",
+              "border-radius": "3px",
+              "padding": "0 5px",
+              "white-space": "nowrap",
+              "opacity": "0",
+              "transform": "translateX(-50%)",
+              "position": "absolute",
+              "left": "50%",
+              "top": "-30px"
+            },
+            ".product-grid2 .social li a:after": {
+              "content": "''",
+              "height": "15px",
+              "width": "15px",
+              "border-radius": "0",
+              "transform": "translateX(-50%) rotate(45deg)",
+              "top": "-22px",
+              "z-index": "-1"
+            },
+            ".product-grid2 .social li a:hover:after,.product-grid2 .social li a:hover:before": {
+              "opacity": "1"
+            },
+            ".product-grid2 .add-to-cart": {
+              "color": "#fff",
+              "background-color": "@bgColor",
+              "font-size": "15px",
+              "text-align": "center",
+              "width": "100%",
+              "padding": "10px 0",
+              "display": "block",
+              "position": "absolute",
+              "left": "0",
+              "bottom": "-100%",
+              "transition": "all 0.3s"
+            },
+            ".product-grid2 .add-to-cart:hover": {
+              "background-color": "#3498db",
+              "text-decoration": "none"
+            },
+            ".product-grid2:hover .add-to-cart": {
+              "bottom": "0"
+            },
+            ".product-grid2 .product-new-label": {
+              "background-color": "#3498db",
+              "color": "#fff",
+              "font-size": "17px",
+              "padding": "5px 10px",
+              "position": "absolute",
+              "right": "0",
+              "top": "0",
+              "transition": "all 0.3s"
+            },
+            ".product-grid2:hover .product-new-label": {
+              "opacity": "0"
+            },
+            ".product-grid2 .product-content": {
+              "padding": "20px 10px",
+              "text-align": "center"
+            },
+            ".product-grid2 .title": {
+              "font-size": "17px",
+              "margin": "0 0 7px"
+            },
+            ".product-grid2 .title a": {
+              "color": "#303030"
+            },
+            ".product-grid2 .title a:hover": {
+              "color": "#3498db"
+            },
+            ".product-grid2 .price": {
+              "color": "#303030",
+              "font-size": "15px"
+            },
+            "@media screen and (max-width: 990px)": {
+              ".product-grid2": {
+                "margin-bottom": "30px"
+              }
+            },
+            "#overlay": {
+              "position": "fixed",
+              "display": "none",
+              "width": "100%",
+              "height": "100%",
+              "top": "0",
+              "left": "0",
+              "right": "0",
+              "bottom": "0",
+              "background-color": "rgba(0, 0, 0, 0.5)",
+              "z-index": "2",
+              "cursor": "pointer"
+            },
+            "#overlaytext": {
+              "position": "absolute",
+              "top": "50%",
+              "left": "50%",
+              "font-size": "20px",
+              "color": "white",
+              "transform": "translate(-50%, -50%)",
+              "-ms-transform": "translate(-50%, -50%)"
+            },
+            "SPAN": {
+              "text-align": "center"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section shopfront2 content1\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Add to cart Color\" name=\"bgColor\" value=\"#ff3366\">\n      <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n      <input type=\"range\" inline title=\"Product No\" name=\"ProductCount\" min=\"4\" max=\"32\" step=\"1\" value=\"4\">\n            <select title=\"Product ID\" name=\"Proid\">\n            <option value=\"1\" selected>Update Product ID</option>\n            <option value=\"2\">Save Product ID</option>\n        </select>\n      <select title=\"Image Hover\" name=\"cardView\">\n            <option value=\"1\">Enable Hover</option>\n            <option value=\"2\" selected>Stop Hover</option>\n            <option value=\"3\">Show Both Images</option>\n        </select>\n      <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n <div id=\"overlay\" onclick=\"overlayoff()\">\n  <div id=\"overlaytext\">Adding To cart..</div>\n</div> \n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\" id=\"main\">\n      <div class=\"border-bottom mb-3\">\n    <h3 class=\"h3\" mbr-if=\"showTitle\">PAGUE POR AQUI MESMO</h3>\n      </div>\n    <div class=\"row\" mbr-list mbr-list-grow=\"ProductCount\">\n        \n\n <div class=\"col-md-6 col-sm-12 col-lg-3\">\n            <div class=\"product-grid2\">\n                <div class=\"product-image2\">\n                    <a href=\"#\">\n                        <img mbr-class=\"{'pic-1': cardView == '1',\n                             'pic-11': cardView == '2', 'pic-11': cardView == '3'}\" src=\"@PROJECT_PATH@/assets/images/potion-transparent-sem-sombrav1.gif\" alt title>\n                        <img mbr-class=\"{'pic-2': cardView == '1',\n                             'pic-22 d-none': cardView == '2', 'pic-22': cardView == '3'}\" src=\"http://bestjquery.com/tutorial/product-grid/demo3/images/img-2.jpeg\">\n                    </a>\n                    \n                    <span class=\"product-item\">\n\t\t\t\t\t<input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NOSSA LOJA</b>&nbsp;</span>\n        <a onclick=\"Addtocart(this.parentNode)\" class=\"add-to-cart\" mbr-class=\"{'d-none': Proid == '1',\n                             'snm': Proid == '2'}\" href=\"#add\">Add to cart</a>\n\t\t\t\t\t</span>\n                </div>\n              \n                <div class=\"product-content\">\n                    <h3 class=\"title\"><b>LIMPE SUA CASA</b></h3>\n                    <span class=\"price\" mbr-text><b>LIMPE SUA LOJA</b></span>\n                </div>\n            </div>\n        </div>\n<div class=\"col-md-6 col-sm-12 col-lg-3\">\n            <div class=\"product-grid2\">\n              <div class=\"product-image2\">\n                  <a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=182607936-774830c7-6057-4849-adf7-1ecbfe32f0f2\">\n                      <img mbr-class=\"{'pic-1': cardView == '1',\n                             'pic-11': cardView == '2', 'pic-11': cardView == '3'}\" src=\"@PROJECT_PATH@/assets/images/154-1548579-water-pollution-water-pollution-icon-png-removebg-preview-501x498.png\" alt title>\n                      <img mbr-class=\"{'pic-2': cardView == '1',\n                             'pic-22 d-none': cardView == '2', 'pic-22': cardView == '3'}\" src=\"http://bestjquery.com/tutorial/product-grid/demo3/images/img-4.jpeg\">\n                  </a>\n                  \n                  <span class=\"product-item\">\n\t\t\t\t\t<span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b> 5MIL LITROS</b></span>\n\t\t\t\t\t<input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n       <a onclick=\"Addtocart(this.parentNode)\" class=\"add-to-cart\" mbr-class=\"{'d-none': Proid == '1',\n                             'snm': Proid == '2'}\" href=\"#add\">Add to cart</a>\n\t\t\t\t\t</span>\n                </div>\n                <div class=\"product-content\">\n                    <h3 class=\"title\"><a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=182607936-774830c7-6057-4849-adf7-1ecbfe32f0f2\">CLIK AQUI</a>&nbsp;</h3>\n                    <span class=\"price\" mbr-text><a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=182607936-774830c7-6057-4849-adf7-1ecbfe32f0f2\">R$270,00</a></span>\n                </div>\n            </div>\n        </div>\n<div class=\"col-md-6 col-sm-12 col-lg-3\">\n            <div class=\"product-grid2\">\n                <div class=\"product-image2\">\n                    <a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=182607936-71bf6ada-e4da-413d-9fa3-96776464de1a\">\n                        <img mbr-class=\"{'pic-1': cardView == '1',\n                             'pic-11': cardView == '2', 'pic-11': cardView == '3'}\" src=\"@PROJECT_PATH@/assets/images/154-1548579-water-pollution-water-pollution-icon-png-removebg-preview-501x498.png\" alt title>\n                        <img mbr-class=\"{'pic-2': cardView == '1',\n                             'pic-22 d-none': cardView == '2', 'pic-22': cardView == '3'}\" src=\"http://bestjquery.com/tutorial/product-grid/demo3/images/img-6.jpeg\">\n                    </a>\n                    \n                     <span class=\"product-item\">\n\t\t\t\t\t<span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10MIL LITROS</b></span>\n\t\t\t\t\t<input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n       <a onclick=\"Addtocart(this.parentNode)\" class=\"add-to-cart\" mbr-class=\"{'d-none': Proid == '1',\n                             'snm': Proid == '2'}\" href=\"#add\">Add to cart</a>  \n\t\t\t\t\t</span>\n                </div>\n                <div class=\"product-content\">\n                    <h3 class=\"title\"><a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=182607936-71bf6ada-e4da-413d-9fa3-96776464de1a\">CLIK AQUI</a></h3>\n                    <span class=\"price\" mbr-text><a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=182607936-71bf6ada-e4da-413d-9fa3-96776464de1a\">R$330,00</a></span>\n                </div>\n            </div>\n        </div>\n<div class=\"col-md-6 col-sm-12 col-lg-3\">\n            <div class=\"product-grid2\">\n                <div class=\"product-image2\">\n                    <a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=182607936-f16241ba-1284-4b53-a305-301f41986254\">\n                        <img mbr-class=\"{'pic-1': cardView == '1',\n                             'pic-11': cardView == '2', 'pic-11': cardView == '3'}\" src=\"@PROJECT_PATH@/assets/images/154-1548579-water-pollution-water-pollution-icon-png-removebg-preview-501x498.png\" alt title>\n                        <img mbr-class=\"{'pic-2': cardView == '1',\n                             'pic-22 d-none': cardView == '2', 'pic-22': cardView == '3'}\" src=\"http://bestjquery.com/tutorial/product-grid/demo3/images/img-8.jpeg\">\n                    </a>\n                    \n                    <span class=\"product-item\">\n\t\t\t\t\t<span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<b>15MIL LITROS</b></span>\n\t\t\t\t\t<input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n        <a onclick=\"Addtocart(this.parentNode)\" class=\"add-to-cart\" mbr-class=\"{'d-none': Proid == '1',\n                             'snm': Proid == '2'}\" href=\"#add\">Add to cart</a>\n\t\t\t\t\t</span>\n                </div>\n                <div class=\"product-content\">\n                    <h3 class=\"title\"><a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=182607936-f16241ba-1284-4b53-a305-301f41986254\">CLICK AQUI</a></h3>\n                    <span class=\"price\" mbr-text><a href=\"https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=182607936-f16241ba-1284-4b53-a305-301f41986254\">R$530,00</a></span>\n                </div>\n            </div>\n        </div>     \n      \n      \n      \n      \n    </div>\n</div>\n  <script>\nfunction overlayon() {\n  document.getElementById(\"overlay\").style.display = \"block\";\n}\n\nfunction overlayoff() {\n  document.getElementById(\"overlay\").style.display = \"none\";\n}\n</script>  \n</section>",
+          "_cid": "JsOk21RVjw",
+          "_anchor": "design-block-JsOk21RVjw",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
