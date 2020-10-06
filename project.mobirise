@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page18.html",
+    "currentPage": "page26.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -53,7 +53,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 212,
+    "uniqCompNum": 213,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform-to": "sintoniabarra@gmail.com",
@@ -378,7 +378,7 @@
             }
           },
           "_name": "social-buttons02",
-          "_customHTML": "<section class=\"features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <hr>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"IconSize\" min=\"1\" max=\"5\" step=\"0.5\" value=\"2.5\">\n        <input type=\"color\" name=\"cardcolor\" title=\"Card BG Color\" value=\"#ffffff\" selected>\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1279.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#bfebf3\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n            <div class=\"card cardcolor p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n        'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"page1.html\"><span mbr-icon class=\"mbr-iconfont ico1 mbri-shopping-basket\" style=\"color: rgb(19, 57, 150); fill: rgb(19, 57, 150);\"></span></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h3 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><a href=\"page1.html\">Lojas</a></h3>\n                        <h4 class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Ache Aqui !</h4>\n                    </div>\n                    <div class=\"card-img\">\n                        <a href=\"page1.html\"><span mbr-icon class=\"mbr-iconfont ico2 mbri-cart-add\" style=\"color: rgb(19, 57, 150); fill: rgb(19, 57, 150);\"></span></a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card cardcolor p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                        'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"page13.html\"><span mbr-icon class=\"mbr-iconfont ico1 mobi-mbri-users mobi-mbri\" style=\"color: rgb(255, 0, 0); fill: rgb(255, 0, 0);\"></span></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h3 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><a href=\"page13.html\">Prestação</a>&nbsp;<br></h3>\n                        <h4 class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Serviços</h4>\n                    </div>\n                    <div class=\"card-img\">\n                        <a href=\"page13.html\"><span mbr-icon class=\"mbr-iconfont ico2 mobi-mbri-right mobi-mbri\"></span></a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card cardcolor p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"page2.html\"><span mbr-icon class=\"mbr-iconfont ico1 socicon-keybase socicon\" style=\"color: rgb(85, 128, 255); fill: rgb(85, 128, 255);\"></span></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h3 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><a href=\"page2.html\">Delivery</a></h3>\n                        <h4 class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Comidas e Lanches</h4>\n                    </div>\n                    <div class=\"card-img\">\n                        <a href=\"page2.html\"><span mbr-icon class=\"mbr-iconfont ico2 mbri-alert\"></span></a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card cardcolor p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"https://conectado-10.github.io/blog/\"><span mbr-icon class=\"mbr-iconfont ico1 mbrib-sale\" style=\"color: rgb(255, 138, 115); fill: rgb(255, 138, 115);\"></span></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h3 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><a href=\"https://conectado-10.github.io/blog/\">Bazar</a></h3>\n                        <h4 class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><a href=\"https://conectado-10.github.io/blog/\">Semi Novos</a></h4>\n                    </div>\n                    <div class=\"card-img\">\n                        <a href=\"https://conectado-10.github.io/blog/\"><span mbr-icon class=\"mbr-iconfont ico2 mbri-rocket\"></span></a>\n                    </div>\n                </div>\n            </div>\n\n        </div>\n\n\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <hr>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"IconSize\" min=\"1\" max=\"5\" step=\"0.5\" value=\"2.5\">\n        <input type=\"color\" name=\"cardcolor\" title=\"Card BG Color\" value=\"#ffffff\" selected>\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1279.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#bfebf3\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n            <div class=\"card cardcolor p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n        'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"page1.html\"><span mbr-icon class=\"mbr-iconfont ico1 mbri-shopping-basket\" style=\"color: rgb(19, 57, 150); fill: rgb(19, 57, 150);\"></span></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h3 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><a href=\"page1.html\">Lojas</a></h3>\n                        <h4 class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Ache Aqui !</h4>\n                    </div>\n                    <div class=\"card-img\">\n                        <a href=\"page1.html\"><span mbr-icon class=\"mbr-iconfont ico2 mbri-cart-add\" style=\"color: rgb(19, 57, 150); fill: rgb(19, 57, 150);\"></span></a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card cardcolor p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                        'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"page13.html\"><span mbr-icon class=\"mbr-iconfont ico1 mobi-mbri-users mobi-mbri\" style=\"color: rgb(255, 0, 0); fill: rgb(255, 0, 0);\"></span></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h3 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><a href=\"page13.html\">Prestação</a>&nbsp;<br></h3>\n                        <h4 class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Serviços</h4>\n                    </div>\n                    <div class=\"card-img\">\n                        <a href=\"page13.html\"><span mbr-icon class=\"mbr-iconfont ico2 mobi-mbri-right mobi-mbri\"></span></a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card cardcolor p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <span mbr-icon class=\"mbr-iconfont ico1 socicon-keybase socicon\" style=\"color: rgb(85, 128, 255); fill: rgb(85, 128, 255);\"></span>\n                    </div>\n                    <div class=\"card-box\">\n                        <h3 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Delivery</h3>\n                        <h4 class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Comidas e Lanches</h4>\n                    </div>\n                    <div class=\"card-img\">\n                        <span mbr-icon class=\"mbr-iconfont ico2 mbri-alert\"></span>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card cardcolor p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"https://conectado-10.github.io/blog/\"><span mbr-icon class=\"mbr-iconfont ico1 mbrib-sale\" style=\"color: rgb(255, 138, 115); fill: rgb(255, 138, 115);\"></span></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h3 class=\"card-title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><a href=\"https://conectado-10.github.io/blog/\">Bazar</a></h3>\n                        <h4 class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><a href=\"https://conectado-10.github.io/blog/\">Semi Novos</a></h4>\n                    </div>\n                    <div class=\"card-img\">\n                        <a href=\"https://conectado-10.github.io/blog/\"><span mbr-icon class=\"mbr-iconfont ico2 mbri-rocket\"></span></a>\n                    </div>\n                </div>\n            </div>\n\n        </div>\n\n\n    </div>\n\n</section>",
           "_cid": "rZqqwfIrpL",
           "_anchor": "social-buttons02-0",
           "_protectedParams": [],
@@ -2321,311 +2321,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        }
-      ]
-    },
-    "page17.html": {
-      "settings": {
-        "title": "DELICIAS DA BARRA",
-        "order": 1
-      },
-      "components": [
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@noSpacing)": {
-              ".row": {
-                "margin-left": "0",
-                "margin-right": "0"
-              },
-              ".item": {
-                "padding-left": "0",
-                "padding-right": "0"
-              }
-            },
-            "& when not (@noSpacing)": {
-              ".item": {
-                "padding-bottom": "2rem"
-              }
-            },
-            "@media (max-width: 768px)": {
-              ".carousel-control, .carousel-indicators, .modal .close": {
-                "position": "fixed"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".mbr-slider .carousel-control": {
-                "top": "auto",
-                "bottom": "20px"
-              },
-              ".mbr-slider > .container .carousel-control": {
-                "margin-bottom": "0"
-              }
-            },
-            ".carousel-indicators": {
-              "bottom": "0",
-              "margin-bottom": "3px",
-              "@media (max-width: 991px)": {
-                "margin-bottom": "3.625rem !important",
-                "padding-left": "2.5rem",
-                "padding-right": "2.5rem"
-              },
-              "@media (max-width: 767px)": {
-                "display": "none"
-              }
-            },
-            ".carousel-indicators .active, .carousel-indicators li": {
-              "width": "7px",
-              "height": "7px",
-              "margin": "3px",
-              "background": "#1b1b1b",
-              "opacity": "0.5",
-              "border": "4px solid #1b1b1b"
-            },
-            ".carousel-indicators .active": {
-              "background": "#fff"
-            },
-            ".carousel-indicators li": {
-              "max-width": "15px",
-              "max-height": "15px",
-              "border-radius": "50%"
-            },
-            ".modal": {
-              "padding-left": "0 !important",
-              "position": "fixed",
-              "overflow": "hidden",
-              "padding-right": "0 !important"
-            },
-            ".modal-dialog": {
-              "margin": "0 auto",
-              "max-width": "100%",
-              "padding-left": "1rem",
-              "padding-right": "1rem"
-            },
-            ".modal-content": {
-              "border-radius": "0",
-              "border": "none",
-              "background": "transparent"
-            },
-            ".modal-body": {
-              "padding": "0",
-              "display": "flex",
-              "align-items": "center",
-              ".carousel-item": {
-                "top": "50%",
-                "transform": "translateY(-50%)"
-              },
-              "img": {
-                "width": "100%",
-                "object-fit": "contain",
-                "max-height": "~\"calc(100vh - 1.75rem)\""
-              }
-            },
-            ".carousel": {
-              "width": "100%"
-            },
-            ".modal-backdrop.in": {
-              "opacity": "0.8"
-            },
-            ".modal.fade .modal-dialog": {
-              "-webkit-transition": "margin-top 0.3s ease-out",
-              "-moz-transition": "margin-top 0.3s ease-out",
-              "-o-transition": "margin-top 0.3s ease-out",
-              "transition": "margin-top 0.3s ease-out"
-            },
-            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
-              "-webkit-transform": "none",
-              "-ms-transform": "none",
-              "-o-transform": "none",
-              "transform": "none"
-            },
-            ".mbr-gallery .item-wrapper": {
-              "cursor": "pointer"
-            },
-            "a": {
-              "display": "block"
-            },
-            "a.img": {
-              "pointer-events": "none"
-            }
-          },
-          "_name": "design-block",
-          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\"> <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\"> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\" checked> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax> <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax> <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !=='color'\"> <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><i>NÃO ESTAMOS FUNCIONANDO</i></h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"> Enter Gallery Subtitle here. </h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <a href=\"https://store17441987.ecwid.com/DELICIAS-DA-BARRA-c46340523\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/rot-linien-sport-logo-500x500.jpg\" alt title> </a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i><b>DELIVERY DE MASSAS</b></i><i><b> </b></i></p><center><i><b><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"tel:22997831424\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/phone-30029-100x100.png\" width=\"50\" alt title></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://wa.me/5522997831424\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/whatsapp-37229-100x100.png\" width=\"50\" alt title></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://www.facebook.com/andrea.weber.524381\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"512\" data-original-width=\"512\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/facebook-108044-100x100.png\" width=\"50\" alt title></a></div><br></div></b></i></center><i><b> </b></i></div><i><b> <br></b></i></div></div></div></section><i><b><div class=\"list-group\"> <a href=\"#\" class=\"list-group-item list-group-item-action active\"> TRABALHAMOS COM </a> <a href=\"https://store17441987.ecwid.com/LASANHA-p178730817\" class=\"list-group-item list-group-item-action\">Lasanha </a> <a href=\"https://store17441987.ecwid.com/NHOQUE-p179534704\" class=\"list-group-item list-group-item-action\">Nhoque </a> <a href=\"https://store17441987.ecwid.com/PANQUECA-p178947887\" class=\"list-group-item list-group-item-action\">Panqueca </a> <a href=\"https://store17441987.ecwid.com/EMPADA-DIARIA-p211387056\" class=\"list-group-item list-group-item-action\">Enpadão</a> <a href=\"https://store17441987.ecwid.com/MACARR%C3%83O-A-CARBONARA-p179534730\" class=\"list-group-item list-group-item-action\">Macarrão Acabornara</a> <a href=\"https://store17441987.ecwid.com/Macarr%C3%A3o-com-molho-camar%C3%A3o-p223144477\" class=\"list-group-item list-group-item-action\">Macarrão ao molho de Camarão</a></div></b></i> ",
-          "_cid": "2c6PKVYirN",
-          "_anchor": "design-block-2c6PKVYirN",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".google-map": {
-              "height": "34rem",
-              "position": "relative",
-              "iframe": {
-                "height": "100%",
-                "width": "100%"
-              },
-              "[data-state-details]": {
-                "color": "#6b6763",
-                "font-family": "Montserrat",
-                "height": "1.5em",
-                "margin-top": "-0.75em",
-                "padding-left": "1.25rem",
-                "padding-right": "1.25rem",
-                "position": "absolute",
-                "text-align": "center",
-                "top": "50%",
-                "width": "100%"
-              },
-              "&[data-state]": {
-                "background": "#e9e5dc"
-              },
-              "&[data-state=\"loading\"]": {
-                "[data-state-details]": {
-                  "display": "none"
-                },
-                "&::after": {}
-              }
-            }
-          },
-          "_name": "map01",
-          "_customHTML": "<center>\n<section class=\"map1\" group=\"Maps\">\n<mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.3555457870566!2d-41.9864237846115!3d-22.565801785186277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97b23de35abf13%3A0x508d80cf6c32bf05!2sR.%20Badejo%20-%20Peixe%20Dourado%2C%20Casimiro%20de%20Abreu%20-%20RJ%2C%2028860-000!5e0!3m2!1spt-BR!2sbr!4v1595960576920!5m2!1spt-BR!2sbr&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>\n</center>",
-          "_cid": "s63REPmKz0",
-          "_anchor": "map01-3i",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_customHTML": "<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/jogosdecozinheira-56x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Tudo pensando em você!</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Participe seja um cliente VIP</p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>\n<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/animation-1.gif\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Breve Receitas</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Receitas Deliciosas</p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>",
-          "_cid": "s63Vecitns",
-          "_anchor": "custom-html-3m",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_customHTML": "<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<a href=\"https://wa.me/22997831424\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"500\" data-original-width=\"500\" height=\"200\" src=\"@PROJECT_PATH@/assets/images/delivery-1.gif\" width=\"200\" alt title></a></div>",
-          "_cid": "s63i3wRGUz",
-          "_anchor": "custom-html-3f",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_customHTML": "********BATE PAPO\n<head>\n<!-- Chatra {literal} -->\n<script>\n    (function(d, w, c) {\n        w.ChatraID = 'RbJ8WX6ZCTMB34s9L';\n        var s = d.createElement('script');\n        w[c] = w[c] || function() {\n            (w[c].q = w[c].q || []).push(arguments);\n        };\n        s.async = true;\n        s.src = 'https://call.chatra.io/chatra.js';\n        if (d.head) d.head.appendChild(s);\n    })(document, window, 'Chatra');\n</script>\n<!-- /Chatra {/literal} -->\n</head>\n",
-          "_cid": "s63SR2unYc",
-          "_anchor": "custom-html-3l",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_params": {
-            "account": "andreiawebermsn",
-            "showTitle": true,
-            "layoutGridRadio": true,
-            "imagesPerRowGrid": "3",
-            "rows": "3",
-            "showMoreButton": true,
-            "layoutSliderRadio": false,
-            "imagesPerRowSlider": 4,
-            "spacing": 5,
-            "fullWidth": false,
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgColorRadio": true,
-            "bgColor": "#ff7f9f",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
-            "overlay": true,
-            "overlayColor": "#efefef",
-            "overlayOpacity": 0.6
-          },
-          "title": "MEU INSTAGRAN",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">IR INSTAGRAN</a>",
-          "display2": "display-2",
-          "display4": "display-4",
-          "alias": "instagram-feed",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "instagram-feed-block",
-          "_anchor": "instagram-feed-block-3n"
-        },
-        {
-          "_params": {
-            "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
-            "hideOnPublish": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
-          "alias": "witsec-custom-html",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-custom-html-block",
-          "_anchor": "witsec-custom-html-block-3c"
         }
       ]
     },
@@ -4740,7 +4435,7 @@
             }
           },
           "_name": "design-block",
-          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\"> <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\"> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\"> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked=\"\"> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\"> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\" checked=\"\"> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax=\"\"> <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax=\"\"> <input type=\"color\" title=\"Background Color\" value=\"#f97fff\" selected=\"\"> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay &amp;&amp; bg.type !=='color'\"> <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><i>LIVIA DIVERSO</i></h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"> Enter Gallery Subtitle here. </h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <a href=\"https://store17441987.ecwid.com/AUTO-ELETRICA-c46401174\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/picasion.com-6e7282235f41dd484f3646f8773523ef1.gif\" alt=\"\" title=\"\"> </a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><i>SUA FESTA PERSONALIZAD</i></b><b style=\"font-size: 1.5rem;\"><i>A</i></b><br>liviadiversog@gmail.com<b style=\"font-size: 1.5rem;\"><i><br></i></b></p><center><i><b><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"tel:5522997203997\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/phone-30029-100x100.png\" width=\"50\" alt=\"\" title=\"\"></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://wa.me/5522997203997\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/whatsapp-37229-100x100.png\" width=\"50\" alt=\"\" title=\"\"></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://www.facebook.com/livia.diverso.7\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"512\" data-original-width=\"512\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/facebook-108044-100x100.png\" width=\"50\" alt=\"\" title=\"\"></a></div></div></b></i></center><i><b><br><br></b></i></div><i><b> <br></b></i></div></div></div></section>",
+          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\"> <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\"> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\"> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked=\"\"> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\"> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\" checked=\"\"> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax=\"\"> <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax=\"\"> <input type=\"color\" title=\"Background Color\" value=\"#f97fff\" selected=\"\"> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay &amp;&amp; bg.type !=='color'\"> <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><i>LIVIA DIVERSO</i></h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"> Enter Gallery Subtitle here. </h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <a href=\"https://store17441987.ecwid.com/AUTO-ELETRICA-c46401174\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/picasion.com-6e7282235f41dd484f3646f8773523ef0.gif\" alt=\"\" title=\"\"> </a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><i>SUA FESTA PERSONALIZAD</i></b><b style=\"font-size: 1.5rem;\"><i>A</i></b><br>liviadiversog@gmail.com<b style=\"font-size: 1.5rem;\"><i><br></i></b></p><center><i><b><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"tel:5522997203997\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/phone-30029-100x100.png\" width=\"50\" alt=\"\" title=\"\"></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://wa.me/5522997203997\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/whatsapp-37229-100x100.png\" width=\"50\" alt=\"\" title=\"\"></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://www.facebook.com/livia.diverso.7\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"512\" data-original-width=\"512\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/facebook-108044-100x100.png\" width=\"50\" alt=\"\" title=\"\"></a></div></div></b></i></center><i><b><br><br></b></i></div><i><b> <br></b></i></div></div></div></section>",
           "_cid": "s9hgnBWKy4",
           "_anchor": "design-block-4y",
           "_protectedParams": [],
@@ -6216,6 +5911,52 @@
           "_global": true,
           "_once": true,
           "_params": {}
+        }
+      ]
+    },
+    "page26.html": {
+      "settings": {
+        "title": "Page 26",
+        "order": 1
+      },
+      "components": [
+        {
+          "alias": "singa4real-form-flatfile",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "body": {
+              "min-height": "80vh"
+            },
+            ".form-control:not(select)": {
+              "padding": "1.5rem 0.5rem"
+            },
+            "select.form-control": {
+              "height": "52px",
+              "padding-left": "0.5rem"
+            },
+            ".form-control::placeholder": {
+              "color": "#ccc",
+              "font-weight": "bold",
+              "font-size": "0.9rem"
+            },
+            ".form-control:focus": {
+              "box-shadow": "none"
+            },
+            ".ta": {
+              "width": "100%"
+            }
+          },
+          "_name": "singa4real-form-flatfile",
+          "_customHTML": "<section mbr-id=\"_three_in_one_form\" class=\"mbr-section three_in_one_form\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n      <input type=\"checkbox\" title=\"Show logo\" name=\"logo\">\n      <select title=\"Form Type\" name=\"ftype\">\n            <option value=\"1\">Signup</option>\n            <option value=\"2\" selected>Login</option>\n            <option value=\"3\">Forget password</option>\n        </select>\n        <input type=\"text\" title=\"Form Action\" name=\"txtAction\" value=\"./processor.php\">\n        <input type=\"text\" title=\"Success Page\" name=\"txtSuccess\" value=\"./dashboard.php\">\n        <input type=\"text\" title=\"Error Page\" name=\"txtFail\" value=\"./error.php\">\n      <input type=\"text\" title=\"Database Folder path\" name=\"txtDb\" value=\"./database_folder\">\n      <hr><header>Form input settings</header>\n      <input type=\"checkbox\" title=\"Show Username\" name=\"username\" checked>\n      <input type=\"checkbox\" title=\"Show Fullname\" name=\"fullname\" checked>\n      <input type=\"checkbox\" title=\"Show Email\" name=\"email\" checked>\n      <input type=\"checkbox\" title=\"Show Gender\" name=\"gender\" checked>\n      <input type=\"checkbox\" title=\"Show Phone\" name=\"phone\" checked>\n      <input type=\"checkbox\" title=\"Show Password\" name=\"password\" checked>\n      <input type=\"checkbox\" title=\"Show Confirm Pass\" name=\"cpassword\" checked>\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <!-- Navbar-->\n<header class=\"header\" mbr-if=\"logo\">\n    <nav class=\"navbar navbar-expand-lg navbar-light py-3\">\n        <div class=\"container\">\n            <!-- Navbar Brand -->\n            <a href=\"#\" class=\"navbar-brand\">\n               <img src=\"https://res.cloudinary.com/mhmd/image/upload/v1571398888/Group_1514_tjekh3_zkts1c.svg\" alt=\"logo\" width=\"150\">\n            </a>\n        </div>\n    </nav>\n</header>\n\n\n<div class=\"container\">\n    <div class=\"row py-5 mt-4 align-items-center\">\n        <!-- For Demo Purpose -->\n        <div class=\"col-md-5 pr-lg-5 mb-5 mb-md-0\">\n            <img src=\"https://res.cloudinary.com/mhmd/image/upload/v1569543678/form_d9sh6m.svg\" alt class=\"img-fluid mb-3 d-none d-md-block\">\n            <h5>Signup, Login and Reset password form</h5>\n            <p class=\"font-italic text-muted mb-0\">This is a three in one mobirise design block, i:e signup, login and password reset form.<br></p>\n            <p class=\"font-italic text-muted\">Contact me on WhatsApp <a href=\"https://wa.me/+2349066849761\">+2349066849761</a> for your unique design block and extensions with it server side code.</p>\n        </div>\n      \n        <!-- Registeration Form -->\n        <div class=\"col-md-7 col-lg-6 ml-auto\" mbr-if=\"ftype == 1\">\n            \n              <form action=\"{{txtAction}}\" method=\"post\" class=\"mbr-form ajaxform\">\n              <div class=\"row\">\n                        <div hidden=\"hidden\" class=\"alert alert-success col-12\"></div>\n                        <div hidden=\"hidden\" class=\"alert alert-danger col-12\"></div>\n\t\t\t\t\t\t<input type=\"hidden\" name=\"form_name\" value=\"signupform\">\n\t\t\t\t\t\t<input type=\"hidden\" name=\"signup_success\" value=\"{{txtSuccess}}\">\n\t\t\t\t\t\t<input type=\"hidden\" name=\"signup_error\" value=\"{{txtFail}}\">\n                        <input type=\"hidden\" name=\"db_dir\" value=\"{{txtDb}}\">\n                    </div>\n                <div class=\"row\">\n\n                    <!-- Username -->\n                    <div class=\"input-group col-lg-6 mb-4\" mbr-if=\"username\">\n                        <div class=\"input-group-prepend\">\n                            <span class=\"input-group-text bg-white px-4 border-md border-right-0\">\n                                <i mbr-icon class=\"fa fa-user text-muted\"></i>\n                            </span>\n                        </div>\n                        <input id=\"username\" type=\"text\" name=\"username\" placeholder=\"Username\" class=\"form-control bg-white border-left-0 border-md\" data-form-field=\"username\" required=\"required\">\n                    </div>\n                    <!-- Email Address -->\n                    <div class=\"input-group col-lg-6 mb-4\" mbr-if=\"email\">\n                        <div class=\"input-group-prepend\">\n                            <span class=\"input-group-text bg-white px-4 border-md border-right-0\">\n                                <i mbr-icon class=\"fa fa-envelope text-muted\"></i>\n                            </span>\n                        </div>\n                        <input id=\"email\" type=\"email\" name=\"email\" placeholder=\"Email Address\" class=\"form-control bg-white border-left-0 border-md\" data-form-field=\"Email\" required=\"required\">\n                    </div>\n                    <!-- Full Name -->\n                    <div class=\"input-group col-lg-12 mb-4\" mbr-if=\"fullname\">\n                        <div class=\"input-group-prepend\">\n                            <span class=\"input-group-text bg-white px-4 border-md border-right-0\">\n                                <i mbr-icon class=\"fa fa-user text-muted\"></i>\n                            </span>\n                        </div>\n                        <input id=\"fullame\" type=\"text\" name=\"fullname\" placeholder=\"Fullname\" class=\"form-control bg-white border-left-0 border-md\" data-form-field=\"Fullname\" required=\"required\">\n                    </div>\n                    <!-- Phone Number -->\n                    <div class=\"input-group col-lg-6 mb-4\" mbr-if=\"phone\">\n                        <div class=\"input-group-prepend\">\n                            <span class=\"input-group-text bg-white px-4 border-md border-right-0\">\n                                <i mbr-icon class=\"fa fa-phone-square text-muted\"></i>\n                            </span>\n                        </div>\n                        <input id=\"phoneNumber\" type=\"tel\" name=\"phone\" placeholder=\"Phone Number\" class=\"form-control bg-white border-md border-left-0 pl-3\" data-form-field=\"Phone\" required=\"required\">\n                    </div>\n\n\n                    <!-- Gender -->\n                    <div class=\"input-group col-lg-6 mb-4\" mbr-if=\"gender\">\n                        <div class=\"input-group-prepend\">\n                            <span class=\"input-group-text bg-white px-4 border-md border-right-0\">\n                                <i mbr-icon class=\"fa fa-black-tie text-muted fa-briefcase fas\"></i>\n                            </span>\n                        </div>\n                        <select id=\"gender\" name=\"gender\" class=\"form-control custom-select bg-white border-left-0 border-md\" data-form-field=\"Gender\" required=\"required\">\n                            <option value>Choose your Gender</option>\n                            <option value=\"Male\">Male</option>\n                            <option value=\"Female\">Female</option>\n                            <option value=\"Others\">Others</option>\n                        </select>\n                    </div>\n\n                    <!-- Password -->\n                    <div class=\"input-group col-lg-6 mb-4\" mbr-if=\"password\">\n                        <div class=\"input-group-prepend\">\n                            <span class=\"input-group-text bg-white px-4 border-md border-right-0\">\n                                <i mbr-icon class=\"fa fa-lock text-muted\"></i>\n                            </span>\n                        </div>\n                        <input id=\"password\" type=\"password\" name=\"password\" placeholder=\"Password\" class=\"form-control bg-white border-left-0 border-md\" data-form-field=\"Password\" required=\"required\">\n                    </div>\n\n                    <!-- Password Confirmation -->\n                    <div class=\"input-group col-lg-6 mb-4\" mbr-if=\"cpassword\">\n                        <div class=\"input-group-prepend\">\n                            <span class=\"input-group-text bg-white px-4 border-md border-right-0\">\n                                <i mbr-icon class=\"fa fa-lock text-muted\"></i>\n                            </span>\n                        </div>\n                        <input id=\"passwordConfirmation\" type=\"password\" name=\"confirmpassword\" placeholder=\"Confirm Password\" class=\"form-control bg-white border-left-0 border-md\" data-form-field=\"Confirm Password\" required=\"required\">\n                    </div>\n\n                    <!-- Submit Button -->\n                    <div class=\"form-group col-lg-12 mx-auto mb-0\" mbr-buttons=\"true\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\">\n                            <button type=\"submit\" class=\"btn btn-primary btn-block font-weight-bold py-2\">Create your account</button>\n                        </div>\n\n                    <!-- Divider Text -->\n                    <div class=\"form-group col-lg-12 mx-auto d-flex align-items-center my-4\" mbr-if=\"Socialsignup\">\n                        <div class=\"border-bottom w-100 ml-5\" mbr-if=\"Socialsignup\"></div>\n                        <span class=\"px-2 small text-muted font-weight-bold text-muted\" mbr-if=\"Socialsignup\">OR</span>\n                        <div class=\"border-bottom w-100 mr-5\" mbr-if=\"Socialsignup\"></div>\n                    </div>\n\n                    <!-- Social Login -->\n                    <div class=\"form-group col-lg-12 mx-auto\" mbr-if=\"Socialsignup\" mbr-buttons=\"true\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a href=\"#\" class=\"btn btn-primary btn-block py-2 btn-facebook\" data-app-placeholder=\"Type Text\">\n                            <i class=\"fa fa-facebook-f mr-2 fab\"></i>\n                            <span class=\"font-weight-bold\">Continue with Facebook</span>\n                        </a>\n                        <a href=\"#\" class=\"btn btn-primary btn-block py-2 btn-twitter\" data-app-placeholder=\"Type Text\">\n                            <i class=\"fa fa-twitter mr-2\"></i>\n                            <span class=\"font-weight-bold\">Continue with Twitter</span>\n                        </a></div>\n\n                    <!-- Already Registered -->\n                    <div class=\"text-center w-100\">\n                        <p class=\"text-muted font-weight-bold\">Already Registered? <a href=\"login.html\" class=\"text-primary ml-2\">Login</a></p>\n                    </div>\n\n                </div>\n            </form>\n        </div>\n      \n      \n      \n      \n\n        <div class=\"col-md-7 col-lg-6 ml-auto\" mbr-if=\"ftype == 2\">\n            <form action=\"{{txtAction}}\" method=\"post\" class=\"mbr-form ajaxform\">\n              <div class=\"row\">\n                        <div hidden=\"hidden\" class=\"alert alert-success col-12\"></div>\n                        <div hidden=\"hidden\" class=\"alert alert-danger col-12\"></div>\n                        <input type=\"hidden\" name=\"form_name\" value=\"loginform\">\n\t\t\t\t\t\t<input type=\"hidden\" name=\"login_success\" value=\"{{txtSuccess}}\">\n\t\t\t\t\t\t<input type=\"hidden\" name=\"login_error\" value=\"{{txtFail}}\">\n                        <input type=\"hidden\" name=\"db_dir\" value=\"{{txtDb}}\">\n                        \n                    </div>\n                <div class=\"row\">\n                   <!-- Username -->\n                    <div class=\"input-group col-lg-12 mb-4\" mbr-if=\"username\">\n                        <div class=\"input-group-prepend\">\n                            <span class=\"input-group-text bg-white px-4 border-md border-right-0\">\n                                <i mbr-icon class=\"fa fa-user text-muted\"></i>\n                            </span>\n                        </div>\n                        <input id=\"username-login\" type=\"text\" name=\"username\" placeholder=\"Username\" class=\"form-control bg-white border-left-0 border-md\" data-form-field=\"username\" required=\"required\">\n                    </div>\n\n                    <!-- Password -->\n                    <div class=\"input-group col-lg-12 mb-4\" mbr-if=\"password\">\n                        <div class=\"input-group-prepend\">\n                            <span class=\"input-group-text bg-white px-4 border-md border-right-0\">\n                                <i mbr-icon class=\"fa fa-lock text-muted\"></i>\n                            </span>\n                        </div>\n                        <input id=\"password2\" type=\"password\" name=\"password\" placeholder=\"Password\" class=\"form-control bg-white border-left-0 border-md\" required=\"required\">\n                    </div>\n\n                    <!-- Submit Button -->\n                    <div class=\"form-group col-lg-12 mx-auto mb-0\" mbr-buttons=\"true\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><button type=\"submit\" class=\"btn btn-primary btn-block font-weight-bold py-2\">Login to account</button></div>\n\n                    <!-- Divider Text -->\n                    <div class=\"form-group col-lg-12 mx-auto d-flex align-items-center my-4\" mbr-if=\"Socialsignup\">\n                        <div class=\"border-bottom w-100 ml-5\" mbr-if=\"Socialsignup\"></div>\n                        <span class=\"px-2 small text-muted font-weight-bold text-muted\" mbr-if=\"Socialsignup\">OR</span>\n                        <div class=\"border-bottom w-100 mr-5\" mbr-if=\"Socialsignup\"></div>\n                    </div>\n\n                    <!-- Social Login -->\n                    <div class=\"form-group col-lg-12 mx-auto\" mbr-if=\"Socialsignup\" mbr-buttons=\"true\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\">\n                        <a href=\"#\" class=\"btn btn-primary btn-block py-2 btn-facebook\">\n                            <i mbr-icon class=\"fa fa-facebook-f mr-2\"></i>\n                            <span class=\"font-weight-bold\">Continue with Facebook</span>\n                        </a>\n                        <a href=\"#\" class=\"btn btn-primary btn-block py-2 btn-twitter\">\n                            <i mbr-icon class=\"fa fa-twitter mr-2\"></i>\n                            <span class=\"font-weight-bold\">Continue with Twitter</span>\n                        </a>\n                    </div>\n\n                    <!-- Already Registered -->\n                    <div class=\"text-center w-100\">\n                        <p class=\"text-muted font-weight-bold\">Dont Have Account? <a href=\"#\" class=\"text-primary ml-2\">Sign Up</a></p>\n                    </div>\n\n                </div>\n            </form>\n        </div>\n      \n      \n      \n        <div class=\"col-md-7 col-lg-6 ml-auto\" mbr-if=\"ftype == 3\">\n            <form action=\"{{txtAction}}\" method=\"post\" class=\"mbr-form ajaxform\">\n              <div class=\"row\">\n                        <div hidden=\"hidden\" class=\"alert alert-success col-12\"></div>\n                        <div hidden=\"hidden\" class=\"alert alert-danger col-12\"></div>\n                         <input type=\"hidden\" name=\"form_name\" value=\"forgotpassword\">\n\t\t\t\t\t\t<input type=\"hidden\" name=\"reset_success\" value=\"{{txtSuccess}}\">\n\t\t\t\t\t\t<input type=\"hidden\" name=\"reset_error\" value=\"{{txtFail}}\">\n                        <input type=\"hidden\" name=\"db_dir\" value=\"{{txtDb}}\">\n                    </div>\n                <div class=\"row\">\n\n                    <!-- Email Address -->\n                    <div class=\"input-group col-lg-12 mb-4\" mbr-if=\"email\">\n                        <div class=\"input-group-prepend\">\n                            <span class=\"input-group-text bg-white px-4 border-md border-right-0\">\n                                <i mbr-icon class=\"fa fa-envelope text-muted\"></i>\n                            </span>\n                        </div>\n                        <input id=\"email3\" type=\"email\" name=\"email\" placeholder=\"Email Address\" class=\"form-control bg-white border-left-0 border-md\" required=\"required\">\n                    </div>\n\n                    <!-- Submit Button -->\n                    <div class=\"form-group col-lg-12 mx-auto mb-0\" mbr-buttons=\"true\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\">\n                      <button type=\"submit\" class=\"btn btn-primary btn-block font-weight-bold py-2\">Reset My Password</button>\n              \n                    </div>\n                    <!-- Already Registered -->\n                    <div class=\"text-center w-100\">\n                        <p class=\"text-muted font-weight-bold\">Remembered My Account? <a href=\"#\" class=\"text-primary ml-2\">Login</a></p>\n                    </div>\n\n                </div>\n            </form>\n        </div>\n      \n    </div>\n</div>\n   \n    \n</section>",
+          "_cid": "scDAfUHCo1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "singa4real-form-flatfile-5w"
         }
       ]
     }
