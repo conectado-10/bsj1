@@ -5129,29 +5129,26 @@ p {
   color: @dangerColor;
 }
 }
-.cid-scDAfUHCo1 {
-  padding-top: 75px;
+.cid-glnWoJxctj {
+  padding-top: 30px;
   padding-bottom: 45px;
   background-color: #ffffff;
 }
-.cid-scDAfUHCo1 body {
+.cid-glnWoJxctj body {
   min-height: 80vh;
 }
-.cid-scDAfUHCo1 .form-control:not(select) {
+.cid-glnWoJxctj .form-control:not(select) {
   padding: 1.5rem 0.5rem;
 }
-.cid-scDAfUHCo1 select.form-control {
+.cid-glnWoJxctj select.form-control {
   height: 52px;
   padding-left: 0.5rem;
 }
-.cid-scDAfUHCo1 .form-control::placeholder {
+.cid-glnWoJxctj .form-control::placeholder {
   color: #ccc;
   font-weight: bold;
   font-size: 0.9rem;
 }
-.cid-scDAfUHCo1 .form-control:focus {
+.cid-glnWoJxctj .form-control:focus {
   box-shadow: none;
-}
-.cid-scDAfUHCo1 .ta {
-  width: 100%;
 }
