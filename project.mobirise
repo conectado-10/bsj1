@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page13.html",
+    "currentPage": "page27.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -53,7 +53,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 220,
+    "uniqCompNum": 227,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform-to": "sintoniabarra@gmail.com",
@@ -483,7 +483,7 @@
     "page1.html": {
       "settings": {
         "title": "Lojas",
-        "order": 21
+        "order": 22
       },
       "components": [
         {
@@ -624,7 +624,7 @@
     "page2.html": {
       "settings": {
         "title": "Delivery",
-        "order": 20
+        "order": 21
       },
       "components": [
         {
@@ -977,7 +977,7 @@
     "page5.html": {
       "settings": {
         "title": "clientes delicias de barra",
-        "order": 19
+        "order": 20
       },
       "components": [
         {
@@ -1053,7 +1053,7 @@
     "page6.html": {
       "settings": {
         "title": "lojas de frete e mudanças",
-        "order": 18
+        "order": 19
       },
       "components": [
         {
@@ -1211,7 +1211,7 @@
     "page7.html": {
       "settings": {
         "title": "Bombas Agua",
-        "order": 17
+        "order": 18
       },
       "components": [
         {
@@ -1369,7 +1369,7 @@
     "page8.html": {
       "settings": {
         "title": "Lava Jatos",
-        "order": 16
+        "order": 17
       },
       "components": [
         {
@@ -1527,7 +1527,7 @@
     "page10.html": {
       "settings": {
         "title": "AUTO PEÇAS",
-        "order": 15
+        "order": 16
       },
       "components": [
         {
@@ -1685,7 +1685,7 @@
     "page11.html": {
       "settings": {
         "title": "ROUPAS",
-        "order": 14
+        "order": 15
       },
       "components": [
         {
@@ -1843,11 +1843,11 @@
     "page13.html": {
       "settings": {
         "title": "prestação de serviços",
-        "order": 13
+        "order": 14
       },
       "components": [
         {
-          "_name": "design-block",
+          "_name": "table1",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -1857,161 +1857,102 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            "& when (@noSpacing)": {
-              ".row": {
-                "margin-left": "0",
-                "margin-right": "0"
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            ".container-table": {
+              "margin": "0 auto"
+            },
+            ".scroll": {
+              "overflow-x": "auto",
+              "padding": "0"
+            },
+            ".dataTables_wrapper": {
+              "display": "block",
+              ".search": {
+                "margin-bottom": ".5rem"
               },
-              ".item": {
-                "padding-left": "0",
-                "padding-right": "0"
+              ".table": {
+                "overflow-x": "auto"
               }
             },
-            "& when not (@noSpacing)": {
-              ".item": {
-                "padding-bottom": "2rem"
-              }
-            },
-            "@media (max-width: 768px)": {
-              ".carousel-control, .carousel-indicators, .modal .close": {
-                "position": "fixed"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".mbr-slider .carousel-control": {
-                "top": "auto",
-                "bottom": "20px"
+            "table": {
+              "width": "100% !important",
+              "margin-top": "6px",
+              "border": "1px solid @tbColor",
+              "margin-bottom": "0",
+              "th": {
+                "border-top": "none",
+                "transition": "all .2s",
+                "border-bottom": "none",
+                "&:hover": {
+                  "background": "@tbColor",
+                  "color": "contrast(@tbColor)"
+                }
               },
-              ".mbr-slider > .container .carousel-control": {
-                "margin-bottom": "0"
-              }
-            },
-            ".carousel-indicators": {
-              "bottom": "0",
-              "margin-bottom": "3px",
-              "@media (max-width: 991px)": {
-                "margin-bottom": "3.625rem !important",
-                "padding-left": "2.5rem",
-                "padding-right": "2.5rem"
+              "td": {
+                "border-top": "1px solid @tbColor"
               },
-              "@media (max-width: 767px)": {
-                "display": "none"
+              "&.table": {
+                "& when (@tbBackground)": {
+                  "background": "@tbBgColor"
+                }
               }
             },
-            ".carousel-indicators .active, .carousel-indicators li": {
-              "width": "7px",
-              "height": "7px",
-              "margin": "3px",
-              "background": "#1b1b1b",
-              "opacity": "0.5",
-              "border": "4px solid #1b1b1b"
-            },
-            ".carousel-indicators .active": {
-              "background": "#fff"
-            },
-            ".carousel-indicators li": {
-              "max-width": "15px",
-              "max-height": "15px",
-              "border-radius": "50%"
-            },
-            ".modal": {
-              "padding-left": "0 !important",
-              "position": "fixed",
-              "overflow": "hidden",
-              "padding-right": "0 !important"
-            },
-            ".modal-dialog": {
-              "margin": "0 auto",
-              "max-width": "100%",
-              "padding-left": "1rem",
-              "padding-right": "1rem"
-            },
-            ".modal-content": {
-              "border-radius": "0",
-              "border": "none",
-              "background": "transparent"
-            },
-            ".modal-body": {
-              "padding": "0",
-              "display": "flex",
-              "align-items": "center",
-              ".carousel-item": {
-                "top": "50%",
-                "transform": "translateY(-50%)"
+            ".dataTables_filter": {
+              "text-align": "right",
+              "margin-bottom": ".5rem",
+              "label": {
+                "display": "inline",
+                "white-space": "normal !important"
               },
-              "img": {
-                "width": "100%",
-                "object-fit": "contain",
-                "max-height": "~\"calc(100vh - 1.75rem)\""
+              "input": {
+                "display": "inline",
+                "width": "auto",
+                "margin-left": ".5rem",
+                "border-radius": "100px",
+                "padding-left": "1rem"
               }
             },
-            ".carousel": {
-              "width": "100%"
+            ".dataTables_info": {
+              "padding-bottom": "1rem",
+              "padding-top": "1rem",
+              "white-space": "normal !important"
             },
-            ".modal-backdrop.in": {
-              "opacity": "0.8"
+            "@media (max-width: 992px)": {
+              ".dataTables_filter": {
+                "text-align": "center"
+              }
             },
-            ".modal.fade .modal-dialog": {
-              "-webkit-transition": "margin-top 0.3s ease-out",
-              "-moz-transition": "margin-top 0.3s ease-out",
-              "-o-transition": "margin-top 0.3s ease-out",
-              "transition": "margin-top 0.3s ease-out"
+            "@media (max-width: 350px)": {
+              ".dataTables_filter": {
+                "text-align": "center",
+                "input": {
+                  "width": "100% !important",
+                  "margin-left": "0 !important"
+                }
+              }
             },
-            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
-              "-webkit-transform": "none",
-              "-ms-transform": "none",
-              "-o-transform": "none",
-              "transform": "none"
-            },
-            ".mbr-gallery .item-wrapper": {
-              "cursor": "pointer"
-            },
-            "a": {
-              "display": "block"
-            },
-            "a.img": {
-              "pointer-events": "none"
+            ".body-item": {
+              "color": "#ff3366"
             }
           },
-          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\"> <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\"> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\"> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\"> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax> <input type=\"image\" title=\"Background Image\" value parallax> <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !=='color'\"> <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"> Prestação de Serviços</h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"> Ache aqui o que você deseja</h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/picasion.com-fe2fa83f6d6ec307205efefd0e3dd4d2.gif\" alt data-slide-to=\"3\" title><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"https://forums.mobirise.com/\" class=\"text-black\">PRESTAÇÃO DE SERVIÇOS</a></p></div><div class=\"list-group\"> <a href=\"#!\" class=\"list-group-item list-group-item-action active\"> O QUE TEMOS AQUI? </a> <a href=\"https://conectado-10.github.io/mobrise/page12.html\" class=\"list-group-item list-group-item-action\">&gt; REFRIGERAÇÃO</a> <a href=\"#\" class=\"list-group-item list-group-item-action\">EM BREVE</a> <a href=\"#!\" class=\"list-group-item list-group-item-action\">Eletricistas - EM BREVE</a> <a href=\"#!\" class=\"list-group-item list-group-item-action\">Diaristas - EM BREVE</a> <a href=\"#!\" class=\"list-group-item list-group-item-action disabled\">Pintor - EM BREVE</a></div></div></div></div></section>",
-          "_anchor": "design-block-4a",
+          "_customHTML": "<section class=\"section-table\" group=\"Tables\" plugins=\"dataTables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n    <input type=\"range\" inline title=\"Columns\" name=\"tableColumns\" min=\"1\" max=\"50\" step=\"1\" value=\"1\">\n    <input type=\"range\" inline title=\"Rows\" name=\"tableRows\" min=\"1\" max=\"50\" step=\"1\" value=\"2\">\n    <input type=\"color\" title=\"Table Border Color\" name=\"tbColor\" value=\"#ffffff\">\n    <input type=\"checkbox\" title=\"Table Background\" name=\"tbBackground\">\n    <input type=\"color\" title=\"Table Background Color\" name=\"tbBgColor\" value=\"#fc643f\" condition=\"tbBackground\">\n    <input type=\"checkbox\" title=\"Search\" name=\"isSearch\" checked>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n      <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n  <!-- End block parameters -->\n  </mbr-parameters>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n  <div class=\"container container-table\">\n      <h2 class=\"mbr-section-title mbr-fonts-style align-center pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">PRESTAÇÃO DE SERVIÇOS</h2>\n      <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Click blue \"Gear\" icon in the top right corner to hide/show search and info, change the the table background and other parameters.  In browser click on the table head to sort the table, use search to filter the table.     \n      </h3>\n      <div class=\"table-wrapper\">\n        <div class=\"container\">\n          <div class=\"row search\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\"></div>\n            <div class=\"col-md-6\">\n                <div class=\"dataTables_filter\">\n                  <label mbr-text class=\"searchInfo mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".searchInfo\">O QUE ESTA PROCURANDO?</label>\n                  <input class=\"form-control input-sm\" disabled>\n                </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"container scroll\">\n          <table class=\"table\" mbr-class=\"{'isSearch':isSearch}\" cellspacing=\"0\">\n            <thead>\n              <tr class=\"table-heads \" mbr-list mbr-list-grow=\"tableColumns\">\n                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".head-item\">Profissionais</th>\n                  \n                  \n                  \n              </tr>\n            </thead>\n\n            <tbody mbr-list mbr-list-grow=\"tableRows\">\n              <tr mbr-list mbr-list-grow=\"tableColumns\"> \n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".body-item\"><a href=\"page26.html\">Eletricistas</a></td>\n                \n                \n                \n              </tr>\n              \n              \n              \n            <tr mbr-list mbr-list-grow=\"tableColumns\"> \n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".body-item\"><a href=\"page27.html\">Refrigeração</a></td>\n                \n                \n                \n              </tr></tbody>\n          </table>\n        </div>\n        <div class=\"container table-info-container\">\n          <div class=\"row info\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\">\n              <div class=\"dataTables_info mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <span mbr-text class=\"infoBefore\" data-app-selector=\".dataTables_info\">TOTAL</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoAfter\" data-app-selector=\".dataTables_info\">GRUPO CONECTADO</span>\n                <span mbr-text class=\"infoFilteredBefore\" data-app-selector=\".dataTables_info\">(ENCONTRADO</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoFilteredAfter\" data-app-selector=\".dataTables_info\">TOTAL )</span>\n              </div>\n            </div>\n            <div class=\"col-md-6\"></div>\n          </div>\n        </div>\n      </div>\n    </div>\n</section>",
+          "_anchor": "table1-64",
           "_isUserblock": true,
-          "_sourceTheme": "creativem4",
-          "_cid": "s6pbZJHPEl",
+          "_sourceTheme": "mobirise4",
+          "_cid": "seVPonazZp",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_params": {
-            "HTMLCode": "<script type=\"text/javascript\" async",
-            "hideOnPublish": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "HTMLCode": "<script type=\"text/javascript\" async",
-          "alias": "witsec-custom-html",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-custom-html-block",
-          "_anchor": "witsec-custom-html-block-4b"
         }
       ]
     },
     "page14.html": {
       "settings": {
         "title": "pedreiros",
-        "order": 11
+        "order": 12
       },
       "components": [
         {
@@ -2169,7 +2110,7 @@
     "page15.html": {
       "settings": {
         "title": "diaristas",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -2327,7 +2268,7 @@
     "page18.html": {
       "settings": {
         "title": "BOMBA AGUA COMANDANTE",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -2802,7 +2743,7 @@
     "page19.html": {
       "settings": {
         "title": "TEREZA AUTO",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -3249,7 +3190,7 @@
     "page20.html": {
       "settings": {
         "title": "cintia diarista",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -3568,7 +3509,7 @@
     "page16.html": {
       "settings": {
         "title": "COSTURA E BORDADOS",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -3758,7 +3699,7 @@
     "page21.html": {
       "settings": {
         "title": "GABRIELA TITONELI",
-        "order": 8,
+        "order": 9,
         "meta_image": "@PROJECT_PATH@/assets/images/design-ohne-titel-4-min-952x952.png"
       },
       "components": [
@@ -4143,7 +4084,7 @@
     "page22.html": {
       "settings": {
         "title": "pague monte",
-        "order": 10
+        "order": 11
       },
       "components": [
         {
@@ -4301,7 +4242,7 @@
     "page23.html": {
       "settings": {
         "title": "LIVIA DIVERSO",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -5254,7 +5195,7 @@
     "page24.html": {
       "settings": {
         "title": "limpesas pesadas",
-        "order": 12
+        "order": 13
       },
       "components": [
         {
@@ -5412,7 +5353,7 @@
     "page25.html": {
       "settings": {
         "title": "LIMPA FOSSA",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -5910,6 +5851,318 @@
           "_protectedParams": [],
           "_global": true,
           "_once": true,
+          "_params": {}
+        }
+      ]
+    },
+    "page26.html": {
+      "settings": {
+        "title": "CARDS ELETRICAS",
+        "order": 2
+      },
+      "components": [
+        {
+          "alias": "casper-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "hr": {
+              "border": "none",
+              "color": "@hrColor",
+              "background-color": "@hrColor",
+              "border-radius": "0.5em",
+              "height": "(@hrHeight * 1px)"
+            }
+          },
+          "_name": "casperHorizontalRule",
+          "_customHTML": "<section class=\"casperHorizontalRule\" group=\"Casper Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n  'mbr-fullscreen': fullScreen,\n  'mbr-parallax-background': bg.parallax}\">\n  <center> <h4 class=\"card-title font-weight-bold mb-2\">TUDO EM ELETRICA</h4>\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n    <header>Horizontal Rule</header>\n    <input type=\"color\" title=\"Color\" name=\"hrColor\" value=\"#000000\">\n    <input type=\"range\" title=\"Height\" name=\"hrHeight\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/06.png\">\n      <input type=\"color\" title=\"Color\" value=\"#55b4d4\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <hr>\n  </div>\n</center></section>",
+          "_anchor": "casperHorizontalRule-66",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "seVRExZ0Le",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            "background-color": "@bgColor",
+            "font-family": "'Cormorant', serif",
+            "color": "rgb(112, 123, 240)",
+            "background-repeat": "no-repeat",
+            ".container-fluid": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            ".rating": {
+              "padding-top": "5px",
+              "color": "@ratingColor"
+            },
+            ".fa-star": {
+              "color": "@ratingColor !important"
+            },
+            ".fa-star-o": {
+              "color": "@ratingColor !important"
+            },
+            ".name": {
+              "background-color": "@cardColor",
+              "margin-top": "-50px !important",
+              "color": "@nameColor"
+            },
+            ".card": {
+              "background-color": "@cardColor",
+              "border-radius": "20px !important",
+              "box-shadow": "2px 2px 5px 0px @shadowColor",
+              "transition": "0.8s",
+              "backgorund-color": "@cardColor"
+            },
+            ".card-body div div p": {
+              "color": "@quoteColor"
+            },
+            ".card-ico": {
+              "color": "@iconColor"
+            },
+            ".card-header": {
+              "background-color": "@cardColor",
+              "border-radius": "20px !important"
+            },
+            ".card-footer": {
+              "background-color": "@cardColor",
+              "border-radius": "20px !important"
+            },
+            "p": {
+              "font-size": "17px",
+              "margin-bottom": "7px"
+            },
+            ".small": {
+              "letter-spacing": "0.5px !important"
+            },
+            ".card-header img": {
+              "border": "5px solid",
+              "border-color": "@cardColor"
+            },
+            ".outside": {
+              "position": "inherit",
+              "top": "-50%"
+            },
+            "hr": {
+              "background-color": "@iconColor",
+              "border": "1px solid",
+              "border-radius": "20px",
+              "color": "@iconColor",
+              "height": "5px",
+              "width": "70px !important"
+            },
+            ".bold": {
+              "font-weight": "500"
+            },
+            ".profile-pic": {
+              "margin-bottom": "5px !important"
+            },
+            ".quotes": {
+              "position": "relative",
+              "top": "-10px"
+            },
+            ".quotes-down": {
+              "position": "relative",
+              "top": "-4 px"
+            },
+            ".fa": {
+              "color": "@iconColor"
+            },
+            ".card-footer .fa": {
+              "font-size": "20px !important"
+            },
+            ".container-fluid:hover .card:not(:hover)": {
+              "transform": "scale(0.9)"
+            },
+            "@media (max-width: 1000px)": {
+              ".container-fluid:hover .card:not(:hover)": {
+                "transform": "scale(1)"
+              }
+            },
+            "P": {
+              "color": "#00c48c"
+            },
+            "h6": {
+              "padding-top": "5px",
+              "padding-bottom": "5px"
+            }
+          },
+          "_customHTML": "<section class=\"gwsTeams\" group=\"Additional Blocks\">\n  <mbr-parameters>\n        <header>gwsTesstimonials</header>\n        <header>Block</header>\n        <input type=\"color\" name=\"bgColor\" title=\"Background Color\" value=\"#55b4d4\" selected>\n        <input type=\"color\" name=\"cardColor\" title=\"Card Color\" value=\"#ffffff\" selected>\n        <input type=\"color\" name=\"nameColor\" title=\"Name/Title Color\" value=\"#465052\" selected>\n        <input type=\"color\" name=\"iconColor\" title=\"Icon Color\" value=\"#00c48c\" selected>\n        <input type=\"color\" name=\"ratingColor\" title=\"Rating Color\" value=\"#133996\" selected>\n        <input type=\"color\" name=\"shadowColor\" title=\"Shadow Color\" value=\"#133996\" selected>\n        <input type=\"color\" name=\"quoteColor\" title=\"Quote Color\" value=\"#fc643f\" selected>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <select title=\"Cards\" name=\"numCards\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        \n        <header condition=\"numCards > 0\">Card 1</header>\n        <input type=\"checkbox\" title=\"Show Name\" name=\"showName1\" condition=\"numCards > 0\" checked=\"checked\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle1\" condition=\"numCards > 0\" checked=\"checked\">\n        <input type=\"checkbox\" title=\"Show Rating\" name=\"showRating1\" condition=\"numCards > 0\">\n        <input type=\"range\" inline title=\"Rating Count\" name=\"stars1\" min=\"0\" max=\"5\" step=\"1\" value=\"4\" condition=\"showRating1\">\n        <input type=\"checkbox\" title=\"Show Social\" name=\"showSocial1\" condition=\"numCards > 0\" checked=\"checked\">\n        <input type=\"range\" inline title=\"Social Icons Count\" name=\"icons1\" min=\"1\" max=\"5\" step=\"1\" value=\"2\" condition=\"showSocial1\">\n        \n        <header condition=\"numCards > 1\">Card 2</header>\n        <input type=\"checkbox\" title=\"Show Name\" name=\"showName2\" checked condition=\"numCards > 1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle2\" condition=\"numCards > 1\" checked=\"checked\">\n        <input type=\"checkbox\" title=\"Show Rating\" name=\"showRating2\" condition=\"numCards > 1\" checked=\"checked\">\n        <input type=\"range\" inline title=\"Rating Count\" name=\"stars2\" min=\"0\" max=\"5\" step=\"1\" value=\"3\" condition=\"showRating2\">\n        <input type=\"checkbox\" title=\"Show Social\" name=\"showSocial2\" condition=\"numCards > 1\" checked=\"checked\">\n        <input type=\"range\" inline title=\"Social Icons Count\" name=\"icons2\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial2\">        \n        \n        <header condition=\"numCards > 2\">Card 3</header>\n        <input type=\"checkbox\" title=\"Show Name\" name=\"showName3\" checked condition=\"numCards > 2\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle3\" checked condition=\"numCards > 2\">\n        <input type=\"checkbox\" title=\"Show Rating\" name=\"showRating3\" checked condition=\"numCards > 2\">\n        <input type=\"range\" inline title=\"Rating Count\" name=\"stars3\" min=\"0\" max=\"5\" step=\"1\" value=\"4\" condition=\"showRating3\">\n        <input type=\"checkbox\" title=\"Show Social\" name=\"showSocial3\" checked condition=\"numCards > 2\">\n        <input type=\"range\" inline title=\"Social Icons Count\" name=\"icons3\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial3\">\n\n    </mbr-parameters>\n\n <div class=\"container-fluid my-5 justify-content-center\">\n    <div class=\" row justify-content-center \">\n        \n        \n        \n        <div class=\"col-lg-4 col-12 mt-5\" mbr-if=\"numCards > 0\">\n            <div class=\"card mt-3 \">\n                <div class=\"card-header text-center border-0 \">\n                    <div class=\"row justify-content-center \">\n                        <div class=\"col\"> \n                            <img class=\"align-self-center text-center rounded-circle outside\" src=\"@PROJECT_PATH@/assets/images/capturar-3.jpg\" width=\"150\" height=\"150\" alt title> </div>\n                    </div>\n                    <div class=\"row text-center name\">\n                        <div class=\"col\">\n                            <h5 class=\"mb-0 profile-pic\" mbr-if=\"showName1\">LUCIANO DE ANDRADE</h5> \n                            <h6 class=\"mt-0\" mbr-if=\"showTitle1\">Eletrica em Geral</h6>\n                            <span class=\"rating\" mbr-if=\"showRating1 && stars1 == 0\">\n                                <p>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating1 && stars1 == 1\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating1 && stars1 == 2\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating1 && stars1 == 3\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating1 && stars1 == 4\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating1 && stars1 == 5\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                </p>\n                            </span>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"card-body pt-0 text-center pb-3 \">\n                    <div class=\"row justify-content-center\">\n                        <div class=\"col-md-8 col\">\n                            <p class=\"bold\">Trabalho com instalação e montagem de equipamentos eletricos.&nbsp;</p>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"card-footer text-center border-0 mt-0 pt-0\">\n                    <div class=\"row\">\n                        <div class=\"col card-ico\" mbr-if=\"showSocial1\">\n                            <a href=\"https://conectado-10.github.io/mobrise/page29.html\"><span mbr-icon class=\"mbr-iconfont card-icon material-memory material\" mbr-if=\"icons1 > 0\" style=\"font-size: 40px; color: rgb(39, 100, 247); fill: rgb(39, 100, 247);\"></span></a>\n                            <a href=\"page29.html\"><span mbr-icon class=\"mbr-iconfont card-icon mbri-left\" mbr-if=\"icons1 > 1\" style=\"font-size: 29px; color: rgb(19, 57, 150); fill: rgb(19, 57, 150);\"></span></a>\n                            <span mbr-icon class=\"mbr-iconfont card-icon mbri-touch-swipe\" mbr-if=\"icons1 > 2\" style=\"font-size: 29px; color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-dribbble socicon\" mbr-if=\"icons1 > 3\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-dribbble socicon\" mbr-if=\"icons1 > 4\"></span>\n                        </div>\n                    </div>\n                    <hr class=\"my-1\">\n                </div>\n            </div>\n        </div>\n        \n        \n        \n        <div class=\"col-lg-4 mt-5 col-12\" mbr-if=\"numCards > 1\">\n            <div class=\"card mt-3\">\n                <div class=\"card-header text-center border-0 \">\n                    <div class=\"row justify-content-center \">\n                        <div class=\"col\"> <img class=\"align-self-center text-center rounded-circle outside\" src=\"false\" width=\"110\" height=\"110\" alt> </div>\n                    </div>\n                    <div class=\"row text-center name\">\n                        <div class=\"col\">\n                            <h5 class=\"mb-0 profile-pic\" mbr-if=\"showName2\">Michelle Smith</h5> \n                            <h6 class=\"mt-0\" mbr-if=\"showTitle2\">Director of Marketing</h6>\n                            <span class=\"rating\" mbr-if=\"showRating2 && stars2 == 0\">\n                                <p>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating2 && stars2 == 1\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating2 && stars2 == 2\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating2 && stars2 == 3\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating2 && stars2 == 4\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating2 && stars2 == 5\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                </p>\n                            </span>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"card-body pt-0 text-center pb-3 \">\n                    <div class=\"row justify-content-center\">\n                        <div class=\"col-md-8 col\">\n                            <p class=\"bold\"> \n                                <span class=\"fa fa-quote-left fa-2x\"></span> \n                                Growth of data is exponential and our ability to get true insight that matter was chaeerllenging with classic, traditional Bi tools. Vertix allow us to unserstand what is driving exceptions so we can take action \n                                <span class=\"fa fa-quote-right fa-2x\"></span> </p>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"card-footer text-center border-0 mt-0 pt-0\">\n                    <div class=\"row\">\n                        <div class=\"col card-ico\" mbr-if=\"showSocial2\">\n                            <a href=\"https://cnn.com\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont card-icon mobi-mbri-globe-2 mobi-mbri\" mbr-if=\"icons2 > 0\" style=\"color: rgb(174, 145, 228); fill: rgb(174, 145, 228);\"></span></a>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-instagram socicon\" mbr-if=\"icons2 > 1\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-dribbble socicon\" mbr-if=\"icons2 > 2\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-dribbble socicon\" mbr-if=\"icons2 > 3\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-dribbble socicon\" mbr-if=\"icons2 > 4\"></span>\n                        </div>\n                    </div>\n                    <hr class=\"my-1\">\n                </div>\n            </div>\n        </div>\n        \n        \n        \n        <div class=\"col-lg-4 col-12 mt-5\" mbr-if=\"numCards > 2\">\n            <div class=\"card mt-3\">\n                <div class=\"card-header text-center border-0 \">\n                    <div class=\"row justify-content-center \">\n                        <div class=\"col\"> <img class=\"align-self-center text-center rounded-circle outside\" src=\"false\" width=\"110\" height=\"110\" alt> </div>\n                    </div>\n                    <div class=\"row text-center name\">\n                        <div class=\"col\">\n                            <h5 class=\"mb-0 profile-pic\" mbr-if=\"showName3\">Michael Smith</h5> \n                            <h6 class=\"mt-0\" mbr-if=\"showTitle3\">Director of Marketing</h6>\n                            <span class=\"rating\" mbr-if=\"showRating3 && stars3 == 0\">\n                                <p>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating3 && stars3 == 1\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating3 && stars3 == 2\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating3 && stars3 == 3\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating3 && stars3 == 4\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating3 && stars3 == 5\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                </p>\n                            </span>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"card-body pt-0 text-center pb-3 \">\n                    <div class=\"row justify-content-center\">\n                        <div class=\"col-md-8 col\">\n                            <p class=\"bold\"> \n                                <span class=\"fa fa-quote-left fa-2x\"></span> \n                                Growth of data is exponential and our ability to get true insight that matter was challenging with classic, traditional Bi tools. Vertix allow us to unserstand what is driving exceptions so we can take action \n                                <span class=\"fa fa-quote-right fa-2x\"></span> </p>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"card-footer text-center border-0 mt-0 pt-0\">\n                    <div class=\"row\">\n                        <div class=\"col card-ico\" mbr-if=\"showSocial3\">\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-skype socicon\" mbr-if=\"icons3 > 0\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-instagram socicon\" mbr-if=\"icons3 > 1\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-dribbble socicon\" mbr-if=\"icons3 > 2\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-dribbble socicon\" mbr-if=\"icons3 > 3\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-dribbble socicon\" mbr-if=\"icons3 > 4\"></span>\n                        </div>\n                    </div>\n                    <hr class=\"my-1\">\n                </div>\n            </div>\n        </div>\n        \n        \n    </div>\n</div>\n</section>",
+          "_anchor": "design-block-65",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "seVRqbfeLa",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page27.html": {
+      "settings": {
+        "title": "CARDS REGRIGERAÇÃO",
+        "order": 1
+      },
+      "components": [
+        {
+          "alias": "casper-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "hr": {
+              "border": "none",
+              "color": "@hrColor",
+              "background-color": "@hrColor",
+              "border-radius": "0.5em",
+              "height": "(@hrHeight * 1px)"
+            }
+          },
+          "_name": "casperHorizontalRule",
+          "_customHTML": "<section class=\"casperHorizontalRule\" group=\"Casper Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n  'mbr-fullscreen': fullScreen,\n  'mbr-parallax-background': bg.parallax}\">\n  <center> <h4 class=\"card-title font-weight-bold mb-2\">TUDO EM REFRIGERAÇÃO</h4>\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n    <header>Horizontal Rule</header>\n    <input type=\"color\" title=\"Color\" name=\"hrColor\" value=\"#000000\">\n    <input type=\"range\" title=\"Height\" name=\"hrHeight\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/06.png\">\n      <input type=\"color\" title=\"Color\" value=\"#55b4d4\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <hr>\n  </div>\n</center></section>",
+          "_anchor": "casperHorizontalRule-68",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "seVViV4EjS",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            "background-color": "@bgColor",
+            "font-family": "'Cormorant', serif",
+            "color": "rgb(112, 123, 240)",
+            "background-repeat": "no-repeat",
+            ".container-fluid": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            ".rating": {
+              "padding-top": "5px",
+              "color": "@ratingColor"
+            },
+            ".fa-star": {
+              "color": "@ratingColor !important"
+            },
+            ".fa-star-o": {
+              "color": "@ratingColor !important"
+            },
+            ".name": {
+              "background-color": "@cardColor",
+              "margin-top": "-50px !important",
+              "color": "@nameColor"
+            },
+            ".card": {
+              "background-color": "@cardColor",
+              "border-radius": "20px !important",
+              "box-shadow": "2px 2px 5px 0px @shadowColor",
+              "transition": "0.8s",
+              "backgorund-color": "@cardColor"
+            },
+            ".card-body div div p": {
+              "color": "@quoteColor"
+            },
+            ".card-ico": {
+              "color": "@iconColor"
+            },
+            ".card-header": {
+              "background-color": "@cardColor",
+              "border-radius": "20px !important"
+            },
+            ".card-footer": {
+              "background-color": "@cardColor",
+              "border-radius": "20px !important"
+            },
+            "p": {
+              "font-size": "17px",
+              "margin-bottom": "7px"
+            },
+            ".small": {
+              "letter-spacing": "0.5px !important"
+            },
+            ".card-header img": {
+              "border": "5px solid",
+              "border-color": "@cardColor"
+            },
+            ".outside": {
+              "position": "inherit",
+              "top": "-50%"
+            },
+            "hr": {
+              "background-color": "@iconColor",
+              "border": "1px solid",
+              "border-radius": "20px",
+              "color": "@iconColor",
+              "height": "5px",
+              "width": "70px !important"
+            },
+            ".bold": {
+              "font-weight": "500"
+            },
+            ".profile-pic": {
+              "margin-bottom": "5px !important"
+            },
+            ".quotes": {
+              "position": "relative",
+              "top": "-10px"
+            },
+            ".quotes-down": {
+              "position": "relative",
+              "top": "-4 px"
+            },
+            ".fa": {
+              "color": "@iconColor"
+            },
+            ".card-footer .fa": {
+              "font-size": "20px !important"
+            },
+            ".container-fluid:hover .card:not(:hover)": {
+              "transform": "scale(0.9)"
+            },
+            "@media (max-width: 1000px)": {
+              ".container-fluid:hover .card:not(:hover)": {
+                "transform": "scale(1)"
+              }
+            },
+            "P": {
+              "color": "#ffffff"
+            },
+            "h6": {
+              "padding-top": "5px",
+              "padding-bottom": "5px"
+            }
+          },
+          "_customHTML": "<section class=\"gwsTeams\" group=\"Additional Blocks\">\n  <mbr-parameters>\n        <header>gwsTesstimonials</header>\n        <header>Block</header>\n        <input type=\"color\" name=\"bgColor\" title=\"Background Color\" value=\"#55b4d4\" selected>\n        <input type=\"color\" name=\"cardColor\" title=\"Card Color\" value=\"#ffffff\" selected>\n        <input type=\"color\" name=\"nameColor\" title=\"Name/Title Color\" value=\"#465052\" selected>\n        <input type=\"color\" name=\"iconColor\" title=\"Icon Color\" value=\"#00c48c\" selected>\n        <input type=\"color\" name=\"ratingColor\" title=\"Rating Color\" value=\"#133996\" selected>\n        <input type=\"color\" name=\"shadowColor\" title=\"Shadow Color\" value=\"#0a1c44\" selected>\n        <input type=\"color\" name=\"quoteColor\" title=\"Quote Color\" value=\"#0a1c44\" selected>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <select title=\"Cards\" name=\"numCards\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        \n        <header condition=\"numCards > 0\">Card 1</header>\n        <input type=\"checkbox\" title=\"Show Name\" name=\"showName1\" condition=\"numCards > 0\" checked=\"checked\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle1\" condition=\"numCards > 0\" checked=\"checked\">\n        <input type=\"checkbox\" title=\"Show Rating\" name=\"showRating1\" condition=\"numCards > 0\">\n        <input type=\"range\" inline title=\"Rating Count\" name=\"stars1\" min=\"0\" max=\"5\" step=\"1\" value=\"4\" condition=\"showRating1\">\n        <input type=\"checkbox\" title=\"Show Social\" name=\"showSocial1\" condition=\"numCards > 0\" checked=\"checked\">\n        <input type=\"range\" inline title=\"Social Icons Count\" name=\"icons1\" min=\"1\" max=\"5\" step=\"1\" value=\"1\" condition=\"showSocial1\">\n        \n        <header condition=\"numCards > 1\">Card 2</header>\n        <input type=\"checkbox\" title=\"Show Name\" name=\"showName2\" checked condition=\"numCards > 1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle2\" condition=\"numCards > 1\" checked=\"checked\">\n        <input type=\"checkbox\" title=\"Show Rating\" name=\"showRating2\" condition=\"numCards > 1\" checked=\"checked\">\n        <input type=\"range\" inline title=\"Rating Count\" name=\"stars2\" min=\"0\" max=\"5\" step=\"1\" value=\"3\" condition=\"showRating2\">\n        <input type=\"checkbox\" title=\"Show Social\" name=\"showSocial2\" condition=\"numCards > 1\" checked=\"checked\">\n        <input type=\"range\" inline title=\"Social Icons Count\" name=\"icons2\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial2\">        \n        \n        <header condition=\"numCards > 2\">Card 3</header>\n        <input type=\"checkbox\" title=\"Show Name\" name=\"showName3\" checked condition=\"numCards > 2\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle3\" checked condition=\"numCards > 2\">\n        <input type=\"checkbox\" title=\"Show Rating\" name=\"showRating3\" checked condition=\"numCards > 2\">\n        <input type=\"range\" inline title=\"Rating Count\" name=\"stars3\" min=\"0\" max=\"5\" step=\"1\" value=\"4\" condition=\"showRating3\">\n        <input type=\"checkbox\" title=\"Show Social\" name=\"showSocial3\" checked condition=\"numCards > 2\">\n        <input type=\"range\" inline title=\"Social Icons Count\" name=\"icons3\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial3\">\n\n    </mbr-parameters>\n\n <div class=\"container-fluid my-5 justify-content-center\">\n    <div class=\" row justify-content-center \">\n        \n        \n        \n        <div class=\"col-lg-4 col-12 mt-5\" mbr-if=\"numCards > 0\">\n            <div class=\"card mt-3 \">\n                <div class=\"card-header text-center border-0 \">\n                    <div class=\"row justify-content-center \">\n                        <div class=\"col\"> \n                            <img class=\"align-self-center text-center rounded-circle outside\" src=\"@PROJECT_PATH@/assets/images/capturar-464x475.jpg\" width=\"150\" height=\"150\" alt title> </div>\n                    </div>\n                    <div class=\"row text-center name\">\n                        <div class=\"col\">\n                            <h5 class=\"mb-0 profile-pic\" mbr-if=\"showName1\">Wilton Luiz</h5> \n                            <h6 class=\"mt-0\" mbr-if=\"showTitle1\">Refrigeração em Geral</h6>\n                            <span class=\"rating\" mbr-if=\"showRating1 && stars1 == 0\">\n                                <p>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating1 && stars1 == 1\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating1 && stars1 == 2\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating1 && stars1 == 3\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating1 && stars1 == 4\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating1 && stars1 == 5\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                </p>\n                            </span>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"card-body pt-0 text-center pb-3 \">\n                    <div class=\"row justify-content-center\">\n                        <div class=\"col-md-8 col\">\n                            <p class=\"bold\">Trabalho com instalação e consertos de ar condicionado/geladeiras. Tudo com qualidade e eficaz para seu conforto da sua casa!</p>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"card-footer text-center border-0 mt-0 pt-0\">\n                    <div class=\"row\">\n                        <div class=\"col card-ico\" mbr-if=\"showSocial1\">\n                            <a href=\"https://conectado-10.github.io/mobrise/page13.html\"><span mbr-icon class=\"mbr-iconfont card-icon material-ac-unit material\" mbr-if=\"icons1 > 0\" style=\"font-size: 35px; color: rgb(39, 100, 247); fill: rgb(39, 100, 247);\"></span></a>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-viber socicon\" mbr-if=\"icons1 > 1\" style=\"font-size: 29px; color: rgb(19, 57, 150); fill: rgb(19, 57, 150);\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon mbri-touch-swipe\" mbr-if=\"icons1 > 2\" style=\"font-size: 29px; color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-dribbble socicon\" mbr-if=\"icons1 > 3\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-dribbble socicon\" mbr-if=\"icons1 > 4\"></span>\n                        </div>\n                    </div>\n                    <hr class=\"my-1\">\n                </div>\n            </div>\n        </div>\n        \n        \n        \n        <div class=\"col-lg-4 mt-5 col-12\" mbr-if=\"numCards > 1\">\n            <div class=\"card mt-3\">\n                <div class=\"card-header text-center border-0 \">\n                    <div class=\"row justify-content-center \">\n                        <div class=\"col\"> <img class=\"align-self-center text-center rounded-circle outside\" src=\"false\" width=\"110\" height=\"110\" alt> </div>\n                    </div>\n                    <div class=\"row text-center name\">\n                        <div class=\"col\">\n                            <h5 class=\"mb-0 profile-pic\" mbr-if=\"showName2\">Michelle Smith</h5> \n                            <h6 class=\"mt-0\" mbr-if=\"showTitle2\">Director of Marketing</h6>\n                            <span class=\"rating\" mbr-if=\"showRating2 && stars2 == 0\">\n                                <p>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating2 && stars2 == 1\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating2 && stars2 == 2\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating2 && stars2 == 3\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating2 && stars2 == 4\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating2 && stars2 == 5\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                </p>\n                            </span>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"card-body pt-0 text-center pb-3 \">\n                    <div class=\"row justify-content-center\">\n                        <div class=\"col-md-8 col\">\n                            <p class=\"bold\"> \n                                <span class=\"fa fa-quote-left fa-2x\"></span> \n                                Growth of data is exponential and our ability to get true insight that matter was chaeerllenging with classic, traditional Bi tools. Vertix allow us to unserstand what is driving exceptions so we can take action \n                                <span class=\"fa fa-quote-right fa-2x\"></span> </p>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"card-footer text-center border-0 mt-0 pt-0\">\n                    <div class=\"row\">\n                        <div class=\"col card-ico\" mbr-if=\"showSocial2\">\n                            <a href=\"https://cnn.com\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont card-icon mobi-mbri-globe-2 mobi-mbri\" mbr-if=\"icons2 > 0\" style=\"color: rgb(174, 145, 228); fill: rgb(174, 145, 228);\"></span></a>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-instagram socicon\" mbr-if=\"icons2 > 1\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-dribbble socicon\" mbr-if=\"icons2 > 2\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-dribbble socicon\" mbr-if=\"icons2 > 3\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-dribbble socicon\" mbr-if=\"icons2 > 4\"></span>\n                        </div>\n                    </div>\n                    <hr class=\"my-1\">\n                </div>\n            </div>\n        </div>\n        \n        \n        \n        <div class=\"col-lg-4 col-12 mt-5\" mbr-if=\"numCards > 2\">\n            <div class=\"card mt-3\">\n                <div class=\"card-header text-center border-0 \">\n                    <div class=\"row justify-content-center \">\n                        <div class=\"col\"> <img class=\"align-self-center text-center rounded-circle outside\" src=\"false\" width=\"110\" height=\"110\" alt> </div>\n                    </div>\n                    <div class=\"row text-center name\">\n                        <div class=\"col\">\n                            <h5 class=\"mb-0 profile-pic\" mbr-if=\"showName3\">Michael Smith</h5> \n                            <h6 class=\"mt-0\" mbr-if=\"showTitle3\">Director of Marketing</h6>\n                            <span class=\"rating\" mbr-if=\"showRating3 && stars3 == 0\">\n                                <p>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating3 && stars3 == 1\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating3 && stars3 == 2\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating3 && stars3 == 3\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating3 && stars3 == 4\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star-o mr-1\"></span>\n                                </p>\n                            </span>\n                            <span class=\"rating\" mbr-if=\"showRating3 && stars3 == 5\">\n                                <p>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                <span class=\"fa fa-star mr-1\"></span>\n                                </p>\n                            </span>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"card-body pt-0 text-center pb-3 \">\n                    <div class=\"row justify-content-center\">\n                        <div class=\"col-md-8 col\">\n                            <p class=\"bold\"> \n                                <span class=\"fa fa-quote-left fa-2x\"></span> \n                                Growth of data is exponential and our ability to get true insight that matter was challenging with classic, traditional Bi tools. Vertix allow us to unserstand what is driving exceptions so we can take action \n                                <span class=\"fa fa-quote-right fa-2x\"></span> </p>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"card-footer text-center border-0 mt-0 pt-0\">\n                    <div class=\"row\">\n                        <div class=\"col card-ico\" mbr-if=\"showSocial3\">\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-skype socicon\" mbr-if=\"icons3 > 0\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-instagram socicon\" mbr-if=\"icons3 > 1\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-dribbble socicon\" mbr-if=\"icons3 > 2\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-dribbble socicon\" mbr-if=\"icons3 > 3\"></span>\n                            <span mbr-icon class=\"mbr-iconfont card-icon socicon-dribbble socicon\" mbr-if=\"icons3 > 4\"></span>\n                        </div>\n                    </div>\n                    <hr class=\"my-1\">\n                </div>\n            </div>\n        </div>\n        \n        \n    </div>\n</div>\n</section>",
+          "_anchor": "design-block-67",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "seVUBqwpn0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
           "_params": {}
         }
       ]
