@@ -5524,8 +5524,8 @@ overflow: hidden !important;
 .cid-sfFvrATuW4 {
 @fullScreen: false;
 @showArrow: false;
-@paddingTop: 0;
-@paddingBottom: 1;
+@paddingTop: 2;
+@paddingBottom: 2;
 @showTitle: false;
 @showSubtitle: false;
 @showText: false;
@@ -5622,59 +5622,137 @@ overflow: hidden !important;
 }
 }
 
-.cid-OfS37gMoI1 {
-@paddingTop: 8;
-@paddingBottom: 8;
-@bgColor: #ffffff;
+.cid-p0W5Gicbk9 {
+@paddingTop: 4;
+@paddingBottom: 4;
+@showTitle: false;
+@showSubtitle: false;
+@showButtons: false;
+@mediaup: false;
+@mediaSizeup: 25;
+@bootstrapAccordion: "1";
+@widthContent: 4;
+@showImage: false;
+@mediaSize: 45;
+@reverseContent: false;
+@openshow: "";
+@Colortab: #ffffff;
+@Colortab2: #000000;
+@bordersize: 0;
+@CardColor: #232323;
+@borderradius: 0;
+@borderspace: 0;
+@tabheight: 0;
+@marginbottom: 9;
+@uname__16: "file:///C:/Users/Zen2cool/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-10-21_180933/assets/images/background4.jpg";
+@uname__17: false;
+@uname__18: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
 @color2: #ffffff;
-@angle: 97;
-@buttonsize: 150;
-@pulsesize: 100;
-@pulsecolor: #ff7f9f;
-@fondcolor: #ffffff;
-@imagetest: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-05-19_055424/assets/images/pfirsichfarben%20pinselstrich%20fotografie%20logo%20(20)-500x500.png";
-@imagesize: 10;
-@targetlink: "_self";
+@angle: 0;
+@overlay: true;
+@overlayColor: #ffffff;
+@overlayOpacity: 0.9;
 
 padding-top: (@paddingTop * 15px);
 padding-bottom: (@paddingBottom * 15px);
-background: linear-gradient(@angle * 1deg, @bgColor, @color2);
-.pulsingButton {
-  position: relative;
-  width: (@buttonsize * 1px);
-  height: (@buttonsize * 1px);
-  border: none;
-  box-shadow: 0 0 0 0 @pulsecolor;
-  border-radius: 50%;
-  background-color: @fondcolor;
-  background-image: url(../../../@imagetest);
-  background-size: (@imagesize * 10%), cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+position: relative;
+& when (@bg-type = 'color') {
+  background: linear-gradient(@angle * 1deg, @bg-value, @color2);
 }
-@-webkit-keyframes pulse {
-  to {
-    box-shadow: 0 0 0 (@pulsesize * 1px) rgba(232, 76, 61, 0);
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+p {
+  color: #767676;
+}
+.fondcolor {
+  margin-top: (@borderspace * 1px);
+  border-radius: (@borderradius * 1px);
+  border: (@bordersize * 1px) solid @Colortab2;
+  background: @CardColor;
+}
+.card {
+  border-radius: (@borderradius * 1px);
+  margin-bottom: (@marginbottom * 1px);
+  .card-header {
+    border-radius: (@borderradius * 1px);
+    border: 0px;
+    padding: 0;
+    a.panel-title {
+      margin-bottom: 0;
+      margin-top: -1px;
+      font-weight: 500;
+      font-style: normal;
+      display: block;
+      text-decoration: none !important;
+      line-height: normal;
+      &:focus {
+        text-decoration: none !important;
+      }
+      h4 {
+        padding: (@tabheight * 1rem) 2rem;
+        border: (@bordersize * 1px) solid @Colortab2;
+        margin-bottom: 0;
+        border-radius: (@borderradius * 1px);
+        background-color: @Colortab;
+        display: -webkit-flex;
+        .sign {
+          padding-right: 1rem;
+          font-size: 25px;
+        }
+      }
+    }
   }
 }
-@-moz-keyframes pulse {
-  to {
-    box-shadow: 0 0 0 (@pulsesize * 1px) rgba(232, 76, 61, 0);
+H2 {
+  color: #ffffff;
+}
+.panel-text {
+  color: #ffffff;
+}
+.mbr-section-subtitle {
+  color: #ffffff;
+}
+.mbr-figure {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+& when not (@reverseContent) {
+  @media (min-width: 992px) {
+    .mbr-figure {
+      padding-right: 4rem;
+    }
+  }
+  @media (max-width: 991px) {
+    .mbr-figure {
+      padding-bottom: 1rem;
+    }
   }
 }
-@-ms-keyframes pulse {
-  to {
-    box-shadow: 0 0 0 (@pulsesize * 1px) rgba(232, 76, 61, 0);
+& when (@reverseContent) {
+  .media-container-row {
+    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
   }
-}
-@keyframes pulse {
-  to {
-    box-shadow: 0 0 0 (@pulsesize * 1px) rgba(232, 76, 61, 0);
+  @media (min-width: 992px) {
+    .mbr-figure {
+      padding-left: 4rem;
+    }
+  }
+  @media (max-width: 991px) {
+    .media-container-row {
+      flex-wrap: wrap-reverse;
+      -webkit-flex-wrap: wrap-reverse;
+    }
+    .mbr-figure {
+      padding-top: 1rem;
+    }
   }
 }
 }
