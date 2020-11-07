@@ -5488,128 +5488,70 @@ h3, h4 {
 #witsec-custom-html-block-6i {
 }
 
-.cid-o2crHVe36b {
+.cid-WtpaFd94Tg {
+@fullScreen: false;
+@showArrow: false;
 @paddingTop: 0;
 @paddingBottom: 1;
-@fullWidth: false;
-@textWidth: 5;
-@showImage: true;
-@mediaSize: 35;
-@imageSubtitle: false;
-@reverseContent: false;
-@alignImg: "2";
-@countText: 1;
-@alignText: "1";
-@twoBgColor: false;
-@width2Bg: 5;
-@uname__16: "file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/mobirise4/header1_1/background1_2.jpg";
-@uname__17: #0dcd7b;
-@bg-value: "file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/mobirise4/header1_1/background1_2.jpg";
-@bg-type: "image";
-@bg-color-value: #0dcd7b;
-@bg-parallax: false;
-@twoColor: #f4f5f7;
-@overlay: true;
-@overlayColor: #ffffff;
-@overlayOpacity: 0.3;
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
-  .mbr-overlay when (@twoBgColor) {
-    padding: 0;
-    background: @twoColor;
-    opacity: 1;
-  }
-}
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-  .mbr-overlay {
-    background: @overlayColor;
-    opacity: @overlayOpacity;
-  }
-}
-.mbr-figure when (@showImage) {
-  float: left;
-  & when (@reverseContent) {
-    float: right;
-  }
-  @media (min-width: 768px) {
-    margin-right: 30px;
-    width: ~"@{mediaSize}%";
-    & when (@reverseContent) {
-      margin-right: 0;
-      margin-left: 30px;
-    }
-  }
-  @media (max-width: 767px) {
-    width: 100% !important;
-    padding-bottom: 30px;
-  }
-}
-.media-content .mbr-text:not(:last-child) {
-  margin-bottom: 1.333em;
-}
-.mbr-text {
-  text-align: center;
-}
-}
-
-.cid-UZ1VyZlu1D {
-@paddingTop: 6;
-@paddingBottom: 6;
-@showTitle: true;
-@showSubtitle: true;
-@labelsColor: #000000;
-@uname__10: "file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/allblocksm4/commercem4-form3_1/background1.jpg";
-@uname__11: true;
-@uname__12: #ffffff;
+@showTitle: false;
+@showSubtitle: false;
+@showText: false;
+@showAnimatedText: false;
+@showButtons: false;
+@uname__13: "file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/commercem4/header7_1/background4.jpg";
+@uname__14: true;
+@uname__15: #ffffff;
 @bg-value: #ffffff;
 @bg-type: "color";
 @bg-color-value: #ffffff;
 @bg-parallax: false;
-@overlay: false;
+@bgColor2: #ffffff;
+@overlay: true;
 @overlayColor: #000000;
-@overlayOpacity: 1;
+@overlayOpacity: 0.5;
+@textTitle: "text";
+@textColor: #efefef;
+@textSize: 10;
+@textOpacity: 0.2;
+@textSpeed: 60;
 
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 15px);
+  padding-bottom: (@paddingBottom * 15px);
+}
+& when (@bg-type = 'color') {
+  background: linear-gradient(to right, @bgColor2 0%, @bgColor2 30%, @bg-value 30%, @bg-value 100%);
+}
 & when (@bg-type = 'image') {
   background-image: url(../../../@bg-value);
 }
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
+overflow: hidden !important;
+.animated-element {
+  color: @textColor;
 }
-.form-control {
-  color: @labelsColor !important;
-  border: none;
-  border-radius: 0 !important;
-  background-color: transparent;
-  padding: .5rem 0rem;
-  border-bottom: 1px solid @labelsColor;
-  &:focus {
-    outline: none;
-    box-shadow: none;
-  }
-}
-input::-webkit-input-placeholder {
-  color: @labelsColor;
-}
-input::-moz-placeholder {
-  color: @labelsColor;
-}
-textarea::-webkit-input-placeholder {
-  color: @labelsColor;
-}
-textarea::-moz-placeholder {
-  color: @labelsColor;
-}
-textarea.form-control {
-  min-height: 83px;
+.img-block {
+  align-self: center;
 }
 .mbr-section-subtitle {
-  color: #767676;
+  color: #efefef;
+}
+@media (min-width: 992px) {
+  .img-block {
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .mbr-figure {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .img-block {
+    padding-bottom: 2rem;
+  }
+  & when (@bg-type = 'color') {
+    background: @bg-value;
+  }
 }
 }
 .cid-sfBmEQ89hp {
