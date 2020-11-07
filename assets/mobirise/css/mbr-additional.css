@@ -5393,40 +5393,6 @@ background-color: @bgColor;
 }
 }
 
-.cid-sfBbLAfNPo {
-
-.google-map {
-  height: 34rem;
-  position: relative;
-  iframe {
-    height: 100%;
-    width: 100%;
-  }
-  [data-state-details] {
-    color: #6b6763;
-    font-family: Montserrat;
-    height: 1.5em;
-    margin-top: -0.75em;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    width: 100%;
-  }
-  &[data-state] {
-    background: #e9e5dc;
-  }
-  &[data-state="loading"] {
-    [data-state-details] {
-      display: none;
-    }
-    &::after {
-    }
-  }
-}
-}
-
 .cid-sfBmiDjx2t {
 
 padding-top: (@paddingTop * 15px);
@@ -5551,6 +5517,164 @@ overflow: hidden !important;
   }
   & when (@bg-type = 'color') {
     background: @bg-value;
+  }
+}
+}
+
+.cid-sfFvrATuW4 {
+@fullScreen: false;
+@showArrow: false;
+@paddingTop: 0;
+@paddingBottom: 1;
+@showTitle: false;
+@showSubtitle: false;
+@showText: false;
+@showAnimatedText: false;
+@showButtons: false;
+@uname__13: "";
+@uname__14: true;
+@uname__15: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
+@bgColor2: #ffffff;
+@overlay: true;
+@overlayColor: #000000;
+@overlayOpacity: 0.5;
+@textTitle: "text";
+@textColor: #efefef;
+@textSize: 10;
+@textOpacity: 0.2;
+@textSpeed: 60;
+
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 15px);
+  padding-bottom: (@paddingBottom * 15px);
+}
+& when (@bg-type = 'color') {
+  background: linear-gradient(to right, @bgColor2 0%, @bgColor2 30%, @bg-value 30%, @bg-value 100%);
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+overflow: hidden !important;
+.animated-element {
+  color: @textColor;
+}
+.img-block {
+  align-self: center;
+}
+.mbr-section-subtitle {
+  color: #efefef;
+}
+@media (min-width: 992px) {
+  .img-block {
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .mbr-figure {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .img-block {
+    padding-bottom: 2rem;
+  }
+  & when (@bg-type = 'color') {
+    background: @bg-value;
+  }
+}
+}
+
+.cid-sfBbLAfNPo {
+
+.google-map {
+  height: 34rem;
+  position: relative;
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+  [data-state-details] {
+    color: #6b6763;
+    font-family: Montserrat;
+    height: 1.5em;
+    margin-top: -0.75em;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+  }
+  &[data-state] {
+    background: #e9e5dc;
+  }
+  &[data-state="loading"] {
+    [data-state-details] {
+      display: none;
+    }
+    &::after {
+    }
+  }
+}
+}
+
+.cid-OfS37gMoI1 {
+@paddingTop: 8;
+@paddingBottom: 8;
+@bgColor: #ffffff;
+@color2: #ffffff;
+@angle: 97;
+@buttonsize: 150;
+@pulsesize: 100;
+@pulsecolor: #ff7f9f;
+@fondcolor: #ffffff;
+@imagetest: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-05-19_055424/assets/images/pfirsichfarben%20pinselstrich%20fotografie%20logo%20(20)-500x500.png";
+@imagesize: 10;
+@targetlink: "_self";
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background: linear-gradient(@angle * 1deg, @bgColor, @color2);
+.pulsingButton {
+  position: relative;
+  width: (@buttonsize * 1px);
+  height: (@buttonsize * 1px);
+  border: none;
+  box-shadow: 0 0 0 0 @pulsecolor;
+  border-radius: 50%;
+  background-color: @fondcolor;
+  background-image: url(../../../@imagetest);
+  background-size: (@imagesize * 10%), cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+@-webkit-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 (@pulsesize * 1px) rgba(232, 76, 61, 0);
+  }
+}
+@-moz-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 (@pulsesize * 1px) rgba(232, 76, 61, 0);
+  }
+}
+@-ms-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 (@pulsesize * 1px) rgba(232, 76, 61, 0);
+  }
+}
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 (@pulsesize * 1px) rgba(232, 76, 61, 0);
   }
 }
 }

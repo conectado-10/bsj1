@@ -54,7 +54,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 245,
+    "uniqCompNum": 247,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform-to": "sintoniabarra@gmail.com",
@@ -6179,48 +6179,6 @@
         {
           "alias": false,
           "_styles": {
-            ".google-map": {
-              "height": "34rem",
-              "position": "relative",
-              "iframe": {
-                "height": "100%",
-                "width": "100%"
-              },
-              "[data-state-details]": {
-                "color": "#6b6763",
-                "font-family": "Montserrat",
-                "height": "1.5em",
-                "margin-top": "-0.75em",
-                "padding-left": "1.25rem",
-                "padding-right": "1.25rem",
-                "position": "absolute",
-                "text-align": "center",
-                "top": "50%",
-                "width": "100%"
-              },
-              "&[data-state]": {
-                "background": "#e9e5dc"
-              },
-              "&[data-state=\"loading\"]": {
-                "[data-state-details]": {
-                  "display": "none"
-                },
-                "&::after": {}
-              }
-            }
-          },
-          "_name": "map01",
-          "_customHTML": "<center>\n<section class=\"map1\" group=\"Maps\">\n<mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29472.503098184297!2d-42.00743909332041!3d-22.576751151548926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97b2057175f5af%3A0x15a68f0c6048a19d!2sBarra%20de%20S%C3%A3o%20Jo%C3%A3o%2C%20Casimiro%20de%20Abreu%20-%20RJ%2C%2028860-000!5e0!3m2!1spt-BR!2sbr!4v1604699879052!5m2!1spt-BR!2sbr&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>\n</center>",
-          "_cid": "sfBbLAfNPo",
-          "_anchor": "map01-6f",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = \"color\")": {
@@ -6360,6 +6318,154 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(to right, @bgColor2 0%, @bgColor2 30%, @bg-value 30%, @bg-value 100%)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "overflow": "hidden !important",
+            ".animated-element": {
+              "color": "@textColor"
+            },
+            ".img-block": {
+              "align-self": "center"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#efefef"
+            },
+            "@media (min-width: 992px)": {
+              ".img-block": {
+                "padding-right": "2rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-figure": {
+                "margin-top": "1rem"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".img-block": {
+                "padding-bottom": "2rem"
+              },
+              "& when (@bg-type = 'color')": {
+                "background": "@bg-value"
+              }
+            }
+          },
+          "_customHTML": "<section class=\"header7\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\" plugins=\"mbr-animated-bg-text\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" condition=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Animated Text\" name=\"showAnimatedText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value title=\"Background Image\" parallax>\n            <input type=\"color\" value=\"#ffffff\" title=\"Background Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\" title=\"Background Video\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"bgColor2\" value=\"#ffffff\" condition=\"bg.type == 'color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <header codition=\"showSubtitle && showAnimatedText\">Animated Background Text</header>\n        <select title=\"Text Title\" name=\"textTitle\" condition=\"showSubtitle && showAnimatedText\">\n            <option value=\"title1\">Title 1</option>\n            <option value=\"title2\">Title 2</option>\n            <option value=\"title3\">Title 3</option>\n            <option value=\"text\" selected>Text</option>\n            <option value=\"menu\">Menu</option>\n        </select>\n        <input type=\"color\" title=\"Text Color\" name=\"textColor\" value=\"#efefef\" condition=\"showSubtitle && showAnimatedText\">\n        <input type=\"range\" inline title=\"Text Size\" name=\"textSize\" min=\"1\" max=\"20\" value=\"10\" step=\"1\" condition=\"showSubtitle && showAnimatedText\">\n        <input type=\"range\" inline title=\"Text Opacity\" name=\"textOpacity\" min=\"0\" max=\"1\" value=\"0.2\" step=\"0.1\" condition=\"showSubtitle && showAnimatedText\">\n        <input type=\"range\" inline title=\"Speed\" name=\"textSpeed\" min=\"50\" max=\"100\" value=\"60\" step=\"1\" condition=\"showSubtitle && showAnimatedText\">\n        <input type=\"text\" title=\"Text\" inline name=\"animatedText\" value=\"Meet the new collection\" condition=\"showSubtitle && showAnimatedText\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity,'background-color':overlayColor}\">\n    </div>\n\n    <div class=\"animated-text-background\" mbr-class=\"{'display-1': textTitle=='title1',\n                     'display-2': textTitle=='title2',\n                     'display-5': textTitle=='title3',\n                     'display-7': textTitle=='text',\n                     'display-4': textTitle=='menu'}\" mbr-style=\"{'color':textColor,\n                     'opacity': textOpacity,\n                     'font-size':textSize+'rem'}\" mbr-if=\"showAnimatedText\">\n        <span class=\"animated-element\" data-word=\"{{animatedText}}\" data-speed=\"{{textSpeed}}\">\n        </span>\n    </div>\n    <div class=\"container\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-md-6 align-left img-block\">\n                <div class=\"mbr-figure\">\n                    <img src=\"@PROJECT_PATH@/assets/images/yellow-and-purple-corporate-teamwork-keynote-presentation-3-removebg-preview-1-578x325.png\" alt=\"Mobirise\" title>\n                </div>\n            </div>\n            <div class=\"mbr-white col-md-6\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style align-left pb-2\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"><b>LOREM ISPUM</b> DOLOR SIT AMET CONSECTETUR</h4>\n                <h1 class=\"mbr-section-title mbr-white mbr-bold mbr-fonts-style align-left\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">New sports collection already on sale</h1>\n                <p class=\"mbr-text pb-3 mbr-fonts-style mbr-white align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text,.mbr-section-btn\">\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus corporis ipsum neque.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" mbr-class=\"{'pt-3': !showText}\" data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButtons\" class=\"mbr-section-btn\"><a class=\"btn btn-lg btn-white\" type=\"submit\">Start Shopping</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow && fullScreen\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_anchor": "design-block-6u",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "sfFvrATuW4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            ".google-map": {
+              "height": "34rem",
+              "position": "relative",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "font-family": "Montserrat",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                },
+                "&::after": {}
+              }
+            }
+          },
+          "_name": "map01",
+          "_customHTML": "<center>\n<section class=\"map1\" group=\"Maps\">\n<mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29472.503098184297!2d-42.00743909332041!3d-22.576751151548926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97b2057175f5af%3A0x15a68f0c6048a19d!2sBarra%20de%20S%C3%A3o%20Jo%C3%A3o%2C%20Casimiro%20de%20Abreu%20-%20RJ%2C%2028860-000!5e0!3m2!1spt-BR!2sbr!4v1604699879052!5m2!1spt-BR!2sbr&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>\n</center>",
+          "_cid": "sfBbLAfNPo",
+          "_anchor": "map01-6f",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "linear-gradient(@angle * 1deg, @bgColor, @color2)",
+            ".pulsingButton": {
+              "position": "relative",
+              "width": "(@buttonsize * 1px)",
+              "height": "(@buttonsize * 1px)",
+              "border": "none",
+              "box-shadow": "0 0 0 0 @pulsecolor",
+              "border-radius": "50%",
+              "background-color": "@fondcolor",
+              "background-image": "url(@imagetest)",
+              "background-size": "(@imagesize * 10%), cover",
+              "background-position": "center",
+              "background-repeat": "no-repeat",
+              "cursor": "pointer",
+              "-webkit-animation": "pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1)",
+              "-moz-animation": "pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1)",
+              "-ms-animation": "pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1)",
+              "animation": "pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1)"
+            },
+            "@-webkit-keyframes pulse": {
+              "to": {
+                "box-shadow": "0 0 0 (@pulsesize * 1px) rgba(232, 76, 61, 0)"
+              }
+            },
+            "@-moz-keyframes pulse": {
+              "to": {
+                "box-shadow": "0 0 0 (@pulsesize * 1px) rgba(232, 76, 61, 0)"
+              }
+            },
+            "@-ms-keyframes pulse": {
+              "to": {
+                "box-shadow": "0 0 0 (@pulsesize * 1px) rgba(232, 76, 61, 0)"
+              }
+            },
+            "@keyframes pulse": {
+              "to": {
+                "box-shadow": "0 0 0 (@pulsesize * 1px) rgba(232, 76, 61, 0)"
+              }
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n                         <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\">\n                                  <input type=\"range\" name=\"angle\" title=\"Angle\" min=\"0\" max=\"360\" value=\"97\" step=\"1\">\n                       \n                      \n         <header>Bouton</header>\n          <input type=\"range\" inline title=\"Bouton Size\" name=\"buttonsize\" min=\"150\" max=\"500\" step=\"1\" value=\"150\">\n             <input type=\"range\" inline title=\"Pulse Size\" name=\"pulsesize\" min=\"20\" max=\"100\" step=\"1\" value=\"100\">\n         <input type=\"color\" title=\"Pulse Color\" name=\"pulsecolor\" value=\"#ff7f9f\">\n          <input type=\"color\" title=\"Bg Color\" name=\"fondcolor\" value=\"#ffffff\">\n  <input type=\"image\" title=\"Image\" name=\"imagetest\" value=\"@PROJECT_PATH@/assets/images/pfirsichfarben%20pinselstrich%20fotografie%20logo%20(20)-500x500.png\">\n  <input type=\"range\" inline title=\"Size\" name=\"imagesize\" min=\"0\" max=\"100\" step=\"1\" value=\"10\">\n  <input type=\"text\" title=\"Link\" name=\"buttonlink\" value=\"https://www.google.com/\">\n          <select title=\"Target\" name=\"targetlink\">\n            <option value=\"_self\">Frame</option>\n            <option value=\"_blank\">Tab</option>\n\n</select>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center\">\n\n\n<a href=\"{{buttonlink}}\" target=\"{{targetlink}}\"><div class=\"pulsingButton\"></div></a>\n\n            \n\n            \n        </div>\n    </div></section>",
+          "_cid": "OfS37gMoI1",
+          "_anchor": "design-block-OfS37gMoI1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -6454,7 +6560,7 @@
             }
           },
           "_name": "furniture",
-          "_customHTML": "<section mbr-id=\"_anchor\" plugins=\"Singa4real-mobishop\" class=\"mbr-section shopfront4 content1\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Theme Color\" name=\"tColor\" value=\"#f90f49\">\n       <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n      <input type=\"checkbox\" title=\"Show Cart Image\" name=\"showCart\" checked>\n      <input type=\"range\" inline title=\"Product No\" name=\"ProductCount\" min=\"4\" max=\"32\" step=\"1\" value=\"10\">\n      <select title=\"Product ID\" name=\"Proid\">\n            <option value=\"1\" selected>Update Product ID</option>\n            <option value=\"2\">Save Product ID</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n \n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n  \n<div class=\"container mt-5\">\n <div class=\"text-right image-div\" mbr-if=\"showCart\"><img class=\"showcartimg\" data-toggle=\"modal\" data-target=\"#singa4realcartModal\" src=\"@PROJECT_PATH@/assets/images/pp-80x80.jpg\" alt title></div>    \n      <div class=\"border-bottom mb-3\">\n    <h3 class=\"h3\" mbr-if=\"showTitle\"><b>LOJA ECO ART</b></h3>\n      </div>  \n    <div class=\"row d-flex justify-content-center g-1\" mbr-list mbr-list-grow=\"ProductCount\">\n        <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-28-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>JÁ COM DESCONTO</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>PANFLETO 10X15</h4> <span class=\"text-muted\" mbr-text>PAPEL COUCHÊ 115g C/1000</span>\n                    <h3>R$108,00</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n        <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-14-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>P006</span>\n                <div class=\"about text-left px-3\">\n                    <h4>FAMÍLIA</h4> <span class=\"text-muted\" mbr-text>Personalizada</span>\n                    <h3>R$</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n        <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-30-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>JÁ COM DESCONTO</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>Camisa Estampa</h4> <span class=\"text-muted\" mbr-text>Já com desconto</span>\n                    <h3>R$19,50</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n      <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-31-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>JÁ COM DESCONTO</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>CANECA ART</h4> <span class=\"text-muted\" mbr-text>Já com desconto</span>\n                    <h3>R$19,80</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n      \n    <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-16-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>ECO ART</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>CARTÃO DE VISITA&nbsp;</h4> <span class=\"text-muted\" mbr-text>Apartir de 1000und</span>\n                    <h3>R$39,00</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div><div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-17-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>ECO ART</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>CRACHÁ PVC&nbsp;</h4> <span class=\"text-muted\" mbr-text>Personalizado 9x5</span>\n                    <h3>R$15,00(und)</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div><div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-19-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>ECO ART</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>CAVALETES</h4> <span class=\"text-muted\" mbr-text>MADEIRA</span>\n                    <h3>R$120,00</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div><div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-18-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>ECO ART</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>MASCARAS</h4> <span class=\"text-muted\" mbr-text>personalizada</span>\n                    <h3>R$8,00(und)</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div><div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-20-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>ECO ART</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>CHAVEIRO</h4> <span class=\"text-muted\" mbr-text>PERSONALIZADOS</span>\n                    <h3>R$2,80 (und)</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div><div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-21-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>ECO ART</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>BANNER</h4> <span class=\"text-muted\" mbr-text>Personalizados</span>\n                    <h3>R$25,00&nbsp;</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div></div>\n</div>\n  \n <div mbr-text class=\"text-center mt-5\"> Claudio Guariza</div>\n</section>",
+          "_customHTML": "<section mbr-id=\"_anchor\" plugins=\"Singa4real-mobishop\" class=\"mbr-section shopfront4 content1\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Theme Color\" name=\"tColor\" value=\"#f90f49\">\n       <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n      <input type=\"checkbox\" title=\"Show Cart Image\" name=\"showCart\" checked>\n      <input type=\"range\" inline title=\"Product No\" name=\"ProductCount\" min=\"4\" max=\"32\" step=\"1\" value=\"10\">\n      <select title=\"Product ID\" name=\"Proid\">\n            <option value=\"1\" selected>Update Product ID</option>\n            <option value=\"2\">Save Product ID</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n \n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n  \n<div class=\"container mt-5\">\n <div class=\"text-right image-div\" mbr-if=\"showCart\"><img class=\"showcartimg\" data-toggle=\"modal\" data-target=\"#singa4realcartModal\" src=\"@PROJECT_PATH@/assets/images/pp-80x80.jpg\" alt title></div>    \n      <div class=\"border-bottom mb-3\">\n    <h3 class=\"h3\" mbr-if=\"showTitle\"><b>LOJA ECO ART</b></h3>\n      </div>  \n    <div class=\"row d-flex justify-content-center g-1\" mbr-list mbr-list-grow=\"ProductCount\">\n        <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-28-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>JÁ COM DESCONTO</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>PANFLETO 10X15</h4> <span class=\"text-muted\" mbr-text>PAPEL COUCHÊ 115g C/1000</span>\n                    <h3>R$108,00</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n        <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-14-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>P006</span>\n                <div class=\"about text-left px-3\">\n                    <h4>FAMÍLIA</h4> <span class=\"text-muted\" mbr-text>Personalizada</span>\n                    <h3>R$60,00</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n        <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-30-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>JÁ COM DESCONTO</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>Camisa Estampa</h4> <span class=\"text-muted\" mbr-text>Já com desconto</span>\n                    <h3>R$19,50</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n      <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-31-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>JÁ COM DESCONTO</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>CANECA ART</h4> <span class=\"text-muted\" mbr-text>Já com desconto</span>\n                    <h3>R$19,80</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n      \n    <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-16-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>ECO ART</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>CARTÃO DE VISITA&nbsp;</h4> <span class=\"text-muted\" mbr-text>Apartir de 1000und</span>\n                    <h3>R$39,00</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div><div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-17-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>ECO ART</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>CRACHÁ PVC&nbsp;</h4> <span class=\"text-muted\" mbr-text>Personalizado 9x5</span>\n                    <h3>R$15,00(und)</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div><div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-19-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>ECO ART</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>CAVALETES</h4> <span class=\"text-muted\" mbr-text>MADEIRA</span>\n                    <h3>R$120,00</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div><div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-18-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>ECO ART</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>MASCARAS</h4> <span class=\"text-muted\" mbr-text>personalizada</span>\n                    <h3>R$8,00(und)</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div><div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-20-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>ECO ART</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>CHAVEIRO</h4> <span class=\"text-muted\" mbr-text>PERSONALIZADOS</span>\n                    <h3>R$2,80 (und)</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div><div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-21-470x470.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text><b>ECO ART</b></span>\n                <div class=\"about text-left px-3\">\n                    <h4>BANNER</h4> <span class=\"text-muted\" mbr-text>Personalizados</span>\n                    <h3>R$25,00&nbsp;</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div></div>\n</div>\n  \n <div mbr-text class=\"text-center mt-5\"> Claudio Guariza</div>\n</section>",
           "_cid": "sfBmEQ89hp",
           "_anchor": "furniture-6k",
           "_protectedParams": [],
