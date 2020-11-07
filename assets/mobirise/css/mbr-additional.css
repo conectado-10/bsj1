@@ -5490,9 +5490,9 @@ h3, h4 {
 
 .cid-o2crHVe36b {
 @paddingTop: 0;
-@paddingBottom: 4;
-@fullWidth: true;
-@textWidth: 0;
+@paddingBottom: 1;
+@fullWidth: false;
+@textWidth: 5;
 @showImage: true;
 @mediaSize: 35;
 @imageSubtitle: false;
