@@ -5243,14 +5243,14 @@ p {
   -webkit-flex-grow: 0;
   flex-grow: 0;
   padding: 1.4rem 0rem 5.8rem 0rem;
-  background-color: #efefef;
+  background-color: #133996;
   border-radius: 30px;
 }
 .cid-sfBaXU2M0a .card-wrap .card-block .image-wrap {
   position: relative;
   height: 250px;
   width: 250px;
-  background-color: #efefef;
+  background-color: #133996;
   overflow: auto;
   border-radius: 20px;
   margin-left: auto;
@@ -5274,7 +5274,7 @@ p {
   min-height: 100%;
 }
 .cid-sfBaXU2M0a .card-wrap .card-bottom {
-  background-color: #bfebf3;
+  background-color: #ffffff;
   position: absolute;
   left: 15px;
   bottom: 0px;
