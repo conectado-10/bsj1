@@ -944,7 +944,7 @@
               "pointer-events": "none"
             }
           },
-          "_customHTML": "<center>\n<div class=\"card\" style=\"width: 18rem\">\n  <a href=\"https://www.ecwid.com/store/store17441987/BARRA-DE-S%C3%83O-JO%C3%83O-c68609029\"><img src=\"@PROJECT_PATH@/assets/images/suits-cards-casino-invitation-20-576x576.jpg\" class=\"card-img-top\" alt=\"...\" title></a>\n <div class=\"card\">\n  <div class=\"card-body\"><h5 class=\"card-title\"><a href=\"https://www.ecwid.com/store/store17441987/BARRA-DE-S%C3%83O-JO%C3%83O-c68609029\">EMPADÃO DELIVERY</a></h5>\n    <p class=\"card-text\">GABRIELE TITONELI</p>\n  </div>\n</div>\n</div></center>",
+          "_customHTML": "<center>\n<div class=\"card\" style=\"width: 18rem\">\n  <a href=\"https://www.ecwid.com/store/store17441987/BARRA-DE-S%C3%83O-JO%C3%83O-c68609029\"><img src=\"@PROJECT_PATH@/assets/images/suits-cards-casino-invitation-1-576x576.png\" class=\"card-img-top\" alt=\"...\" title></a>\n <div class=\"card\">\n  <div class=\"card-body\"><h5 class=\"card-title\"><a href=\"https://www.ecwid.com/store/store17441987/BARRA-DE-S%C3%83O-JO%C3%83O-c68609029\">EMPADÃO DELIVERY</a></h5>\n    <p class=\"card-text\">GABRIELE TITONELI</p>\n  </div>\n</div>\n</div></center>",
           "_anchor": "design-block-7h",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
