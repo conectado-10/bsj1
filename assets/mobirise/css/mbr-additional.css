@@ -6586,3 +6586,103 @@ H2 {
   color: #133996;
   text-align: left;
 }
+.cid-skh9nG1RBY {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-skh9nG1RBY .card-img {
+  margin: 0px !important;
+}
+.cid-skh9nG1RBY .card-box {
+  margin: 0px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0rem 5px 0rem 5px;
+  background-color: transparent;
+  border-radius: 4px;
+}
+.cid-skh9nG1RBY .card-wrapper {
+  margin: 0px !important;
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-skh9nG1RBY .card {
+  padding: 0rem;
+  break-inside: avoid-column;
+  display: inline-block;
+  min-width: 100%;
+  margin-bottom: 0.5rem;
+  border-radius: 4px !important;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0f7699;
+  border-radius: 4px;
+}
+@media (min-width: 992px) {
+  .cid-skh9nG1RBY .card-columns {
+    column-count: 4;
+    column-gap: 0rem;
+    column-gap: 0.5rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-skh9nG1RBY .card-columns {
+    column-count: 2;
+    column-gap: 0rem;
+    column-gap: 0.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-skh9nG1RBY .card-columns {
+    column-count: 2;
+    column-gap: 0rem;
+    column-gap: 0.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .cid-skh9nG1RBY .card-columns {
+    column-gap: 0rem;
+    column-gap: 0.5rem;
+  }
+}
+.cid-skh9nG1RBY .dentaura-photogal-thumb {
+  border-style: solid;
+  border-width: 6px;
+  border-color: #133996;
+  border-radius: 4px;
+}
+.cid-skh9nG1RBY H1 {
+  color: #000000;
+  text-align: center;
+}
+.cid-skh9nG1RBY H2 {
+  text-align: left;
+  color: #f83055;
+}
+.cid-skh9nG1RBY h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  letter-spacing: 1px;
+}
+.cid-skh9nG1RBY H4 {
+  text-align: left;
+  color: #879a9f;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.cid-skh9nG1RBY P {
+  text-align: left;
+  color: #4f4943;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.cid-skh9nG1RBY .card-title {
+  color: #0f7699;
+  text-align: left;
+}
+.cid-skh9nG1RBY .btn {
+  padding: 5px 10px !important;
+  border-radius: 50px;
+}
